@@ -1,0 +1,568 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.pesan-ke-suplier-RZ2 {
+  box-sizing: border-box;
+  padding: 0.2rem 18.1rem 0rem 0rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL {
+  margin-right: 10.2rem;
+  box-sizing: border-box;
+  padding: 7rem 0rem 1.2rem 0rem;
+  width: 24.2rem;
+  height: 102.2rem;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt {
+  box-sizing: border-box;
+  padding: 6.2rem 4rem 6.2rem 6.5rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C {
+  box-sizing: border-box;
+  padding-bottom: 7.9rem;
+  width: 100%;
+  height: 34.7rem;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .text-JWL {
+  box-sizing: border-box;
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #1c1c1c;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-ztx {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-ztx .icon-text-k7S {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-ztx .icon-text-k7S .text-gmn {
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-Zqa {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-Zqa .text-iTa {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-oE8 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-oE8 .text-k9N {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-qwW {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 4.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-qwW .text-PTE {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-qwW .text-PTE .riwayat-barang-masuk-wDr {
+  max-width: 10.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-2m6 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 4.8rem;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-2m6 .text-Pbe {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .frame-1321314413-8iL .frame-54-eAt .frame-n2C .content-2m6 .text-Pbe .buat-pesanan-ke-suplier-9qi {
+  max-width: 11.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt {
+  margin-top: 2.2rem;
+  width: 91.5rem;
+  height: 97rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU {
+  width: 90.5rem;
+  height: 97rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .rectangle-3-2o2 {
+  width: 90.5rem;
+  height: 99rem;
+  position: absolute;
+  left: 1rem;
+  top: 6.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 3rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .metode-pembayaran-kj2 {
+  width: 19.4rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 17.7rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 {
+  width: 31.3511rem;
+  height: 6.6rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 22.9rem;
+  display: flex;
+  align-items: center;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 .payment-1-AXr {
+  margin-right: 0.9489rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.499rem 0.8rem 1.713rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 .payment-1-AXr .credit-card-V4L {
+  width: 6.6388rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 .payment-2-P9i {
+  margin-right: 0.8489rem;
+  box-sizing: border-box;
+  padding: 0.8rem 2.679rem 0.8rem 2.883rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 .payment-2-P9i .paypal-uNx {
+  width: 4.2891rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 .payment-3-coA {
+  box-sizing: border-box;
+  padding: 0.8rem 0.86rem 0.8rem 0.9rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .payment-methods-Eu6 .payment-3-coA .dan-mAG {
+  width: 8.0908rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .nomor-rekening-nomor-dana-syz {
+  width: 16.3rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 31.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .rectangle-24-BDz {
+  width: 36rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 3.8rem;
+  top: 36.8rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .card-number-6br {
+  width: 35.7rem;
+  height: 9.25rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 43.5rem;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .card-number-6br .nama-pemesan-supplier-ETA {
+  margin: 0rem 0rem 0.1rem 0.1rem;
+  max-width: 15.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .card-number-6br .rectangle-24-YTr {
+  width: 100%;
+  height: 4.75rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .expiry-date-HgL {
+  width: 35.1rem;
+  height: 8.6rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 54.2rem;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .expiry-date-HgL .nomor-telp-wa-cic {
+  margin-bottom: 0.9rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .expiry-date-HgL .rectangle-25-YMN {
+  width: 100%;
+  height: 5.5rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .cvv-UVv {
+  width: 36rem;
+  height: 12.1672rem;
+  position: absolute;
+  left: 3.1rem;
+  top: 67.4rem;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .cvv-UVv .alamat-pJt {
+  margin: 0rem 0rem 0.6rem 0.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .cvv-UVv .rectangle-26-AGG {
+  width: 100%;
+  height: 9.3672rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc {
+  box-sizing: border-box;
+  padding: 0.8rem 1.6rem 0.5rem 0.8rem;
+  width: 28.8rem;
+  height: 53.1rem;
+  position: absolute;
+  left: 51.5rem;
+  top: 14.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 2.8rem rgba(0, 0, 0, 0.0799999982);
+  background-color: #fcfcfc;
+  border-radius: 1.2rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-7-zm6 {
+  margin-bottom: 0.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-7-zm6 .image-2-kkG {
+  width: 26.4rem;
+  height: 26.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg {
+  margin: 0rem 0.7rem 0rem 1.3rem;
+  width: calc(100% - 2rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .pesan-telur-dengan-jumlah-diinginkan-DNx {
+  margin-bottom: 1.5rem;
+  max-width: 24.4rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #00171f;
+  font-family: Basic, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW {
+  width: 22.4rem;
+  height: 18.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-2609047-UJt {
+  width: 22.4rem;
+  height: 11.1rem;
+  position: absolute;
+  left: 0;
+  top: 7.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-2609047-UJt .harga-yang-harus-dibayar-1pc {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #232321;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-2609047-UJt .frame-1429-Lbz {
+  width: 13.3rem;
+  height: 7rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-2609047-UJt .frame-1429-Lbz .input-initial-HXE {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #232321;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .kg-Yi4 {
+  width: 2.3rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 14.4rem;
+  top: 0.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #232321;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-1429-Ta8 {
+  width: 13.3rem;
+  height: 7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-1429-Ta8 .input-initial-PTn {
+  margin-bottom: 2.2rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+  height: 4.8rem;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .product-card-6vc .frame-15-tLg .auto-group-t6ti-iqW .frame-1429-Ta8 .input-initial-PTn .placeholder-KMS {
+  max-width: 6.7rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: rgba(31, 26, 36, 0.5);
+  font-family: Inter, 'Source Sans Pro';
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .frame-115-XiQ {
+  width: 19.1rem;
+  height: 5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 25.1rem;
+  top: 81.5rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #43c522;
+  border-radius: 0.4819rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .payment-6eU .frame-116-7gc {
+  width: 19.1rem;
+  height: 5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 3.1rem;
+  top: 81.5rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #ff0000;
+  border-radius: 0.4819rem;
+}
+.pesan-ke-suplier-RZ2 .auto-group-a6gg-Mgt .title-page-xSL {
+  box-sizing: border-box;
+  padding: 5.5rem 5.5rem 2rem 5.5rem;
+  width: 90.5rem;
+  height: 9.5rem;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}

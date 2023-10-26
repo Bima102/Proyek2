@@ -1,0 +1,756 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.bayar-request-3Ap {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-1-bg.png');
+  background-color: #ffffff;
+}
+.bayar-request-3Ap .header-top-B28 {
+  box-sizing: border-box;
+  padding: 0rem 2.2rem 0rem 4.3rem;
+  width: 144rem;
+  height: 8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/header-top-bg-K36.png');
+}
+.bayar-request-3Ap .header-top-B28 .rectangle-56-sfe {
+  margin: 0rem 58.4rem 1rem 0rem;
+  width: 34.1rem;
+  height: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .header-top-B28 .your-account-items-nnc {
+  margin: 2.3rem 0rem 3.2rem 0rem;
+  height: calc(100% - 5.5rem);
+  display: flex;
+  column-gap: 1.6rem;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .header-top-B28 .your-account-items-nnc .frame-6-hua {
+  margin-top: 0.1rem;
+  width: 20.2rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3999999653;
+  color: #23263b;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #60fd00;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .header-top-B28 .your-account-items-nnc .frame-3-mPe {
+  margin-top: 0.05rem;
+  box-sizing: border-box;
+  padding: 0 4.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2.4097223282;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #556ab7;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .header-top-B28 .your-account-items-nnc .frame-3-F3v {
+  box-sizing: border-box;
+  padding: 0 3.8rem;
+  height: 2.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2.4097223282;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ff0000;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i {
+  width: 24.2rem;
+  height: 94rem;
+  position: absolute;
+  left: 0;
+  top: 7rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 {
+  box-sizing: border-box;
+  padding-bottom: 22.3rem;
+  width: 13.7rem;
+  height: 34.7rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 6.9rem;
+  row-gap: 0.4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .text-AKJ {
+  box-sizing: border-box;
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: rgba(28, 28, 28, 0.400000006);
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-fWx {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-fWx .icon-text-26c {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-fWx .icon-text-26c .text-yXe {
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-Gme {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-Gme .text-cqW {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-XBn {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  background-color: rgba(2, 2, 2, 0.0599999987);
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-Fy2 .content-XBn .text-UMv {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix {
+  box-sizing: border-box;
+  padding: 6.9rem 3.9rem 6.9rem 6.6rem;
+  width: 24.2rem;
+  height: 94rem;
+  position: absolute;
+  left: 0;
+  top: 7rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC {
+  box-sizing: border-box;
+  padding-bottom: 19.1rem;
+  width: 100%;
+  height: 34.7rem;
+  row-gap: 0.4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .text-QPz {
+  box-sizing: border-box;
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #1c1c1c;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-KWx {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-KWx .icon-text-sHa {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-KWx .icon-text-sHa .text-dGk {
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-8DW {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-8DW .text-sgt {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-yjv {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-yjv .text-jDJ {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-R68 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .frame-55-87i .frame-54-9ix .frame-fxC .content-R68 .text-y7e {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg {
+  box-sizing: border-box;
+  padding-top: 4rem;
+  width: 90.5rem;
+  height: 88.6rem;
+  position: absolute;
+  left: 34.4rem;
+  top: 12.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.bayar-request-3Ap .payment-NQg .title-page-ggG {
+  box-sizing: border-box;
+  padding: 1.6rem 10.25rem 1.9rem 10.25rem;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a {
+  box-sizing: border-box;
+  padding: 0rem 0rem 2.1rem 0.3rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN {
+  margin-bottom: 5.4328rem;
+  width: 90.5rem;
+  height: 66.1672rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .rectangle-3-2tY {
+  width: 90.5rem;
+  height: 66.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #f6f6f6;
+  border-radius: 3rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .metode-pembayaran-Ajr {
+  width: 19.4rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 3.3rem;
+  top: 8.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg {
+  width: 31.3511rem;
+  height: 6.6rem;
+  position: absolute;
+  left: 3.3rem;
+  top: 13.4rem;
+  display: flex;
+  align-items: center;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg .payment-1-aoa {
+  margin-right: 0.9489rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.499rem 0.8rem 1.713rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg .payment-1-aoa .credit-card-uqr {
+  width: 6.6388rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg .payment-2-ogL {
+  margin-right: 0.8489rem;
+  box-sizing: border-box;
+  padding: 0.8rem 2.679rem 0.8rem 2.883rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg .payment-2-ogL .paypal-wXe {
+  width: 4.2891rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg .payment-3-46U {
+  box-sizing: border-box;
+  padding: 0.8rem 0.86rem 0.8rem 0.9rem;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .payment-methods-rcg .payment-3-46U .dan-QAL {
+  width: 8.0907rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .nomor-rekening-nomor-dana-iwi {
+  width: 16.3rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 3.7rem;
+  top: 26.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .rectangle-24-dYt {
+  width: 36rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 31.1rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .card-number-Mjn {
+  width: 35.7rem;
+  height: 7.4rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 37.3rem;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .card-number-Mjn .nama-Vb6 {
+  margin: 0rem 0rem 0.45rem 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .card-number-Mjn .rectangle-24-2L8 {
+  width: 100%;
+  height: 4.75rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .expiry-date-a6k {
+  width: 35.1rem;
+  height: 8.6rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 44.7rem;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .expiry-date-a6k .nomor-telp-wa-hhA {
+  margin-bottom: 0.9rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .expiry-date-a6k .rectangle-25-3FE {
+  width: 100%;
+  height: 5.5rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .cvv-zAU {
+  width: 36rem;
+  height: 12.1672rem;
+  position: absolute;
+  left: 3rem;
+  top: 54rem;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .cvv-zAU .alamat-Xw6 {
+  margin: 0rem 0rem 0.6rem 0.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .cvv-zAU .rectangle-26-rTa {
+  width: 100%;
+  height: 9.3672rem;
+  background-color: #eef1f4;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 {
+  box-sizing: border-box;
+  padding: 0.8rem 1.6rem 0.5rem 0.8rem;
+  width: 28.8rem;
+  height: 53.1rem;
+  position: absolute;
+  left: 51.2rem;
+  top: 4.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 2.8rem rgba(0, 0, 0, 0.0799999982);
+  background-color: #fcfcfc;
+  border-radius: 1.2rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-7-gxQ {
+  margin-bottom: 0.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-7-gxQ .image-2-Sgg {
+  width: 26.4rem;
+  height: 26.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE {
+  margin: 0rem 0.7rem 0rem 1.3rem;
+  width: calc(100% - 2rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .pesan-telur-dengan-jumlah-diinginkan-WgY {
+  margin-bottom: 1.5rem;
+  max-width: 24.4rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #00171f;
+  font-family: Basic, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr {
+  width: 22.4rem;
+  height: 18.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-2609047-NTr {
+  width: 22.4rem;
+  height: 11.1rem;
+  position: absolute;
+  left: 0;
+  top: 7.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-2609047-NTr .harga-yang-harus-dibayar-Wpx {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #232321;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-2609047-NTr .frame-1429-3K6 {
+  width: 13.3rem;
+  height: 7rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-2609047-NTr .frame-1429-3K6 .input-initial-CSt {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #232321;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .kg-3yJ {
+  width: 2.3rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 14.4rem;
+  top: 0.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #232321;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-1429-mPW {
+  width: 13.3rem;
+  height: 7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-1429-mPW .input-initial-7iG {
+  margin-bottom: 2.2rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+  height: 4.8rem;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-fcqq-hbN .product-card-ns2 .frame-15-NqE .auto-group-bcsl-Dqr .frame-1429-mPW .input-initial-7iG .placeholder-rQx {
+  max-width: 6.7rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: rgba(31, 26, 36, 0.5);
+  font-family: Inter, 'Source Sans Pro';
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-rixj-75z {
+  margin: 0rem 9.85rem 0rem 14.7rem;
+  width: calc(100% - 24.55rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-rixj-75z .frame-116-EAc {
+  margin: 0.4rem 5rem 0rem 0rem;
+  width: 19.1rem;
+  height: 5rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #ff0000;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-rixj-75z .frame-115-H8t {
+  margin: 0rem 5.55rem 0.4rem 0rem;
+  width: 19.1rem;
+  height: 5rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #43c522;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.bayar-request-3Ap .payment-NQg .auto-group-9ohr-y9a .auto-group-rixj-75z .cek-email-jika-membayar-dengan-bank-wDS {
+  margin-bottom: 0.6rem;
+  max-width: 16.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #3a3c3f;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}

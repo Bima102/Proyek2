@@ -1,0 +1,398 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.tampilan-setelah-login-uHz {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/r-1-bg-a5N.png');
+}
+.tampilan-setelah-login-uHz .header-top-39J {
+  box-sizing: border-box;
+  padding: 0rem 2.4rem 0rem 4.3rem;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/header-top-bg-gsS.png');
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .header-top-39J .rectangle-56-kpQ {
+  margin: 0rem 47.2rem 1rem 0rem;
+  width: 34.1rem;
+  height: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .header-top-39J .your-account-items-5Lt {
+  margin: 2.3rem 0rem 3.2rem 0rem;
+  height: calc(100% - 5.5rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .header-top-39J .your-account-items-5Lt .frame-6-zTr {
+  margin: 0.1rem 1.6rem 0rem 0rem;
+  width: 20.2rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3999999653;
+  color: #23263b;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #60fd00;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .header-top-39J .your-account-items-5Lt .frame-3-Feg {
+  margin: 0.05rem 0.9rem 0rem 0rem;
+  box-sizing: border-box;
+  padding: 0 4.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2.4097223282;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #556ab7;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .header-top-39J .your-account-items-5Lt .frame-7-PeQ {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding: 0 2.8rem;
+  height: 2.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2.4097223282;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #3b9e74;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .header-top-39J .your-account-items-5Lt .frame-3-UA4 {
+  box-sizing: border-box;
+  padding: 0 3.85rem;
+  height: 2.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2.4097223282;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ff0000;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE {
+  box-sizing: border-box;
+  padding: 6.2rem 13.7rem 2.3rem 9rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-7-TGt {
+  margin-bottom: 7.3rem;
+  width: 53.4rem;
+  height: 45.7rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-7-TGt .maroon-and-white-photo-heavy-faminepoverty-crisis-hub-facebook-post-1-bdz {
+  width: 70.9rem;
+  height: 50.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c {
+  margin-left: 4.7rem;
+  box-sizing: border-box;
+  padding: 1.3rem 7.8rem 1.619rem 7.8rem;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  column-gap: 15.55rem;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-111-MFn {
+  width: 23.3rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-111-MFn .rectangle-49-5xU {
+  margin-bottom: 1.7rem;
+  width: 23.3rem;
+  height: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-111-MFn .telur-ayam-pQG {
+  margin: 0rem 0.229rem 0.2rem 0rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  color: #252b42;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-111-MFn .kg-vCQ {
+  margin: 0rem 0.794rem 1.181rem 0rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #727272;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-111-MFn .frame-3-poa {
+  margin: 0rem 7.05rem 0rem 6.85rem;
+  width: calc(100% - 13.9rem);
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #55b76b;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-112-TrY {
+  width: 23.3rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-112-TrY .rectangle-49-ofW {
+  margin-bottom: 1.7rem;
+  width: 23.3rem;
+  height: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-112-TrY .telur-ayam-6uW {
+  margin: 0rem 0.229rem 0.2rem 0rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  color: #252b42;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-112-TrY .kg-zEC {
+  margin: 0rem 0.794rem 1.181rem 0rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #727272;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-112-TrY .frame-3-tqN {
+  margin: 0rem 7.05rem 0rem 6.85rem;
+  width: calc(100% - 13.9rem);
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #55b76b;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-113-ksa {
+  width: 23.3rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-113-ksa .rectangle-49-ukU {
+  margin-bottom: 1.7rem;
+  width: 23.3rem;
+  height: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-113-ksa .telur-ayam-FZS {
+  margin: 0rem 0.229rem 0.2rem 0rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  color: #252b42;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-113-ksa .kg-mXn {
+  margin: 0rem 0.794rem 1.181rem 0rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #727272;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .auto-group-nvoj-XPE .frame-4-J2c .group-113-ksa .frame-3-Fhr {
+  margin: 0rem 7.05rem 0rem 6.85rem;
+  width: calc(100% - 13.9rem);
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #55b76b;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .frame-5-sjE {
+  box-sizing: border-box;
+  padding: 0.3rem 1.6rem 0.3rem 0.85rem;
+  width: 144.4rem;
+  height: 12.9rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #ffeee5 -0%, #0093ff 100%);
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .frame-5-sjE .ggggggggg-removebg-preview-1-o76 {
+  margin: 0rem 8.85rem 1.2rem 0rem;
+  width: 23.2rem;
+  height: 5.7158rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .frame-5-sjE .alamat-jlki-suro-rt-02-rw-01-kecamatan-pasekankabupaten-indramayujawa-barat-kode-pos-45227-KLL {
+  margin: 0rem 15.6rem 1.1rem 0rem;
+  max-width: 44.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  color: #23263b;
+  font-family: Inknut Antiqua, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.tampilan-setelah-login-uHz .frame-5-sjE .tentang-kami-kami-menyediakan-telur-ayam-yang-bermutu-dan-segar-serta-kami-telah-mendistribusikan-telur-ayam-ke-berbagi-tempat-BdS {
+  margin-bottom: 1.1rem;
+  max-width: 49.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  color: #23263b;
+  font-family: Inknut Antiqua, 'Source Sans Pro';
+  flex-shrink: 0;
+}

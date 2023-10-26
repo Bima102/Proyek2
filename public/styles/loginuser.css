@@ -1,0 +1,329 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.login-HaQ {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+}
+.login-HaQ .r-1-pKS {
+  width: 143.3rem;
+  height: 102.7rem;
+  position: absolute;
+  left: 0.7rem;
+  top: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.login-HaQ .frame-5-kD6 {
+  box-sizing: border-box;
+  padding: 0.3rem 1.3rem 0.3rem 0.85rem;
+  width: 144.1rem;
+  height: 12.9rem;
+  position: absolute;
+  left: 0;
+  top: 89.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #ffeee5 -0%, #0093ff 100%);
+}
+.login-HaQ .frame-5-kD6 .ggggggggg-removebg-preview-1-Sbi {
+  margin: 0rem 8.85rem 1.2rem 0rem;
+  width: 23.2rem;
+  height: 5.7157rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-5-kD6 .auto-group-ch5z-ZRS {
+  margin: 0rem 6rem 1.1rem 0rem;
+  width: 54rem;
+  height: 11.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-5-kD6 .auto-group-ch5z-ZRS .alamat-jlki-suro-rt-02-rw-01-kecamatan-pasekankabupaten-indramayujawa-barat-kode-pos-45227-gFA {
+  width: 44.4rem;
+  height: 11.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  color: #23263b;
+  font-family: Inknut Antiqua, 'Source Sans Pro';
+}
+.login-HaQ .frame-5-kD6 .auto-group-ch5z-ZRS .frame-10-wwn {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 44rem;
+  top: 0.6rem;
+  overflow: hidden;
+}
+.login-HaQ .frame-5-kD6 .auto-group-ch5z-ZRS .frame-11-5o6 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 44rem;
+  top: 0.6rem;
+  overflow: hidden;
+}
+.login-HaQ .frame-5-kD6 .tentang-kami-kami-menyediakan-telur-ayam-yang-bermutu-dan-segar-serta-kami-telah-mendistribusikan-telur-ayam-ke-berbagi-tempat-mA8 {
+  margin-bottom: 1.1rem;
+  max-width: 49.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  color: #23263b;
+  font-family: Inknut Antiqua, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG {
+  box-sizing: border-box;
+  padding: 9.3rem 7.8rem 3.7rem 4.4rem;
+  width: 63.9rem;
+  height: 60.9rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 18.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.0099999998);
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+}
+.login-HaQ .frame-9-1aG .login-Hng {
+  margin: 0rem 37rem 3.1rem 0rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  letter-spacing: 0.01rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .email--Pap {
+  margin: 0rem 40.5rem 0.9rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .inputform-control-6k8 {
+  margin: 0rem 0rem 2.8rem 3.4rem;
+  width: 48.3rem;
+  height: 4.4rem;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem #e6e6e6;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .password--Z7v {
+  margin: 0rem 37.9rem 2.8rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .inputform-control-DCU {
+  margin: 0rem 0rem 2.9rem 3.2rem;
+  width: 48.3rem;
+  height: 4.4rem;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem #e6e6e6;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .frame-3-ub6 {
+  margin: 0rem 0rem 2.8rem 3.2rem;
+  width: 48.3rem;
+  height: 4.2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #55b758;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .lupa-password-Jt8 {
+  margin: 0rem 0rem 2.1rem 5.9rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #01a3ff;
+  font-family: Montaga, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .belum-punya-akundaftar-1Gk {
+  margin: 0rem 0rem 1.9rem 5.7rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .belum-punya-akundaftar-1Gk .belum-punya-akundaftar-1Gk-sub-0 {
+}
+.login-HaQ .frame-9-1aG .belum-punya-akundaftar-1Gk .belum-punya-akundaftar-1Gk-sub-1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #0090e1;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.login-HaQ .frame-9-1aG .frame-1321314410-Xnp {
+  margin-right: 40.6rem;
+  width: 11.1rem;
+  height: 3.2rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.login-HaQ .frame-9-1aG .frame-1321314410-Xnp .group-120-Fyi {
+  width: 3.0795rem;
+  height: 3.0593rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.login-HaQ .frame-9-1aG .frame-1321314410-Xnp .kembali-b1z {
+  width: 5.2rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 2.95rem;
+  top: 0.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-HaQ .header-top-ekx {
+  box-sizing: border-box;
+  padding: 0rem 2.4rem 0rem 4.3rem;
+  width: 144rem;
+  height: 8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/header-top-bg-WWc.png');
+}
+.login-HaQ .header-top-ekx .rectangle-56-XZr {
+  margin: 0rem 70.6rem 1rem 0rem;
+  width: 34.1rem;
+  height: 7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.login-HaQ .header-top-ekx .your-account-items-2mW {
+  margin: 3.2rem 0rem 2.35rem 0rem;
+  height: calc(100% - 5.55rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-HaQ .header-top-ekx .your-account-items-2mW .frame-6-Mon {
+  margin: 0.05rem 1.6rem 0rem 0rem;
+  width: 20.2rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3999999653;
+  color: #23263b;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #60fd00;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.login-HaQ .header-top-ekx .your-account-items-2mW .frame-3-Roe {
+  box-sizing: border-box;
+  padding: 0 2.5rem;
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2.4097223282;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #556ab7;
+  border-radius: 0.4819rem;
+  flex-shrink: 0;
+}
