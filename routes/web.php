@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\artikel;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -125,3 +125,16 @@ Route::get('/keranjang', function () {
 Route::get('/riwayat-pembelian', function () {
     return view('user/riwayat-pembelian');
 });
+
+Route::get('/riwayat-pembelian', function () {
+    return view('user/riwayat-pembelian');
+});
+
+Route::get('/artikel', function () {
+
+    return view('artikel', [
+        "title" => "artikel",
+        "artikel" => artikel ::all()
+    ]);
+});
+
