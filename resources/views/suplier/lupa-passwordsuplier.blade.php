@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut+Antiqua%3A400"/>
   <link rel="stylesheet" href="{{ asset('styles/lupa-passwordsuplier.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/lupa-passwordsuplier.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 <body>
 <div class="lupa-password-zSc">
@@ -22,26 +24,27 @@
     <img class="rectangle-56-eGG" src="./assets/rectangle-56-rdN.png"/>
     <div class="your-account-items-xnk">
       <div class="frame-6-Ha8">No WA : 089999999999</div>
-      <div class="frame-3-kCp">Login/Daftar</div>
+      <button type="button" class="btn btn-primary">Login/Daftar</button>
     </div>
   </div>
   <div class="auto-group-vkuu-bz8">
     <div class="frame-8-Xct">
-      <div class="inputform-control-5PW">
-      </div>
       <p class="lupa-password-NdW">Lupa Password</p>
       <p class="email--UAk">Email *</p>
-      <div class="inputform-control-mfe">
-      </div>
+      <input class="inputform-control-mfe">
+      </input>
       <p class="password--sya">Password *</p>
+      <input type="password" class="inputform-control-5PW">
+    </input>
       <p class="sudah-punya-akunlogin-ymi">
+
         <span class="sudah-punya-akunlogin-ymi-sub-0">Sudah punya Akun?</span>
-        <span class="sudah-punya-akunlogin-ymi-sub-1">Login</span>
+        <a href="/loginsuplier" class="text-primary sudah-punya-akunlogin-ymi-sub-1">Login</a>
       </p>
-      <div class="btn-qxL">Simpan</div>
+      <button type="button" class="btn btn-success btn-qxL">Simpan</button>
       <div class="auto-group-vc2u-WHn">
-        <img class="group-120-Dxt" src="./assets/group-120-ZdJ.png"/>
-        <p class="kembali-MpC">Kembali</p>
+        <a href="" ><img class="group-120-Dxt" src="./assets/group-120-ZdJ.png"/></a>
+        <a href="" class="kembali-MpC">Kembali</a>
       </div>
     </div>
   </div>

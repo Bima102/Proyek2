@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
   <link rel="stylesheet" href="{{ asset('styles/loginsuplier.css') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <style>
     .lupa-password-cat {
       font-size: 18px;
@@ -55,22 +56,22 @@
     <input type="email" class="inputform-control-5Z2" placeholder="">
     <p class="password--jda">Password *</p>
     <input type="password" class="inputform-control-dyr" placeholder="">
-    <div class="frame-3-wje">Daftar</div>
+    <button type="button" class="btn btn-success frame-3-wje">Masuk</button>
     <a href="/lupa-passwordsuplier" class="text-primary lupa-passwordsuplier">Lupa password?</a>
     <p class="belum-punya-akundaftar-7nY">
       <span class="belum-punya-akundaftar-7nY-sub-0">Belum punya Akun?</span>
-      <span class="belum-punya-akundaftar-7nY-sub-1">Daftar</span>
+      <a href="/registersuplier" class="text-primary">Daftar</a>
     </p>
     <div class="frame-1321314410-RRr">
-      <img class="group-120-MqJ" src="./assets/group-120-uoe.png"/>
-      <p class="kembali-JkY">Kembali</p>
+      <a href="" ><img class="group-120-MqJ" src="./assets/group-120-uoe.png"/></a>
+      <a href="" class="kembali-JkY">Kembali</a>
     </div>
   </div>
   <div class="header-top-NkQ">
     <img class="rectangle-56-Tmr" src="./assets/rectangle-56-EXA.png"/>
     <div class="your-account-items-np8">
       <div class="frame-6-XFv">No WA : 089999999999</div>
-      <div class="frame-3-bFn">Login/Daftar</div>
+      <button type="button" class="btn btn-primary">Login/Daftar</button>
     </div>
   </div>
 </div>
