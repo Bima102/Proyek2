@@ -64,7 +64,7 @@
     <div class="frame-703-M2Q">
       <div class="frame-696-4xQ">Susanto</div>
       <div class="frame-697-k4Y">21 Maret 2023</div>
-      <div class="frame-698-2Xr">Rp.323.323</div>
+      <div class="frame-698-2Xr">Rp.123.323</div>
       <div class="frame-699-ube">Telur 12 Kg</div>
       <div class="frame-707-bDa">DiProses</div>
       <div class="frame-708-UYG">
