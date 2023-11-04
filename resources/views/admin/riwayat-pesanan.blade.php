@@ -82,7 +82,7 @@
             <div class="frame-699-TjE">Telur 43 Kg</div>
           </div>
           <div class="frame-705-ZnG">
-            <div class="frame-696-hNg">Messi</div>
+            <div class="frame-696-hNg">Ronaldo</div>
             <div class="frame-697-zsa">22 Desember 2033</div>
             <div class="frame-698-uUk">Rp.321,00</div>
             <div class="frame-699-cPA">Telur 2 Kg</div>
