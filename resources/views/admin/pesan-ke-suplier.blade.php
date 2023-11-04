@@ -95,7 +95,7 @@
             <div class="frame-2609047-UJt">
               <p class="harga-yang-harus-dibayar-1pc">Harga Yang Harus Dibayar</p>
               <div class="frame-1429-Lbz">
-                <div class="input-initial-HXE">Rp.20,000</div>
+                <div class="input-initial-HXE">Rp.21,000</div>
               </div>
             </div>
             <p class="kg-Yi4">KG</p>
