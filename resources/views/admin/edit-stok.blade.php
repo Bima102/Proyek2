@@ -86,7 +86,7 @@
       </div>
     </div>
     <div class="frame-705-c3S">
-      <div class="frame-696-vpp">Messi</div>
+      <div class="frame-696-vpp">Ronaldo</div>
       <div class="frame-697-DZ2">22 Desember 2033</div>
       <div class="frame-698-WHE">Rp.321,00</div>
       <div class="frame-699-zTJ">Telur 2 Kg</div>
