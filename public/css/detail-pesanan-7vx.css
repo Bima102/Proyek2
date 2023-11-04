@@ -1,0 +1,469 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.detail-pesanan-P3W {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-color: #ffffff;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk {
+  margin: 0rem 4.6rem 0.2rem 0rem;
+  box-sizing: border-box;
+  padding: 7rem 0rem 1.2rem 0rem;
+  width: 24.2rem;
+  height: 102.2rem;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p {
+  box-sizing: border-box;
+  padding: 6.2rem 4rem 6.2rem 6.5rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG {
+  box-sizing: border-box;
+  padding-bottom: 9.9rem;
+  width: 100%;
+  height: 34.7rem;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .text-gB2 {
+  box-sizing: border-box;
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #1c1c1c;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-ZVi {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-ZVi .icon-text-uJg {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-ZVi .icon-text-uJg .text-F7e {
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-X5A {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-X5A .text-TzQ {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-YFA {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-YFA .text-gsA {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-BJ8 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 4.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-BJ8 .text-7xU {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-BJ8 .text-7xU .riwayat-barang-masuk-fyz {
+  max-width: 10.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-yDz {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-1321314413-Kxk .frame-54-p8p .frame-kYG .content-yDz .text-vf2 {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-2609079-LTr {
+  margin-bottom: 4.1rem;
+  box-sizing: border-box;
+  padding: 0.2rem 4rem;
+  width: 115.2rem;
+  height: 85.4rem;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 {
+  width: 101.2667rem;
+  height: 80.2rem;
+  display: flex;
+  align-items: flex-end;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE {
+  margin: 0rem 15.6rem 1.5rem 0rem;
+  box-sizing: border-box;
+  padding: 4.1rem 0rem 5.9rem 0rem;
+  width: 55.6rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .detail-pesanan-vBA {
+  margin: 0rem 0rem 5.5rem 2.9rem;
+  max-width: 18.2rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609065-cZn {
+  margin-bottom: 3.1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609065-cZn .nama-AbJ {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609065-cZn .input-initial-h5S {
+  box-sizing: border-box;
+  padding: 1rem 1.6rem 1.8rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609064-mLC {
+  margin-bottom: 3.1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609064-mLC .no-rekening-7ur {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609064-mLC .input-initial-EzU {
+  box-sizing: border-box;
+  padding: 1.45rem 1.6rem 1.35rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609063-KFE {
+  margin-bottom: 3.1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609063-KFE .metode-pembayaran-4yW {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609063-KFE .input-initial-QXa {
+  box-sizing: border-box;
+  padding: 1.45rem 1.6rem 1.35rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609062-HrG {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609062-HrG .alamat-ewi {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .frame-2609063-osE .frame-2609062-HrG .input-initial-oJp {
+  box-sizing: border-box;
+  padding: 1rem 1.6rem;
+  width: 100%;
+  height: 17.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N {
+  margin: 0rem 1.267rem 9.5rem 0rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.6rem 0rem 0.8rem;
+  width: 28.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 2.8rem rgba(0, 0, 0, 0.0799999982);
+  background-color: #fcfcfc;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-7-6x8 {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-7-6x8 .image-2-eye {
+  width: 26.4rem;
+  height: 26.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-15-Big {
+  margin: 0rem 2.7rem 0rem 1.3rem;
+  width: calc(100% - 4rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-15-Big .kg-888 {
+  margin-bottom: 2.2rem;
+  display: flex;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 0.6666666667;
+  color: #00171f;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-15-Big .frame-2609047-qoE {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-15-Big .frame-2609047-qoE .harga-yang-harus-dibayar-bnQ {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #232321;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-15-Big .frame-2609047-qoE .frame-1429-j7v {
+  width: 13.3rem;
+  height: 7rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .product-card-c1N .frame-15-Big .frame-2609047-qoE .frame-1429-j7v .input-initial-UrC {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #232321;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .button-gxG {
+  width: 14.1667rem;
+  height: 4.8rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.detail-pesanan-P3W .frame-2609079-LTr .frame-2609093-fm2 .auto-group-fo9j-rXz .button-gxG .stylelayer-SRe {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.185;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #232321;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+}

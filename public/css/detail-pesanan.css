@@ -1,0 +1,463 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.detail-pesanan-ymJ {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-color: #ffffff;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ {
+  margin: 0rem 4.6rem 0.2rem 0rem;
+  box-sizing: border-box;
+  padding: 7rem 0rem 1.2rem 0rem;
+  width: 24.2rem;
+  height: 102.2rem;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt {
+  box-sizing: border-box;
+  padding: 6.2rem 4rem 6.2rem 6.5rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 {
+  box-sizing: border-box;
+  padding-bottom: 9.9rem;
+  width: 100%;
+  height: 34.7rem;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .text-5xk {
+  box-sizing: border-box;
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #1c1c1c;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-zK2 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-zK2 .icon-text-LNt {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-zK2 .icon-text-LNt .text-tQQ {
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-xv4 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-xv4 .text-KEp {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-zrk {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-zrk .text-YdN {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-Rx4 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 4.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-Rx4 .text-BRS {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-Rx4 .text-BRS .riwayat-barang-masuk-97N {
+  max-width: 10.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-ScG {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-1321314413-8PJ .frame-54-1xt .frame-A56 .content-ScG .text-bk4 {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 {
+  margin-bottom: 4.1rem;
+  box-sizing: border-box;
+  padding: 0.2rem 4rem;
+  width: 115.2rem;
+  height: 85.4rem;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J {
+  width: 101.2667rem;
+  height: 80.2rem;
+  position: relative;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 {
+  box-sizing: border-box;
+  padding-top: 3rem;
+  width: 89.6rem;
+  height: 78.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .title-page-bX6 {
+  box-sizing: border-box;
+  padding: 1.6rem 15.15rem 1.9rem 15.15rem;
+  width: 100%;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .title-page-bX6 .detail-pesanan-vpG {
+  max-width: 18.2rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS {
+  box-sizing: border-box;
+  padding: 3.1rem 0rem 5.9rem 0rem;
+  width: 100%;
+  row-gap: 3.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609065-m4C {
+  width: 55.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609065-m4C .nama-vBz {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609065-m4C .input-initial-43J {
+  box-sizing: border-box;
+  padding: 1rem 1.6rem 1.8rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609064-vLQ {
+  width: 55.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609064-vLQ .no-rekening-Gv4 {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609064-vLQ .input-initial-cU8 {
+  box-sizing: border-box;
+  padding: 1.45rem 1.6rem 1.35rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609063-68Q {
+  width: 55.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609063-68Q .metode-pembayaran-efi {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609063-68Q .input-initial-P7W {
+  box-sizing: border-box;
+  padding: 1.45rem 1.6rem 1.35rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609062-sYU {
+  width: 55.6rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609062-sYU .alamat-dnY {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.185;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .frame-2609063-gf2 .auto-group-ncjr-qRS .frame-2609062-sYU .input-initial-AXa {
+  box-sizing: border-box;
+  padding: 1rem 1.6rem;
+  width: 100%;
+  height: 17.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #232321;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e {
+  box-sizing: border-box;
+  padding: 0.8rem 1.6rem 0rem 0.8rem;
+  width: 28.8rem;
+  height: 43.7rem;
+  position: absolute;
+  left: 71.2rem;
+  top: 22.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 2.8rem rgba(0, 0, 0, 0.0799999982);
+  background-color: #fcfcfc;
+  border-radius: 1.2rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-7-6Jk {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-7-6Jk .image-2-EQx {
+  width: 26.4rem;
+  height: 26.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-15-jsW {
+  margin: 0rem 2.7rem 0rem 1.3rem;
+  width: calc(100% - 4rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-15-jsW .kg-GsS {
+  margin-bottom: 2.2rem;
+  display: flex;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 0.6666666667;
+  color: #00171f;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-15-jsW .frame-2609047-bep {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-15-jsW .frame-2609047-bep .harga-yang-harus-dibayar-m3W {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #232321;
+  font-family: Basic, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-15-jsW .frame-2609047-bep .frame-1429-6Lg {
+  width: 13.3rem;
+  height: 7rem;
+  flex-shrink: 0;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .product-card-E1e .frame-15-jsW .frame-2609047-bep .frame-1429-6Lg .input-initial-3mi {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.05rem;
+  color: #1f1a24;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #232321;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .button-tGY {
+  width: 14.1667rem;
+  height: 4.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 87.1rem;
+  top: 75.4rem;
+}
+.detail-pesanan-ymJ .frame-2609079-or8 .frame-2609093-99J .button-tGY .stylelayer-RGU {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.185;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: #232321;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #232321;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+}

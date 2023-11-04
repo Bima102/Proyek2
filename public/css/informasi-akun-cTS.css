@@ -1,0 +1,1046 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.informasi-akun-x7a {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #fafbff;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 {
+  box-sizing: border-box;
+  padding: 7rem 0rem 1.2rem 0rem;
+  width: 24.2rem;
+  height: 102.2rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 0.1rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 {
+  box-sizing: border-box;
+  padding: 6.2rem 4rem 6.2rem 6.5rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 32.95%, rgba(40, 186, 218, 0) 100%);
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC {
+  box-sizing: border-box;
+  padding-bottom: 9.9rem;
+  width: 100%;
+  height: 34.7rem;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .text-cbS {
+  box-sizing: border-box;
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #1c1c1c;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-JDN {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-JDN .icon-text-SaU {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-JDN .icon-text-SaU .text-nPS {
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-G3i {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-G3i .text-1X6 {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-gdE {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-gdE .text-Rqi {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-iK2 {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 4.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-iK2 .text-rRE {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-iK2 .text-rRE .riwayat-barang-masuk-13E {
+  max-width: 10.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-64g {
+  box-sizing: border-box;
+  padding: 0.4rem 0;
+  width: 100%;
+  height: 2.8rem;
+  cursor: pointer;
+  border: solid 0.1rem #000000;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314414-tG8 .frame-54-Zt4 .frame-6NC .content-64g .text-daQ {
+  margin-right: 0.8rem;
+  width: 12.9rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  color: #0f0000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 0.8rem;
+}
+.informasi-akun-x7a .frame-1321314411-QzU {
+  width: 113rem;
+  height: 75rem;
+  position: absolute;
+  left: 26.1rem;
+  top: 10.85rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .auto-group-broe-vhv {
+  box-sizing: border-box;
+  padding: 0rem 2.1rem 4.4rem 2.1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .auto-group-broe-vhv .informasi-akun-eP2 {
+  margin-bottom: 3.2rem;
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.26;
+  color: rgba(73, 69, 79, 0.8000000119);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .auto-group-broe-vhv .auto-group-suzz-kwr {
+  margin: 0rem 78.4rem 0rem 1.7rem;
+  width: calc(100% - 80.1rem);
+  height: 4.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .auto-group-broe-vhv .auto-group-suzz-kwr .frame-724-fJ8 {
+  margin-right: 3.1rem;
+  width: 12.8rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.26;
+  letter-spacing: 0.017rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #ebebee;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .auto-group-broe-vhv .auto-group-suzz-kwr .frame-725-UmN {
+  width: 12.8rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.26;
+  letter-spacing: 0.017rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #ebebee;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn {
+  box-sizing: border-box;
+  padding-bottom: 7.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #ebebee;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN {
+  margin-bottom: 3.2rem;
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #cecece;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .frame-696-DMa {
+  width: 25rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(73, 69, 79, 0.8000000119);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #cecece;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .frame-697-fjN {
+  width: 20.9rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(73, 69, 79, 0.8000000119);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #cecece;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .frame-698-9Pe {
+  width: 15rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(73, 69, 79, 0.8000000119);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #cecece;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .frame-699-q1a {
+  width: 20.5rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(73, 69, 79, 0.8000000119);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #cecece;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .auto-group-4fb6-v32 {
+  box-sizing: border-box;
+  padding: 1.8rem 4rem 1.7rem 3.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .auto-group-4fb6-v32 .frame-708-rBa {
+  margin-right: 11.6rem;
+  width: 4.6rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(73, 69, 79, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-702-5FN .auto-group-4fb6-v32 .frame-709-YaC {
+  width: 7.8rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(73, 69, 79, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE {
+  margin-bottom: 3.2rem;
+  box-sizing: border-box;
+  padding: 1.5rem 2.2rem 1.5rem 2.5rem;
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-696-wcL {
+  margin: 0.3rem 14.1rem 0.2rem 0rem;
+  width: 12rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-697-pg8 {
+  margin: 0.3rem 7.5rem 0.2rem 0rem;
+  width: 13.7rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-698-6tY {
+  margin: 0.3rem 9.4rem 0.2rem 0rem;
+  width: 7.3rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-699-ZXE {
+  margin: 0.3rem 8rem 0.2rem 0rem;
+  width: 9.3rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-709-pi4 {
+  margin: 0.3rem 9.8rem 0.2rem 0rem;
+  width: 5.8rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: #0d8c1a;
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-707-Vxc {
+  box-sizing: border-box;
+  padding: 0.2rem 1rem;
+  width: 11.4rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-707-Vxc .frame-1321314409-3DS {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-706-DwE .frame-707-Vxc .frame-1321314409-3DS .frame-3-zPa {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #0ba7ff;
+  border-radius: 0.4819rem;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W {
+  margin-bottom: 3.2rem;
+  box-sizing: border-box;
+  padding: 1.5rem 2.2rem 1.5rem 2.5rem;
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-696-xji {
+  margin: 0.3rem 14.1rem 0.2rem 0rem;
+  width: 12rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-697-mSG {
+  margin: 0.3rem 7.5rem 0.2rem 0rem;
+  width: 13.7rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-698-qBE {
+  margin: 0.3rem 9.4rem 0.2rem 0rem;
+  width: 7.3rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-699-78k {
+  margin: 0.3rem 8rem 0.2rem 0rem;
+  width: 9.3rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-708-P6G {
+  margin: 0.3rem 9.8rem 0.2rem 0rem;
+  width: 5.8rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: #0d8c1a;
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-707-U7i {
+  box-sizing: border-box;
+  padding: 0.2rem 1rem;
+  width: 11.4rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-707-U7i .frame-1321314409-BXv {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-707-g1W .frame-707-U7i .frame-1321314409-BXv .frame-3-8i4 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #0ba7ff;
+  border-radius: 0.4819rem;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG {
+  margin-bottom: 14.6rem;
+  box-sizing: border-box;
+  padding: 1.5rem 2.2rem 1.5rem 2.5rem;
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-696-XkC {
+  margin: 0.3rem 14.1rem 0.2rem 0rem;
+  width: 12rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-697-bEG {
+  margin: 0.3rem 7.5rem 0.2rem 0rem;
+  width: 13.7rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-698-FZi {
+  margin: 0.3rem 9.4rem 0.2rem 0rem;
+  width: 7.3rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-699-ftL {
+  margin: 0.3rem 8rem 0.2rem 0rem;
+  width: 9.3rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: rgba(34, 34, 34, 0.8999999762);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-709-YSL {
+  margin: 0.3rem 9.8rem 0.2rem 0rem;
+  width: 5.8rem;
+  height: calc(100% - 0.5rem);
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0.016rem;
+  color: #0d8c1a;
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-707-2MW {
+  box-sizing: border-box;
+  padding: 0.2rem 1rem;
+  width: 11.4rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-707-2MW .frame-1321314409-yGk {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .frame-708-RSG .frame-707-2MW .frame-1321314409-yGk .frame-3-XZA {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 1.5422rem;
+  font-weight: 800;
+  line-height: 1.5625000773;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.0964rem #333333;
+  box-sizing: border-box;
+  background-color: #0ba7ff;
+  border-radius: 0.4819rem;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .auto-group-uf1a-cqW {
+  margin: 0rem 4.914rem 0rem 3.4rem;
+  width: calc(100% - 8.3143rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .auto-group-uf1a-cqW .pay-button-9aY {
+  margin-right: 64.2rem;
+  width: 25.2rem;
+  height: 4.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #0acf83;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .auto-group-uf1a-cqW .pagination-NCQ {
+  margin-top: 1rem;
+  box-sizing: border-box;
+  padding: 1.16rem 1.8rem 1.16rem 2.057rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .auto-group-uf1a-cqW .pagination-NCQ .bold-arrows-alt-arrow-left-git {
+  margin-right: 8.8571rem;
+  width: 1.3714rem;
+  height: 2.48rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .frame-1321314411-QzU .frame-695-LHn .auto-group-uf1a-cqW .pagination-NCQ .bold-arrows-alt-arrow-right-CBS {
+  width: 1.2rem;
+  height: 2.48rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.informasi-akun-x7a .desktop-1-e3S {
+  width: 144rem;
+  height: 102.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3000000119);
+}
+.informasi-akun-x7a .desktop-1-e3S .button-ZAQ {
+  width: 14.1667rem;
+  height: 4.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49.7rem;
+  top: 73.3rem;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG {
+  width: 63.9rem;
+  height: 60.7rem;
+  position: absolute;
+  left: 42.7rem;
+  top: 20.8rem;
+  overflow: hidden;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.0099999998);
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .inputform-control-vQG {
+  width: 48.3rem;
+  height: 4.2rem;
+  position: absolute;
+  left: 7.8rem;
+  top: 27.8rem;
+  overflow: hidden;
+  border: solid 0.1rem #e6e6e6;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .ganti-password-ku6 {
+  width: 16.7rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 9.15rem;
+  top: 7.9rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: 0.01rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .password--qvY {
+  width: 7rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 7.8rem;
+  top: 15.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .inputform-control-8ek {
+  width: 48.3rem;
+  height: 4.2rem;
+  position: absolute;
+  left: 7.8rem;
+  top: 18.9rem;
+  overflow: hidden;
+  border: solid 0.1rem #e6e6e6;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .ketik-ulang-password--qp4 {
+  width: 14.7rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 7.8rem;
+  top: 24.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .sudah-punya-akunlogin-944 {
+  width: 19.1rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 24.5rem;
+  top: 43.8rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .sudah-punya-akunlogin-944 .sudah-punya-akunlogin-944-sub-0 {
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .sudah-punya-akunlogin-944 .sudah-punya-akunlogin-944-sub-1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #03a4ff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .btn-8q6 {
+  width: 45.5rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 36.4rem;
+  display: flex;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.0099999998);
+  background-color: #2deb29;
+  border-radius: 0.5rem;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .auto-group-hcwa-nek {
+  width: 8.25rem;
+  height: 3.0493rem;
+  position: absolute;
+  left: 4.6rem;
+  top: 53.9223rem;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .auto-group-hcwa-nek .group-120-iHW {
+  width: 3.0795rem;
+  height: 3.0493rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.informasi-akun-x7a .desktop-1-e3S .frame-8-3rG .auto-group-hcwa-nek .kembali-TF6 {
+  width: 5.2rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 3.05rem;
+  top: 0.3777rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5714285714;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
