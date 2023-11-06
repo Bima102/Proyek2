@@ -14,7 +14,7 @@ use App\Models\artikel;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.dashboardadmin');
 });
 
 Route::get('/Coding', function () {
@@ -59,7 +59,7 @@ Route::get('/loginadmin', function () {
 });
 
 Route::get('/dasboradmin', function () {
-    return view('admin/dasboradmin');
+    return view('a');
 });
 
 Route::get('/edit-harga', function () {

@@ -111,7 +111,7 @@
       </div>
       <div class="frame-706-vKi">
         <div class="frame-696-FMz">Toko Jaya Abadi</div>
-        <div class="frame-697-vj2">22 Desember 2033</div>
+        <div class="frame-697-vj2">22 September 2033</div>
         <div class="frame-698-oH2">Rp.321,00</div>
         <div class="frame-699-gLp">Telur 200 Kg</div>
         <div class="frame-708-y52">BarangMasuk</div>
