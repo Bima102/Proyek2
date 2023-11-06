@@ -34,8 +34,7 @@
         </div>
         <div class="content-eXi">
           <div class="text-bC4">
-            <p class="riwayat-barang-masuk-MBE">
-             Riwayat Barang
+            <p class="riwayat-barang-masuk-MBE">Riwayat Barang
             <br/>
              Masuk
             </p>
