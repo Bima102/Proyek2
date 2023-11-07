@@ -28,13 +28,16 @@
 
 
 
-          <button class="content-kyn"> Data Produk</button>
+          <a href=<button class="content-kyn"> Data Produk</button></a>
 
 
           <button class="content-kyn"> Riwayat Pesanan</button>
 
           <button class="content-kyn"> Riwayat Barang Masuk</button>
-          <button class="content-kyn">Buat Pesanan Ke Suplier</p></button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
+          </button>
+
 
 
         </div>
@@ -60,10 +63,8 @@
           <div class="frame-697-Dn8">Tanggal</div>
           <div class="frame-698-K4U">Harga</div>
           <div class="frame-699-Ce4">Nama Barang</div>
-          <div class="auto-group-dztg-hKv">
-            <div class="frame-708-Rmi">Status</div>
-            <div class="frame-709-K6Q">Edit Status</div>
-          </div>
+          <div class="frame-708-Rmi">Status</div>
+          <div class="frame-709-K6Q">Edit Status</div>
         </div>
         <div class="frame-703-CR6">
           <div class="frame-696-Kkc">Susanto</div>
@@ -78,10 +79,10 @@
           </div>
         </div>
         <div class="frame-704-X1S">
-          <div class="frame-696-SeC">Ujang</div>
-          <div class="frame-697-vpG">23 November 2023</div>
-          <div class="frame-698-cSC">Rp.13.313</div>
-          <div class="frame-699-VVz">Telur 43 Kg</div>
+          <div class="frame-696-Kkc">Ujang</div>
+          <div class="frame-697-bi8">23 November 2023</div>
+          <div class="frame-698-HL4">Rp.13.313</div>
+          <div class="frame-699-yCt">Telur 43 Kg</div>
           <div class="frame-708-AME">Terkirim</div>
           <div class="frame-707-qTN">
             <div class="frame-1321314409-AVe">
@@ -90,10 +91,10 @@
           </div>
         </div>
         <div class="frame-705-r16">
-          <div class="frame-696-9Vz">Ronaldo</div>
-          <div class="frame-697-pc8">22 Desember 2033</div>
-          <div class="frame-698-6Ze">Rp.321,00</div>
-          <div class="frame-699-aji">Telur 2 Kg</div>
+          <div class="frame-696-Kkc">Ronaldo</div>
+          <div class="frame-697-bi8">22 Desember 2033</div>
+          <div class="frame-698-HL4">Rp.321,00</div>
+          <div class="frame-699-yCt">Telur 2 Kg</div>
           <div class="frame-708-5Ag">DiBatalkan</div>
           <div class="frame-707-m3W">
             <div class="frame-1321314409-ufW">
@@ -102,10 +103,10 @@
           </div>
         </div>
         <div class="frame-706-vKi">
-          <div class="frame-696-FMz">Toko Jaya Abadi</div>
-          <div class="frame-697-vj2">22 September 2033</div>
-          <div class="frame-698-oH2">Rp.321,00</div>
-          <div class="frame-699-gLp">Telur 200 Kg</div>
+          <div class="frame-696-Kkc">Toko Jaya Abadi</div>
+          <div class="frame-697-bi8">22 September 2033</div>
+          <div class="frame-698-HL4">Rp.321,00</div>
+          <div class="frame-699-yCt">Telur 200 Kg</div>
           <div class="frame-708-y52">BarangMasuk</div>
           <div class="frame-707-SjJ">
             <div class="frame-1321314409-Bwn">
@@ -114,6 +115,10 @@
           </div>
         </div>
       </div>
+      <div class="pagination-75i">
+          <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png"/>
+          <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png"/>
+        </div>
     </div>
   </div>
 </body>
