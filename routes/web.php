@@ -58,8 +58,8 @@ Route::get('/loginadmin', function () {
     return view('admin/loginadmin');
 });
 
-Route::get('/dasboradmin', function () {
-    return view('a');
+Route::get('/dashboardadmin', function () {
+    return view('admin/dashboardadmin');
 });
 
 Route::get('/edit-harga', function () {

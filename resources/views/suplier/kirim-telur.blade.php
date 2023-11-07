@@ -12,6 +12,15 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C800"/>
   <link rel="stylesheet" href="{{ asset('styles/kirim-telur.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/kirim-telur.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    /* Remove underlines from links */
+    .text-MPn,
+    .text-CvC,
+    .text-pwa {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 <div class="kirim-telur-XPW">
@@ -19,8 +28,8 @@
     <img class="rectangle-56-znt" src="./assets/rectangle-56-eAL.png"/>
     <div class="your-account-items-7sW">
       <div class="frame-6-d5A">No WA : 089999999999</div>
-      <div class="frame-3-HfW">Akun</div>
-      <div class="frame-3-NS4">Logout</div>
+      <button type="button" class="btn frame-3-HfW">Akun</button>
+      <button type="button" class="btn frame-3-NS4">Logout</button>
     </div>
   </div>
   <div class="auto-group-jj9a-qqS">
@@ -29,14 +38,11 @@
         <div class="text-TVS">Menu</div>
         <div class="content-xSC">
           <div class="icon-text-usE">
-            <div class="text-rXa">  Home</div>
           </div>
         </div>
         <div class="content-xqW">
-          <div class="text-KAG">  Pesan Telur</div>
         </div>
         <div class="content-dAx">
-          <div class="text-NuE">  Keranjang</div>
         </div>
       </div>
       <div class="frame-54-USU">
@@ -44,14 +50,14 @@
           <div class="text-8G8">Menu</div>
           <div class="content-FLk">
             <div class="icon-text-QDe">
-              <div class="text-MPn">  Dashboard</div>
+              <a href="dashboard-link" class="text-MPn">  Dashboard</a>
             </div>
           </div>
           <div class="content-FVA">
-            <div class="text-CvC">  Kirim Telur</div>
+            <a href="kirim-telur-link" class="text-CvC">  Kirim Telur</a>
           </div>
           <div class="content-t2L">
-            <div class="text-pwa">  Riwayat Pesanan</div>
+            <a href="riwayat-pesanan-link" class="text-pwa">  Riwayat Pengiriman</a>
           </div>
         </div>
       </div>
@@ -67,23 +73,24 @@
             <div class="frame-2609047-xiL">
               <p class="harga-yang-harus-dibayar-VyA">Harga Yang Harus Dibayar</p>
               <div class="frame-1429-pEk">
-                <div class="input-initial-ApQ">Rp.20,000</div>
+                <div class="input-initial-ApQ"></div>
               </div>
             </div>
             <p class="kg-DGt">KG</p>
             <div class="frame-1429-ijS">
-              <div class="input-initial-54C">
-                <p class="placeholder-p1n">masukkan disini</p>
-              </div>
+
+                {{--  <p class="placeholder-p1n">masukkan disini</p>  --}}
+                <input class="input-initial-54C" type="text" placeholder=""></input>
             </div>
           </div>
         </div>
       </div>
       <div class="auto-group-rq68-3fE">
-        <div class="frame-116-NxQ">Batalkan</div>
-        <div class="frame-115-euv">Kirim</div>
+        <a href=""<button type="button" class="btn frame-116-NxQ">Batalkan</button></a>
+        <a href=""<button type="button"  class="btn frame-115-euv">Kirim</button></a>
       </div>
     </div>
   </div>
 </div>
 </body>
+</html>

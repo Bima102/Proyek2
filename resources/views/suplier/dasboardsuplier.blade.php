@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A800"/>
   <link rel="stylesheet" href="{{ asset('styles/dasboardsuplier.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/dasboardsuplier.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 <div class="dasbrod-qHz">
@@ -20,52 +21,38 @@
     <img class="rectangle-56-Wf2" src="./assets/rectangle-56-NmN.png"/>
     <div class="your-account-items-qhJ">
       <div class="frame-6-ZNQ">No WA : 089999999999</div>
-      <div class="frame-3-qKv">Akun</div>
-      <div class="frame-3-6me">Logout</div>
+      <button type="button" class=" btn frame-3-qKv">Akun</button>
+      <button type="button" class=" btn frame-3-6me">Logout</button>
     </div>
   </div>
   <div class="auto-group-36he-AWc">
     <div class="frame-2609093-VYt">
       <div class="frame-34c">
-        <div class="text-L3i">Menu</div>
-        <div class="content-doW">
-          <div class="icon-text-C5v">
-            <div class="text-9G4">  Home</div>
-          </div>
-        </div>
-        <div class="content-T1r">
-          <div class="text-D12">  Pesan Telur</div>
-        </div>
-        <div class="content-WVv">
-          <div class="text-fNp">  Keranjang</div>
-        </div>
+
       </div>
       <div class="frame-54-kfA">
         <div class="frame-sjn">
           <div class="text-otL">Menu</div>
           <div class="content-vi4">
             <div class="icon-text-tPz">
-              <div class="text-e8G">  Dashboard</div>
+                <a href="/" class="text-e8G">  Dashboard</a>
             </div>
           </div>
           <div class="content-XSx">
-            <div class="text-gKr">  Kirim Telur</div>
+            <a href="/" class="text-gKr" style="text-decoration: none;">  Kirim Telur</a>
           </div>
           <div class="content-Akp">
-            <div class="text-7g4">  Riwayat Pesanan</div>
+            <a href="/" class="text-7g4" style="text-decoration: none;">  Riwayat Pengiriman</a>
           </div>
+
         </div>
       </div>
     </div>
     <div class="auto-group-4zy8-LHv">
-      <div class="auto-group-awwu-dXv">
-        <div class="frame-1321314409-MTv">
-          <p class="telur-terkirim-bulam-ini-U2k">Telur Terkirim Bulam ini</p>
-          <p class="kg-nJL">100 KG</p>
+      <div class="">
+        <div class="">
         </div>
         <div class="frame-1321314410-tcG">
-          <p class="uang-diterima-bulam-ini-DeY">Uang Diterima Bulam ini</p>
-          <p class="rp10000-LUG">Rp.10000</p>
         </div>
       </div>
       <div class="riwayat-pesanan-3da">Riwayat Pesanan</div>
@@ -90,7 +77,7 @@
             <div class="frame-708-c3i">Dibatalkan</div>
           </div>
           <div class="auto-group-rjpe-odz">
-            <div class="pay-button-vic">Kirim Barang</div>
+            <button type="button"class=" btn pay-button-vic">Kirim Barang</button>
             <div class="pagination-bZr">
               <img class="bold-arrows-alt-arrow-left-iuN" src="./assets/bold-arrows-alt-arrow-left.png"/>
               <img class="bold-arrows-alt-arrow-right-T6G" src="./assets/bold-arrows-alt-arrow-right-ohi.png"/>

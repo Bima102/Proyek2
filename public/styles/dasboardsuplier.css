@@ -742,3 +742,11 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+
+.text-e8G {
+    text-decoration: none; /* Menghapus dekorasi garis bawah pada tautan */
+    /* Opsi lain, seperti mengganti warna teks saat tautan diklik */
+    color: #000; /* Ganti warna tautan sesuai kebutuhan */
+  }
+
+  

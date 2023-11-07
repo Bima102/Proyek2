@@ -39,12 +39,12 @@
       <p class="sudah-punya-akunlogin-ymi">
 
         <span class="sudah-punya-akunlogin-ymi-sub-0">Sudah punya Akun?</span>
-        <a href="/loginsuplier" class="text-primary sudah-punya-akunlogin-ymi-sub-1">Login</a>
+        <a href="/loginsuplier" class="text-primary sudah-punya-akunlogin-ymi-sub-1" style="text-decoration: none;">Login</a>
       </p>
-      <button type="button" class="btn btn-success btn-qxL">Simpan</button>
+      <button type="button" class="btn  btn-qxL">Simpan</button>
       <div class="auto-group-vc2u-WHn">
         <a href="" ><img class="group-120-Dxt" src="./assets/group-120-ZdJ.png"/></a>
-        <a href="" class="kembali-MpC">Kembali</a>
+        <a href="" class="kembali-MpC" style="text-decoration: none;">Kembali</a>
       </div>
     </div>
   </div>
