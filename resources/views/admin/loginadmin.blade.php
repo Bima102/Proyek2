@@ -48,11 +48,9 @@
   <div class="frame-9-orY">
     <p class="login-VUU">Login </p>
     <p class="email--Bs6">Email *</p>
-    <div class="inputform-control-JB2">
-    </div>
+    <input type="email" class="inputform-control-JB2" placeholder="">
     <p class="password--Aj2">Password *</p>
-    <div class="inputform-control-tQ8">
-    </div>
+    <input type="password" class="inputform-control-tQ8" placeholder="">
     <div class="frame-3-o1J">Login</div>
     <p class="lupa-password-GvU">Lupa password?</p>
     <p class="belum-punya-akundaftar-aRN">
