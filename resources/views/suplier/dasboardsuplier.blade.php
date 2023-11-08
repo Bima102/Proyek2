@@ -21,8 +21,8 @@
     <img class="rectangle-56-Wf2" src="./assets/rectangle-56-NmN.png"/>
     <div class="your-account-items-qhJ">
       <div class="frame-6-ZNQ">No WA : 089999999999</div>
-      <button type="button" class=" btn frame-3-qKv">Akun</button>
-      <button type="button" class=" btn frame-3-6me">Logout</button>
+      <a href="/informasi-akunsuplier" class=" btn frame-3-qKv">Akun</a>
+      <a href="/loginsuplier"class=" btn frame-3-6me">Logout</a>
     </div>
   </div>
   <div class="auto-group-36he-AWc">
@@ -35,14 +35,14 @@
           <div class="text-otL">Menu</div>
           <div class="content-vi4">
             <div class="icon-text-tPz">
-                <a href="/" class="text-e8G">  Dashboard</a>
+                <a href="/dasboardsuplier" class="text-e8G">  Dashboard</a>
             </div>
           </div>
           <div class="content-XSx">
-            <a href="/" class="text-gKr" style="text-decoration: none;">  Kirim Telur</a>
+            <a href="/kirim-telur" class="text-gKr" style="text-decoration: none;">  Kirim Telur</a>
           </div>
           <div class="content-Akp">
-            <a href="/" class="text-7g4" style="text-decoration: none;">  Riwayat Pengiriman</a>
+            <a href="/riwayat-pengirimansuplier" class="text-7g4" style="text-decoration: none;">  Riwayat Pengiriman</a>
           </div>
 
         </div>
@@ -54,35 +54,43 @@
         </div>
         <div class="frame-1321314410-tcG">
         </div>
+
+        <div class="riwayat-pesanan-3da ">Riwayat Pesanan</div>
+<table class="frame-2609092-ATJ h-auto">
+  <thead class="frame-695-WXA h-auto block p-0">
+    <tr class="frame-702-FUk">
+      <th class="frame-696-B7W">Nama Pesanan</th>
+      <th class="frame-697-f2g">Tanggal</th>
+      <th class="frame-698-jHS">Harga</th>
+      <th class="frame-708-d7v">Status</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr class="frame-703-gM6">
+      <td class="frame-696-1PN">Telur 120 Kg</td>
+      <td class="frame-697-iHn">01 Mei 2023</td>
+      <td class="frame-698-23a">Rp.1,000,000</td>
+      <td class="frame-707-vek w-auto">Terkirim</td>
+    </tr>
+    <tr class="frame-703-gM6">
+        <td class="frame-696-1PN">Telur 20 Kg</td>
+        <td class="frame-697-iHn w-auto">02 Maret 2033</td>
+        <td class="frame-698-23a">Rp.110,000</td>
+        <td class="frame-708-c3i w-auto">Dibatalkan</td>
+      </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
+
+<div class="m-0 mt-5 auto-group-rjpe-odz">
+    <button type="button"class=" btn pay-button-vic">Kirim Barang</button>
+    <div class="pagination-bZr">
+
+    </div>
+  </div>
+
       </div>
-      <div class="riwayat-pesanan-3da">Riwayat Pesanan</div>
-      <div class="frame-2609092-ATJ">
-        <div class="frame-695-WXA">
-          <div class="frame-702-FUk">
-            <div class="frame-696-B7W">Nama Pesanan</div>
-            <div class="frame-697-f2g">Tanggal</div>
-            <div class="frame-698-jHS">Harga</div>
-            <div class="frame-708-d7v">Status</div>
-          </div>
-          <div class="frame-703-gM6">
-            <div class="frame-696-1PN">Telur 120 Kg</div>
-            <div class="frame-697-iHn">01 Mei  2023</div>
-            <div class="frame-698-23a">Rp.1,000,000</div>
-            <div class="frame-707-vek">Terkirim</div>
-          </div>
-          <div class="frame-707-pk8">
-            <div class="frame-696-jcC">Telur 20 Kg</div>
-            <div class="frame-697-dxU">02 Maret 2033</div>
-            <div class="frame-698-7Mr">Rp.110,000</div>
-            <div class="frame-708-c3i">Dibatalkan</div>
-          </div>
-          <div class="auto-group-rjpe-odz">
-            <button type="button"class=" btn pay-button-vic">Kirim Barang</button>
-            <div class="pagination-bZr">
-              <img class="bold-arrows-alt-arrow-left-iuN" src="./assets/bold-arrows-alt-arrow-left.png"/>
-              <img class="bold-arrows-alt-arrow-right-T6G" src="./assets/bold-arrows-alt-arrow-right-ohi.png"/>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

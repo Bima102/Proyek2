@@ -28,8 +28,8 @@
     <img class="rectangle-56-znt" src="./assets/rectangle-56-eAL.png"/>
     <div class="your-account-items-7sW">
       <div class="frame-6-d5A">No WA : 089999999999</div>
-      <button type="button" class="btn frame-3-HfW">Akun</button>
-      <button type="button" class="btn frame-3-NS4">Logout</button>
+      <a href="/informasi-akunsuplier" class="btn frame-3-HfW">Akun</a>
+      <a href="/loginsuplier" class="btn frame-3-NS4">Logout</a>
     </div>
   </div>
   <div class="auto-group-jj9a-qqS">
@@ -50,14 +50,14 @@
           <div class="text-8G8">Menu</div>
           <div class="content-FLk">
             <div class="icon-text-QDe">
-              <a href="dashboard-link" class="text-MPn">  Dashboard</a>
+              <a href="dasboardsuplier" class="text-MPn">  Dashboard</a>
             </div>
           </div>
           <div class="content-FVA">
-            <a href="kirim-telur-link" class="text-CvC">  Kirim Telur</a>
+            <a href="kirim-telur" class="text-CvC">  Kirim Telur</a>
           </div>
           <div class="content-t2L">
-            <a href="riwayat-pesanan-link" class="text-pwa">  Riwayat Pengiriman</a>
+            <a href="riwayat-pengirimansuplier" class="text-pwa">  Riwayat Pengiriman</a>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@
             <div class="frame-2609047-xiL">
               <p class="harga-yang-harus-dibayar-VyA">Harga Yang Harus Dibayar</p>
               <div class="frame-1429-pEk">
-                <div class="input-initial-ApQ"></div>
+              <input class="input-initial-ApQ" type="text" placeholder=""></input>
               </div>
             </div>
             <p class="kg-DGt">KG</p>

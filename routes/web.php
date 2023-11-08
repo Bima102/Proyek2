@@ -50,8 +50,7 @@ Route::get('/kirim-telur', function () {
 });
 
 Route::get('/informasi-akunsuplier', function () {
-    return view('suplier/informasi-akunsuplier
-    ');
+    return view('suplier/informasi-akunsuplier');
 });
 
 Route::get('/loginadmin', function () {

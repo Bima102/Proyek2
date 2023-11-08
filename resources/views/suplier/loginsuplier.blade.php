@@ -56,7 +56,7 @@
         <input type="email" class="inputform-control-5Z2" placeholder="">
         <p class="password--jda">Password *</p>
         <input type="password" class="inputform-control-dyr" placeholder="">
-        <button type="button" class="btn frame-3-wje">Masuk</button>
+        <a href="/dasboardsuplier"  class="btn frame-3-wje">Masuk</a>
         <a href="/lupa-passwordsuplier" class="text-primary lupa-passwordsuplier" style="text-decoration: none;">Lupa password?</a>
         <p class="belum-punya-akundaftar-7nY">
         <span class="belum-punya-akundaftar-7nY-sub-0">Belum punya Akun?</span>

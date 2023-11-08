@@ -44,7 +44,7 @@
           <p class="konfirmasi-password--1ng">Konfirmasi Password *</p>
           <input type="password" name="konfirmasi-password" class="inputform-control-wAY" />
         </form>
-        <button type="button" class="btn btn-success frame-3-tCQ">Masuk</button>
+        <a href="/loginsuplier" class="btn btn-success frame-3-tCQ">Masuk</a>
         <p class="sudah-punya-akunlogin-kNt">
           <span class="sudah-punya-akunlogin-kNt-sub-0">Sudah punya Akun?</span>
           <a href="/loginsuplier" class="text-primary">login</a>
