@@ -21,26 +21,26 @@
     <img class="rectangle-56-WaU" src="./assets/rectangle-56-W9W.png"/>
     <div class="your-account-items-q6x">
       <div class="frame-6-ji8">No WA : 089999999999</div>
-      <div class="frame-3-Lxp">Login/Daftar</div>
+      <button type="button" class="frame-3-Lxp">Login/Daftar</button>
     </div>
   </div>
   <div class="auto-group-d3yu-Qxg">
     <div class="frame-8-whi">
-      <div class="inputform-control-Hma">
-      </div>
       <p class="lupa-password-zR6">Lupa Password</p>
       <p class="email--szg">Email *</p>
-      <div class="inputform-control-Y5E">
-      </div>
+      <input class="inputform-control-Y5E">
+      </input>
       <p class="password--dsN">Password *</p>
+      <input type="password" class="inputform-control-Hma">
+      </input>
       <p class="sudah-punya-akunlogin-8ZE">
         <span class="sudah-punya-akunlogin-8ZE-sub-0">Sudah punya Akun?</span>
-        <span class="sudah-punya-akunlogin-8ZE-sub-1">Login</span>
+        <a href="/loginuser" class="sudah-punya-akunlogin-8ZE-sub-1" style="text-decoration: none;">Login</a>
       </p>
-      <div class="btn-Bvp">Simpan</div>
+      <button type="button" class="btn btn-Bvp">Simpan</button>
       <div class="auto-group-evsa-2Ak">
-        <img class="group-120-ksS" src="./assets/group-120-6WL.png"/>
-        <p class="kembali-hng">Kembali</p>
+        <a href=""><img class="group-120-ksS" src="./assets/group-120-6WL.png"/></a>
+        <a href="" class="kembali-hng" style="text-decoration: none">Kembali</a>
       </div>
     </div>
   </div>

@@ -48,28 +48,27 @@
   <div class="frame-9-1aG">
     <p class="login-Hng">Login </p>
     <p class="email--Pap">Email *</p>
-    <div class="inputform-control-6k8">
-    </div>
+    <input type="email" class="inputform-control-6k8" placeholder="">
     <p class="password--Z7v">Password *</p>
-    <div class="inputform-control-DCU">
-    </div>
-    <div class="frame-3-ub6">Login</div>
-    <p class="lupa-password-Jt8">Lupa password?</p>
+    <input type="password" class="inputform-control-DCU" placeholder="">
+    <button type="button" class="btn frame-3-ub6">Login</button>
+    <a href="/lupa-passworduser" class="text-primary lupa-password-Jt8" style="text-decoration: none;">Lupa password?</a>
     <p class="belum-punya-akundaftar-1Gk">
       <span class="belum-punya-akundaftar-1Gk-sub-0">Belum punya Akun?</span>
-      <span class="belum-punya-akundaftar-1Gk-sub-1">Daftar</span>
+     <a href="/registeruser" class="text-primary-1Gk-sub-1" style="text-decoration: none;">Daftar</a>
     </p>
     <div class="frame-1321314410-Xnp">
-      <img class="group-120-Fyi" src="./assets/group-120-rMW.png"/>
-      <p class="kembali-b1z">Kembali</p>
+      <a href=""><img class="group-120-Fyi" src="./assets/group-120-rMW.png"/></a>
+      <a href="" class="kembali-b1z" style="text-decoration: none;">Kembali</a>
     </div>
   </div>
   <div class="header-top-ekx">
     <img class="rectangle-56-XZr" src="./assets/rectangle-56-Noz.png"/>
     <div class="your-account-items-2mW">
       <div class="frame-6-Mon">No WA : 089999999999</div>
-      <div class="frame-3-Roe">Login/Daftar</div>
+      <button type="button" class="btn btn-primary">Login/Daftar</button>
     </div>
   </div>
 </div>
 </body>
+</html>
