@@ -28,7 +28,7 @@
 
 
 
-          <a href=<button class="content-kyn"> Data Produk</button></a>
+          <button class="content-kyn"> Data Produk</button>
 
 
           <button class="content-kyn"> Riwayat Pesanan</button>

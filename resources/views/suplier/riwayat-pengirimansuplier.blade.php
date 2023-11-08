@@ -13,6 +13,17 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
   <link rel="stylesheet" href="{{ asset('styles/riwayat-pengirimansuplier.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-pengirimansuplier.scss') }}"/>
+  <style>
+    /* Menghapus garis bawah pada tautan/link */
+    a {
+      text-decoration: none;
+    }
+
+    /* Menambahkan warna teks pada tautan/link yang diklik */
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 <div class="riwayat-EhE">
@@ -20,8 +31,8 @@
     <img class="rectangle-56-icQ" src="./assets/rectangle-56-hcC.png"/>
     <div class="your-account-items-qh2">
       <div class="frame-6-MfN">No WA : 089999999999</div>
-      <div class="frame-3-SB2">Akun</div>
-      <div class="frame-3-hse">Logout</div>
+      <a href="/informasi-akunsuplier" class=" frame-3-SB2">Akun</a>
+      <a href="/loginsuplier" class="frame-3-hse">Logout</a>
     </div>
   </div>
   <div class="auto-group-kcmv-Nyn">
@@ -45,14 +56,14 @@
           <div class="text-dig">Menu</div>
           <div class="content-9h2">
             <div class="icon-text-hTe">
-              <div class="text-eNt">  Dashboard</div>
+                <a href="dasboardsuplier" class="text-eNt">Dashboard</a>
             </div>
           </div>
           <div class="content-wct">
-            <div class="text-JCY">  Kirim Telur</div>
+            <a href="kirim-telur" class="text-JCY">Kirim Telur</a>
           </div>
           <div class="content-zLG">
-            <div class="text-YMn">  Riwayat Pesanan</div>
+            <a href="riwayat-pengirimansuplier" class="text-YMn">Riwayat Pengiriman</a>
           </div>
         </div>
       </div>
@@ -87,3 +98,5 @@
   </div>
 </div>
 </body>
+</html>
+    
