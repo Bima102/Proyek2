@@ -114,14 +114,14 @@
       <div class="text-2PS">Menu</div>
       <div class="content-K7e">
         <div class="icon-text-s9A">
-          <div class="text-RAg">  Home</div>
+          <a href="/" class="text-RAg" style="text-decoration: none;">  Home</a>
         </div>
       </div>
       <div class="content-ifa">
-        <div class="text-Gwz">  Pesan Telur</div>
+        <a href="/" class="text-Gwz" style="text-decoration: none;">  Pesan Telur</a>
       </div>
       <div class="content-z7J">
-        <div class="text-LS4">  Keranjang</div>
+        <a href="/" class="text-LS4" style="text-decoration: none;">  Keranjang</a> 
       </div>
     </div>
     <div class="frame-54-1HJ">
@@ -129,17 +129,17 @@
         <div class="text-EQx">Menu</div>
         <div class="content-kPJ">
           <div class="icon-text-uGC">
-            <div class="text-Fqr">  Home</div>
+            <a href="/" class="text-Fqr" style="text-decoration: none;">  Home</a>
           </div>
         </div>
         <div class="content-M8C">
-          <div class="text-VEQ">  Pesan Telur</div>
+          <a href="/" class="text-VEQ" style="text-decoration: none;">  Pesan Telur</a> 
         </div>
         <div class="content-b2Y">
-          <div class="text-vac">  Keranjang</div>
+          <a href="/" class="text-vac" style="text-decoration: none;">  Keranjang</a> 
         </div>
         <div class="content-Pj6">
-          <div class="text-k3r">  Riwayat Pesanan</div>
+          <a href="/"class="text-k3r" style="text-decoration: none;">  Riwayat Pesanan</a>
         </div>
       </div>
     </div>

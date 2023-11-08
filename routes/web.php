@@ -137,3 +137,7 @@ Route::get('/artikel', function () {
     ]);
 });
 
+Route::get('/pesan-ke-suplier', function () {
+    return view('admin/pesan-ke-suplier');
+});
+
