@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700%2C800"/>
   <link rel="stylesheet" href="{{ asset('styles/loginadmin.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/loginadmin.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 <div class="login-G8Y">
@@ -51,16 +52,8 @@
     <input type="email" class="inputform-control-JB2" placeholder="">
     <p class="password--Aj2">Password *</p>
     <input type="password" class="inputform-control-tQ8" placeholder="">
-    <div class="frame-3-o1J">Login</div>
-    <p class="lupa-password-GvU">Lupa password?</p>
-    <p class="belum-punya-akundaftar-aRN">
-      <span class="belum-punya-akundaftar-aRN-sub-0">Belum punya Akun?</span>
-      <span class="belum-punya-akundaftar-aRN-sub-1">Daftar</span>
-    </p>
-    <div class="frame-1321314410-eZe">
-      <img class="group-120-NkY" src="./assets/group-120-UhN.png"/>
-      <p class="kembali-7y2">Kembali</p>
-    </div>
+    <a href="/dashboardadmin" class="frame-3-o1J" style="text-decoration: none;">Masuk</a>
+    <a href="" class="lupa-password-GvU" style="text-decoration: none;">Lupa password?</a>
   </div>
   <div class="header-top-AwJ">
     <img class="rectangle-56-HFE" src="./assets/rectangle-56-bcc.png"/>

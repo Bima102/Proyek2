@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500"/>
   <link rel="stylesheet" href="{{ asset('styles/riwayat-pesanan.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-pesanan.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 <div class="riwayat-pesanan-Ri8">
@@ -20,26 +21,20 @@
         <div class="text-v2c">Menu</div>
         <div class="content-1pk">
           <div class="icon-text-mJ8">
-            <div class="text-hxU">  Dashboard</div>
+            <a href="/dashboardadmin" class="text-hxU" style="text-decoration: none;">Dashboard</a>
           </div>
         </div>
-        <div class="content-zAt">
-          <div class="text-YTJ">  Data Produk</div>
-        </div>
         <div class="content-pvc">
-          <div class="text-z4Q"> Riwayat Pesanan</div>
+            <a href="/riwayat-pesanan" class="text-z4Q" style="text-decoration: none;"> Riwayat Pesanan</a>
         </div>
         <div class="content-5be">
           <div class="text-dNG">
-            <p class="riwayat-barang-masuk-Beg">
-             Riwayat Barang
-            <br/>
-             Masuk
+            <a href="/riwayat-barang-masuk" class="riwayat-barang-masuk-Beg" style="text-decoration: none;">Riwayat Barang Masuk</a>
             </p>
           </div>
         </div>
         <div class="content-Utg">
-          <div class="text-qjE"> Informasi Akun</div>
+            <a href="/pesan-ke-suplier" class="text-qjE" style="text-decoration: none;"> pesan ke Suplier</a>
         </div>
       </div>
     </div>
