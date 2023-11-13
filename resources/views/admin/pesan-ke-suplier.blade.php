@@ -58,9 +58,8 @@
         </div>
       </div>
       <p class="nomor-rekening-nomor-dana-syz">Rekening/Nomor DANA</p>
-      <div class="rectangle-24-BDz">
+      <div class="rectangle-24-BDz"></div>
         <input class="rectangle-24-BDz" type="text" placeholder=""></input>
-      </div>
       <div class="card-number-6br">
         <p class="nama-pemesan-supplier-ETA">Nama Pemesan/Supplier</p>
         <div class="rectangle-24-YTr">

@@ -20,9 +20,9 @@
     <img class="rectangle-56-kpQ" src="./assets/rectangle-56-hGL.png"/>
     <div class="your-account-items-5Lt">
       <div class="frame-6-zTr">No WA : 089999999999</div>
-      <div class="frame-3-Feg">Akun</div>
-      <div class="frame-7-PeQ">Pesan Telur</div>
-      <div class="frame-3-UA4">Logout</div>
+      <a href="/informasi-akunuser" class="frame-3-Feg" style="text-decoration: none;">Akun</a>
+      <a href="/dasboarduser" class="frame-7-PeQ" style="text-decoration: none;">Pesan Telur</a>
+      <a href="/loginuser" class="frame-3-UA4" style="text-decoration: none;">Logout</a>
     </div>
   </div>
   <div class="auto-group-nvoj-XPE">
@@ -34,19 +34,19 @@
         <img class="rectangle-49-5xU" src="./assets/rectangle-49-nEU.png"/>
         <p class="telur-ayam-pQG">Telur Ayam</p>
         <p class="kg-vCQ">1 Kg</p>
-        <div class="frame-3-poa">Pesan</div>
+        <a href="/bayar-request" class="frame-3-poa" style="text-decoration: none;">Pesan</a>
       </div>
       <div class="group-112-TrY">
         <img class="rectangle-49-ofW" src="./assets/rectangle-49.png"/>
         <p class="telur-ayam-6uW">Telur Ayam</p>
         <p class="kg-zEC"> 3 Kg</p>
-        <div class="frame-3-tqN">Pesan</div>
+        <a href="/bayar-request" class="frame-3-tqN" style="text-decoration: none;">Pesan</a>
       </div>
       <div class="group-113-ksa">
         <img class="rectangle-49-ukU" src="./assets/rectangle-49-Rr8.png"/>
         <p class="telur-ayam-FZS">Telur Ayam</p>
         <p class="kg-mXn">15 Kg</p>
-        <div class="frame-3-Fhr">Pesan</div>
+        <a href="/bayar-request" class="frame-3-Fhr" style="text-decoration: none;">Pesan</a>
       </div>
     </div>
   </div>

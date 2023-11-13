@@ -20,42 +20,30 @@
     <img class="rectangle-56-w2x" src="./assets/rectangle-56-RhA.png"/>
     <div class="your-account-items-47a">
       <div class="frame-6-AgQ">No WA : 089999999999</div>
-      <div class="frame-3-2yW">Akun</div>
-      <div class="frame-3-hpk">Logout</div>
+      <a href="/informasi-akunuser" class="frame-3-2yW" style="text-decoration: none;">Akun</a>
+      <a href="/loginuser" class="frame-3-hpk" style="text-decoration: none;">Logout</a>
     </div>
   </div>
   <div class="auto-group-iwex-NAC">
     <div class="frame-55-HHA">
       <div class="frame-dM2">
-        <div class="text-w6p">Menu</div>
-        <div class="content-S3a">
-          <div class="icon-text-avU">
-            <div class="text-Xap">  Home</div>
-          </div>
-        </div>
-        <div class="content-SBz">
-          <div class="text-nWk">  Pesan Telur</div>
-        </div>
-        <div class="content-HyJ">
-          <div class="text-3xU">  Keranjang</div>
-        </div>
       </div>
       <div class="frame-54-YPS">
         <div class="frame-fix">
-          <div class="text-QAk">Menu</div>
+          <a href="/tampilan-setelah-login" class="text-QAk" style="text-decoration: none;">Menu</a>
           <div class="content-utC">
             <div class="icon-text-4m6">
-              <div class="text-cGp">  Home</div>
+              <a href="/dasboarduser" class="text-cGp" style="text-decoration: none;">Dashboard</a>
             </div>
           </div>
           <div class="content-JQY">
-            <div class="text-48p">  Pesan Telur</div>
+            <a href="/bayar-request" class="text-48p" style="text-decoration: none;">Pesan Telur</a>
           </div>
           <div class="content-jVr">
-            <div class="text-t7r">  Keranjang</div>
+            <a href="/keranjang" class="text-t7r" style="text-decoration: none;">  Keranjang</a>
           </div>
           <div class="content-mxL">
-            <div class="text-w68">  Riwayat Pesanan</div>
+            <a href="/riwayat-pembelian" class="text-w68" style="text-decoration: none;">  Riwayat Pembelian</a>
           </div>
         </div>
       </div>
