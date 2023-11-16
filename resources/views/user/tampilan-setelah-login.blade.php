@@ -26,9 +26,7 @@
     </div>
   </div>
   <div class="auto-group-nvoj-XPE">
-    <div class="frame-7-TGt">
-      <img class="maroon-and-white-photo-heavy-faminepoverty-crisis-hub-facebook-post-1-bdz" src="./assets/maroon-and-white-photo-heavy-faminepoverty-crisis-hub-facebook-post-1-CkQ.png"/>
-    </div>
+    <d class="frame-7-TGt"></d>
     <div class="frame-4-J2c">
       <div class="group-111-MFn">
         <img class="rectangle-49-5xU" src="./assets/rectangle-49-nEU.png"/>
