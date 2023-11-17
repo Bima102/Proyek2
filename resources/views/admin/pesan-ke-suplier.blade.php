@@ -14,40 +14,34 @@
   <link rel="stylesheet" href="{{ asset('styles/pesan-ke-suplier.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/pesan-ke-suplier.scss') }}"/>
 </head>
+<style>
+a:hover {
+  background-color: yellow;
+}
+</style>
 <body>
 <div class="pesan-ke-suplier-RZ2">
-  <div class="frame-1321314413-8iL">
-    <div class="frame-54-eAt">
-      <div class="frame-n2C">
-        <div class="text-JWL">Menu</div>
-        <div class="content-ztx">
-          <div class="icon-text-k7S">
-            <div class="text-gmn">  Dashboard</div>
-          </div>
-        </div>
-        <div class="content-Zqa">
-          <div class="text-iTa">  Data Produk</div>
-        </div>
-        <div class="content-oE8">
-          <div class="text-k9N"> Riwayat Pesanan</div>
-        </div>
-        <div class="content-qwW">
-          <div class="text-PTE">
-            <p class="riwayat-barang-masuk-wDr">
-             Riwayat Barang
-            <br/>
-             Masuk
-            </p>
-          </div>
-        </div>
-        <div class="content-2m6">
-          <div class="text-Pbe">
-            <p class="buat-pesanan-ke-suplier-9qi"> Buat Pesanan Ke Suplier</p>
-          </div>
+<div class="frame-1321314413-Hwn">
+      <div class="frame-54-Cor">
+        <div class="frame-9UC">
+          <div class="text-UWU">Menu</div>
+
+
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/dashboardadmin"> Dashboard</a>
+          </button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/riwayat-pesanan"> Riwayat Pesanan</a>
+          </button>
+
+          <button class="content-kyn">
+          <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
+          </button>
         </div>
       </div>
     </div>
-  </div>
   <div class="auto-group-a6gg-Mgt">
     <div class="payment-6eU">
       <img class="rectangle-3-2o2" src="./assets/rectangle-3.png"/>

@@ -12,38 +12,34 @@
   <link rel="stylesheet" href="{{ asset('styles/riwayat-pesanan.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-pesanan.scss') }}"/>
 </head>
+<style>
+a:hover {
+  background-color: yellow;
+}
+</style>
 <body>
 <div class="riwayat-pesanan-Ri8">
-  <div class="frame-1321314413-kkQ">
-    <div class="frame-54-FSG">
-      <div class="frame-zPr">
-        <div class="text-v2c">Menu</div>
-        <div class="content-1pk">
-          <div class="icon-text-mJ8">
-            <div class="text-hxU">  Dashboard</div>
-          </div>
-        </div>
-        <div class="content-zAt">
-          <div class="text-YTJ">  Data Produk</div>
-        </div>
-        <div class="content-pvc">
-          <div class="text-z4Q"> Riwayat Pesanan</div>
-        </div>
-        <div class="content-5be">
-          <div class="text-dNG">
-            <p class="riwayat-barang-masuk-Beg">
-             Riwayat Barang
-            <br/>
-             Masuk
-            </p>
-          </div>
-        </div>
-        <div class="content-Utg">
-          <div class="text-qjE"> Informasi Akun</div>
+<div class="frame-1321314413-Hwn">
+      <div class="frame-54-Cor">
+        <div class="frame-9UC">
+          <div class="text-UWU">Menu</div>
+
+
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/dashboardadmin"> Dashboard</a>
+          </button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/riwayat-pesanan"> Riwayat Pesanan</a>
+          </button>
+
+          <button class="content-kyn">
+          <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
+          </button>
         </div>
       </div>
     </div>
-  </div>
   <div class="auto-group-6irn-SDE">
     <div class="auto-group-neks-nH6">
       <div class="frame-58-Wit">
@@ -59,33 +55,61 @@
         <p class="rp100000000-dMa">Rp.100.000.000</p>
       </div>
     </div>
-    <div class="frame-1321314411-vrU">
-      <div class="riwayat-pesanan-GvL">Riwayat Pesanan</div>
-      <div class="frame-695-o9a">
-        <div class="frame-702-kac">
-          <div class="frame-696-5sn">Nama Pemesan</div>
-          <div class="frame-697-kj2">Tanggal</div>
-          <div class="frame-698-qEg">Harga</div>
-          <div class="frame-699-vmv">Nama Barang</div>
+    <div class="frame-695-tLY">
+        <div class="frame-702-Po6">
+          <div class="frame-696-91a">Nama Pemesan</div>
+          <div class="frame-697-Dn8">Tanggal</div>
+          <div class="frame-698-K4U">Harga</div>
+          <div class="frame-699-Ce4">Nama Barang</div>
+          <div class="frame-708-Rmi">Status</div>
+          <div class="frame-709-K6Q">Edit Status</div>
         </div>
-        <div class="auto-group-chwv-1oN">
-          <div class="frame-703-YHW">
-            <div class="frame-696-TfN">Susanto</div>
-            <div class="frame-697-ZCc">21 Maret 2023</div>
-            <div class="frame-698-SXJ">Rp.323.323</div>
-            <div class="frame-699-Y4Y">Telur 12 Kg</div>
+        <div class="frame-703-CR6">
+          <div class="frame-696-Kkc">Susanto</div>
+          <div class="frame-697-bi8">21 Maret 2023</div>
+          <div class="frame-698-HL4">Rp.323.323</div>
+          <div class="frame-699-yCt">Telur 12 Kg</div>
+          <div class="frame-707-4EL">DiProses</div>
+          <div class="frame-708-8zt">
+            <div class="frame-1321314409-tz4">
+              <div class="frame-3-Skg">Edit </div>
+            </div>
           </div>
-          <div class="frame-704-eNU">
-            <div class="frame-696-B7W">Ujang</div>
-            <div class="frame-697-gKA">23 November 2023</div>
-            <div class="frame-698-Ak8">Rp.13.313</div>
-            <div class="frame-699-TjE">Telur 43 Kg</div>
+        </div>
+        <div class="frame-704-X1S">
+          <div class="frame-696-Kkc">Ujang</div>
+          <div class="frame-697-bi8">23 November 2023</div>
+          <div class="frame-698-HL4">Rp.13.313</div>
+          <div class="frame-699-yCt">Telur 43 Kg</div>
+          <div class="frame-708-AME">Terkirim</div>
+          <div class="frame-707-qTN">
+            <div class="frame-1321314409-AVe">
+              <div class="frame-3-7Qt">Edit </div>
+            </div>
           </div>
-          <div class="frame-705-ZnG">
-            <div class="frame-696-hNg">Ronaldo</div>
-            <div class="frame-697-zsa">22 Desember 2033</div>
-            <div class="frame-698-uUk">Rp.321,00</div>
-            <div class="frame-699-cPA">Telur 2 Kg</div>
+        </div>
+        <div class="frame-705-r16">
+          <div class="frame-696-Kkc">Ronaldo</div>
+          <div class="frame-697-bi8">22 Desember 2033</div>
+          <div class="frame-698-HL4">Rp.321,00</div>
+          <div class="frame-699-yCt">Telur 2 Kg</div>
+          <div class="frame-708-5Ag">DiBatalkan</div>
+          <div class="frame-707-m3W">
+            <div class="frame-1321314409-ufW">
+              <div class="frame-3-Twv">Edit</div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-706-vKi">
+          <div class="frame-696-Kkc">Toko Jaya Abadi</div>
+          <div class="frame-697-bi8">22 September 2033</div>
+          <div class="frame-698-HL4">Rp.321,00</div>
+          <div class="frame-699-yCt">Telur 200 Kg</div>
+          <div class="frame-708-y52">BarangMasuk</div>
+          <div class="frame-707-SjJ">
+            <div class="frame-1321314409-Bwn">
+              <div class="frame-3-MLU">Edit</div>
+            </div>
           </div>
         </div>
       </div>

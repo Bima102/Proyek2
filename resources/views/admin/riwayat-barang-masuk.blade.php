@@ -12,38 +12,35 @@
   <link rel="stylesheet" href="{{ asset('styles/riwayat-barang-masuk.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-barang-masuk.scss') }}"/>
 </head>
+<style>
+a:hover {
+  background-color: yellow;
+}
+</style>
 <body>
 <div class="riwayat-barang-masuk-dAQ">
-  <div class="frame-1321314416-m1i">
-    <div class="frame-54-4Wc">
-      <div class="frame-Ccp">
-        <div class="text-S1N">Menu</div>
-        <div class="content-vBS">
-          <div class="icon-text-Tx4">
-            <div class="text-1ya">  Dashboard</div>
-          </div>
-        </div>
-        <div class="content-uJG">
-          <div class="text-4S4">  Data Produk</div>
-        </div>
-        <div class="content-x1e">
-          <div class="text-JbJ"> Riwayat Pesanan</div>
-        </div>
-        <div class="content-zyv">
-          <div class="text-9bv">
-            <p class="riwayat-barang-masuk-WSU">
-             Riwayat Barang
-            <br/>
-             Masuk
-            </p>
-          </div>
-        </div>
-        <div class="content-owN">
-          <div class="text-NUg"> Informasi Akun</div>
+<div class="frame-1321314413-Hwn">
+      <div class="frame-54-Cor">
+        <div class="frame-9UC">
+          <div class="text-UWU">Menu</div>
+
+
+   
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/dashboardadmin"> Dashboard</a>
+          </button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/riwayat-pesanan"> Riwayat Pesanan</a>
+          </button>
+
+          <button class="content-kyn">
+          <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
+          </button>
         </div>
       </div>
     </div>
-  </div>
   <div class="auto-group-ly2k-BS8">
     <div class="auto-group-6ozg-L48">
       <div class="frame-58-f6Q">

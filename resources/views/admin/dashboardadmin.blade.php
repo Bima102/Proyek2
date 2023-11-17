@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="{{ asset('styles/scss/dasbor.scss') }}" />
 
 </head>
+<style>
+a:hover {
+  background-color: yellow;
+}
+</style>
 
 <body>
   <div class="dasbor-xPi">
@@ -24,22 +29,18 @@
           <div class="text-UWU">Menu</div>
 
 
-          <button class="content-kyn"> Dashboard</button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/dashboardadmin"> Dashboard</a>
+          </button>
+          <button class="content-kyn">
+            <a style="text-decoration: none; color:black;" href="/riwayat-pesanan"> Riwayat Pesanan</a>
+          </button>
 
-
-
-          <button class="content-kyn"> Data Produk</button>
-
-
-          <button class="content-kyn"> Riwayat Pesanan</button>
-
-          <button class="content-kyn"> Riwayat Barang Masuk</button>
+          <button class="content-kyn">
+          <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
           </button>
-
-
-
         </div>
       </div>
     </div>
@@ -116,9 +117,9 @@
         </div>
       </div>
       <div class="pagination-75i">
-          <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png"/>
-          <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png"/>
-        </div>
+        <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
+        <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
+      </div>
     </div>
   </div>
 </body>
