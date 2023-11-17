@@ -26,9 +26,6 @@
             <div class="text-bng">  Dashboard</div>
           </div>
         </div>
-        <div class="content-tFz">
-          <div class="text-Eqe">  Data Produk</div>
-        </div>
         <div class="content-Y5e">
           <div class="text-t9W"> Riwayat Pesanan</div>
         </div>
@@ -43,7 +40,7 @@
         </div>
         <div class="content-C3i">
           <div class="text-LQp">
-            <p class="buat-pesanan-ke-suplier-6Pz">Buat Pesanan Ke Suplier</p>
+            <p class="buat-pesanan-ke-suplier-6Pz">Pesan Ke Suplier</p>
           </div>
         </div>
       </div>
@@ -118,13 +115,13 @@
         <p class="edit-status-W6C">Edit Status</p>
         <div class="auto-group-c1kl-pcg">
           <div class="button-kmE">
-            <div class="stylelayer-iTA">DiPROSES</div>
+            <a href="/dashboardadmin"<button type="button" class="stylelayer-iTA" style="text-decoration: none;">DiPROSES</button></a>
           </div>
           <div class="button-zfa">
-            <div class="stylelayer-MW8">dIBATALKAN</div>
+            <a href="/dashboardadmin"<button type="button" class="stylelayer-MW8" style="text-decoration: none;">dIBATALKAN</button></a>
           </div>
           <div class="button-SnU">
-            <div class="stylelayer-od2">tERKIRIM</div>
+            <a href="/dashboardadmin"<button type="button" class="stylelayer-od2"  style="text-decoration: none;">tERKIRIM</button></a>
           </div>
         </div>
         <div class="auto-group-t4ic-hCc">
@@ -133,10 +130,7 @@
           </div>
           <div class="frame-2609075-3fn">
             <div class="button-Pje">
-              <div class="stylelayer-9Tv">Simpan</div>
-            </div>
-            <div class="button-FWx">
-              <div class="stylelayer-1m2">Hapus</div>
+                <a href="/dashboardadmin"<button type="button" class="stylelayer-9Tv" style="text-decoration: none;">Simpan</button></a>
             </div>
           </div>
         </div>

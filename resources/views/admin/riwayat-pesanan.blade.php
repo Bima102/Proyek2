@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500"/>
   <link rel="stylesheet" href="{{ asset('styles/riwayat-pesanan.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-pesanan.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <style>
 a:hover {
@@ -19,6 +20,7 @@ a:hover {
 </style>
 <body>
 <div class="riwayat-pesanan-Ri8">
+<<<<<<< HEAD
 <div class="frame-1321314413-Hwn">
       <div class="frame-54-Cor">
         <div class="frame-9UC">
@@ -37,6 +39,28 @@ a:hover {
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
           </button>
+=======
+  <div class="frame-1321314413-kkQ">
+    <div class="frame-54-FSG">
+      <div class="frame-zPr">
+        <div class="text-v2c">Menu</div>
+        <div class="content-1pk">
+          <div class="icon-text-mJ8">
+            <a href="/dashboardadmin" class="text-hxU" style="text-decoration: none;">Dashboard</a>
+          </div>
+        </div>
+        <div class="content-pvc">
+            <a href="/riwayat-pesanan" class="text-z4Q" style="text-decoration: none;"> Riwayat Pesanan</a>
+        </div>
+        <div class="content-5be">
+          <div class="text-dNG">
+            <a href="/riwayat-barang-masuk" class="riwayat-barang-masuk-Beg" style="text-decoration: none;">Riwayat Barang Masuk</a>
+            </p>
+          </div>
+        </div>
+        <div class="content-Utg">
+            <a href="/pesan-ke-suplier" class="text-qjE" style="text-decoration: none;"> pesan ke Suplier</a>
+>>>>>>> 3556e8ad795398c6a32dcc9744f2f8235152716d
         </div>
       </div>
     </div>

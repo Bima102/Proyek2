@@ -83,7 +83,7 @@
 </table>
 
 <div class="m-0 mt-5 auto-group-rjpe-odz">
-    <button type="button"class=" btn pay-button-vic">Kirim Barang</button>
+    <a href="/riwayat-pengirimansuplier" class=" btn pay-button-vic" style="text-decoration: none;">Kirim Barang </a>
     <div class="pagination-bZr">
 
     </div>

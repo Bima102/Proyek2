@@ -21,42 +21,30 @@
     <img class="rectangle-56-VmA" src="./assets/rectangle-56-Wic.png"/>
     <div class="your-account-items-DBN">
       <div class="frame-6-XSx">No WA : 089999999999</div>
-      <div class="frame-3-Qme">Akun</div>
-      <div class="frame-3-VHJ">Logout</div>
+      <a href="/informasi-akunuser" class="frame-3-Qme" style="text-decoration: none;">Akun</a>
+      <a href="/loginuser" class="frame-3-VHJ" style="text-decoration: none;">Logout</a>
     </div>
   </div>
   <div class="auto-group-uvvp-xRn">
     <div class="frame-54-tKS">
       <div class="frame-E8Q">
-        <div class="text-j5A">Menu</div>
-        <div class="content-Rig">
-          <div class="icon-text-BSx">
-            <div class="text-jUU">  Home</div>
-          </div>
-        </div>
-        <div class="content-S7z">
-          <div class="text-nxY">  Pesan Telur</div>
-        </div>
-        <div class="content-5we">
-          <div class="text-F5S">  Keranjang</div>
-        </div>
       </div>
       <div class="frame-54-Xoe">
         <div class="frame-Fje">
-          <div class="text-bHi">Menu</div>
+          <a href="/tampilan-setelah-login" class="text-bHi" style="text-decoration: none;">Menu</a>
           <div class="content-iNL">
             <div class="icon-text-foN">
-              <div class="text-dEQ">  Home</div>
+              <a href="/dasboarduser"  class="text-dEQ" style="text-decoration: none;">Dashboard</a>
             </div>
           </div>
           <div class="content-7QU">
-            <div class="text-s8k">  Pesan Telur</div>
+            <a href="/bayar-request" class="text-s8k" style="text-decoration: none;">Pesan Telur</a>
           </div>
           <div class="content-Xyz">
-            <div class="text-VR2">  Keranjang</div>
+            <a href="/keranjang" class="text-VR2" style="text-decoration: none;">  Keranjang</a>
           </div>
           <div class="content-Boe">
-            <div class="text-YPJ">  Riwayat Pesanan</div>
+            <a href="/riwayat-pembelian" class="text-YPJ" style="text-decoration: none;">  Riwayat Pesanan</a>
           </div>
         </div>
       </div>
@@ -78,7 +66,7 @@
                 </div>
                 <div class="auto-group-ptxx-nkp">
                   <div class="frame-15-uqS">Hapus</div>
-                  <div class="frame-16-xoi">Bayar</div>
+                  <a href="/riwayat-pembelian" class="frame-16-xoi" style="text-decoration: none;">Bayar</a>
                 </div>
               </div>
             </div>
@@ -91,7 +79,7 @@
               <div class="kg-tDW">10 Kg </div>
               <div class="auto-group-kiwz-pN4">
                 <div class="frame-15-N8g">Hapus</div>
-                <div class="frame-3-2yv">Bayar</div>
+                <a href="/riwayat-pembelian" class="frame-3-2yv" style="text-decoration: none;">Bayar</a>
               </div>
             </div>
           </div>

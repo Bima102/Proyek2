@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A800"/>
   <link rel="stylesheet" href="{{ asset('styles/pesan-ke-suplier.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/pesan-ke-suplier.scss') }}"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <style>
 a:hover {
@@ -21,6 +22,7 @@ a:hover {
 </style>
 <body>
 <div class="pesan-ke-suplier-RZ2">
+<<<<<<< HEAD
 <div class="frame-1321314413-Hwn">
       <div class="frame-54-Cor">
         <div class="frame-9UC">
@@ -39,6 +41,29 @@ a:hover {
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
           </button>
+=======
+  <div class="frame-1321314413-8iL">
+    <div class="frame-54-eAt">
+      <div class="frame-n2C">
+        <div class="text-JWL">Menu</div>
+        <div class="content-ztx">
+          <div class="icon-text-k7S">
+            <a href="/dashboardadmin" class="text-gmn" style="text-decoration: none;">Dashboard</a>
+          </div>
+        </div>
+        <div class="content-oE8">
+            <a href="/riwayat-pesanan" class="text-k9N" style="text-decoration: none;"> Riwayat Pesanan</a>
+        </div>
+        <div class="content-qwW">
+          <div class="text-PTE">
+            <a href="/riwayat-barang-masuk" class="riwayat-barang-masuk-wDr" style="text-decoration: none;">Riwayat Barang Masuk</a>
+          </div>
+        </div>
+        <div class="content-2m6">
+            <div class="text-Pbe">
+                <a href="/pesan-ke-suplier" class="buat-pesanan-ke-suplier-9qi" style="text-decoration: none;"> Pesan Ke Suplier</a>
+            </div>
+>>>>>>> 3556e8ad795398c6a32dcc9744f2f8235152716d
         </div>
       </div>
     </div>
@@ -58,25 +83,24 @@ a:hover {
         </div>
       </div>
       <p class="nomor-rekening-nomor-dana-syz">Rekening/Nomor DANA</p>
-      <div class="rectangle-24-BDz">
-      </div>
+      <div class="rectangle-24-BDz"></div>
+        <input class="rectangle-24-BDz" type="text" placeholder=""></input>
       <div class="card-number-6br">
-        <p class="nama-pemesan-supplier-ETA">
-        Nama Pemesan/
-        <br/>
-        Supplier
-        </p>
+        <p class="nama-pemesan-supplier-ETA">Nama Pemesan/Supplier</p>
         <div class="rectangle-24-YTr">
+            <input class="rectangle-24-YTr" type="text" placeholder=""></input>
         </div>
       </div>
       <div class="expiry-date-HgL">
         <p class="nomor-telp-wa-cic">Nomor Telp/WA</p>
         <div class="rectangle-25-YMN">
+            <input class="rectangle-25-YMN" type="text" placeholder=""></input>
         </div>
       </div>
       <div class="cvv-UVv">
         <p class="alamat-pJt">Alamat</p>
         <div class="rectangle-26-AGG">
+            <input class="rectangle-26-AGG" type="text" placeholder=""></input>
         </div>
       </div>
       <div class="product-card-6vc">
@@ -89,20 +113,22 @@ a:hover {
             <div class="frame-2609047-UJt">
               <p class="harga-yang-harus-dibayar-1pc">Harga Yang Harus Dibayar</p>
               <div class="frame-1429-Lbz">
-                <div class="input-initial-HXE">Rp.21,000</div>
+                <input class="input-initial-HXE" type="text" placeholder=""></input>
               </div>
             </div>
             <p class="kg-Yi4">KG</p>
             <div class="frame-1429-Ta8">
-              <div class="input-initial-PTn">
-                <p class="placeholder-KMS">masukkan disini</p>
+
+                {{--<p class="placeholder-KMS">masukkan disini</p>--}}
+                <input class="input-initial-PTn" type="text" placeholder=""></input>
               </div>
+              <div class="input-initial-PTn">
             </div>
           </div>
         </div>
       </div>
-      <div class="frame-115-XiQ">Buat</div>
-      <div class="frame-116-7gc">Batalkan</div>
+      <a href=""<button type="button" class="frame-115-XiQ" style="text-decoration: none;">Buat</button></a>
+      <a href=""<button type="button"class="frame-116-7gc" style="text-decoration: none;">Batalkan</button></a>
     </div>
     <div class="title-page-xSL">Memesan Kepada Suplier</div>
   </div>

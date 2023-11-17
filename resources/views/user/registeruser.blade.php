@@ -20,7 +20,7 @@
     <img class="rectangle-56-oqS" src="./assets/rectangle-56-Q5E.png"/>
     <div class="your-account-items-8Mv">
       <div class="frame-6-er4">No WA : 089999999999</div>
-      <div class="frame-3-WtG">Login/Daftar</div>
+      <a href="/loginuser" class="btn frame-3-WtG" style="text-decoration: none;">Login/Daftar</a>
     </div>
   </div>
   <div class="frame-8-vwz">
@@ -31,28 +31,24 @@
     <div class="group-121-wkc">
       <div class="frame-1321314411-3oe">
         <p class="email--Nb2">Email *</p>
-        <div class="inputform-control-e2k">
-        </div>
+        <input type="text" name="email" class="inputform-control-e2k">
         <p class="nama-Y88">Nama*</p>
-        <div class="inputform-control-rec">
-        </div>
+        <input type="text" name="nama"class="inputform-control-rec">
         <p class="password--aac">Password *</p>
-        <div class="inputform-control-hfE">
-        </div>
+        <input type="password" name="password" class="inputform-control-hfE">
         <p class="konfirmasi-password--2Bi">Konfirmasi Password *</p>
-        <div class="inputform-control-kdW">
-        </div>
-        <div class="frame-3-sy2">Daftar</div>
+        <input type="password" name="konfirmasi-password" class="inputform-control-kdW">
+        <a href="/loginuser" class="frame-3-sy2" style="text-decoration: none;">Daftar</a>
         <p class="sudah-punya-akunlogin-iTr">
           <span class="sudah-punya-akunlogin-iTr-sub-0">Sudah punya Akun?</span>
-          <span class="sudah-punya-akunlogin-iTr-sub-1">Login</span>
+          <a href="/loginuser" class="sudah-punya-akunlogin-iTr-sub-1" style="text-decoration: none;">Login</a>
         </p>
       </div>
-      <div class="frame-3-riU">Daftar Sebagai Supplier</div>
+      <a href="/loginsuplier" class="frame-3-riU" style="text-decoration: none;">Daftar Sebagai Supplier</a>
     </div>
     <div class="auto-group-5fyr-L7r">
       <img class="group-120-TyA" src="./assets/group-120-Z28.png"/>
-      <p class="kembali-Cfr">Kembali</p>
+      <a href="/loginuser" class="kembali-Cfr" style="text-decoration: none;">Kembali</a>
     </div>
   </div>
   <div class="frame-5-czU">

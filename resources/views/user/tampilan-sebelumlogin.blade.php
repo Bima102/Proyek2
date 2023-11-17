@@ -19,7 +19,7 @@
     <img class="rectangle-56-HEQ" src="./assets/rectangle-56-qSQ.png"/>
     <div class="your-account-items-Zhi">
       <div class="frame-6-VLU">No WA : 089999999999</div>
-      <div class="frame-3-srp">Login/Daftar</div>
+      <a href="/loginuser" class="btn frame-3-srp" style="text-decoration: none;">Login/Daftar</a>
     </div>
   </div>
   <div class="frame-7-rik">

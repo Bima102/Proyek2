@@ -18,8 +18,8 @@
     <img class="rectangle-56-mN8" src="./assets/rectangle-56-3Te.png"/>
     <div class="your-account-items-5Np">
       <div class="frame-6-aqN">No WA : 089999999999</div>
-      <div class="frame-3-S6t">Akun</div>
-      <div class="frame-3-iKJ">Logout</div>
+      <a href="/informasi-akunsuplier" class="frame-3-S6t" style="text-decoration: none;">Akun</a>
+      <a href="/loginuser" class="frame-3-iKJ" style="text-decoration: none;">Logout</a>
     </div>
   </div>
   <div class="auto-group-ac2u-Awz">
@@ -40,20 +40,20 @@
       </div>
       <div class="frame-54-W48">
         <div class="frame-fbE">
-          <div class="text-ztQ">Menu</div>
+            <a href="/tampilan-setelah-login" class="text-ztQ" style="text-decoration: none;">Menu</a>
           <div class="content-v1N">
             <div class="icon-text-fje">
-              <div class="text-cun">  Home</div>
+              <a href="/dasboarduser" class="text-cun" style="text-decoration: none;">Dashboard</a>
             </div>
           </div>
           <div class="content-75r">
-            <div class="text-rZE">  Pesan Telur</div>
+            <a href="/bayar-request" class="text-rZE" style="text-decoration: none;">Pesan Telur</a>
           </div>
           <div class="content-9HS">
-            <div class="text-hZr">  Keranjang</div>
+            <a href="/keranjang" class="text-hZr" style="text-decoration: none;">  Keranjang</a>
           </div>
           <div class="content-nLQ">
-            <div class="text-jFe">  Riwayat Pesanan</div>
+            <a href="/riwayat-pembelian" class="text-jFe" style="text-decoration: none;">  Riwayat Pembelian</a>
           </div>
         </div>
       </div>

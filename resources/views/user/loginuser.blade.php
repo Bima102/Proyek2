@@ -41,9 +41,9 @@
     Tentang Kami:
     <br/>
 
-    <br/>
-    Kami menyediakan telur ayam yang bermutu dan segar, serta kami telah mendistribusikan telur ayam ke berbagi tempat
-    </p>
+      <br/>
+      Kami menyediakan telur ayam yang bermutu dan segar, serta kami telah mendistribusikan telur ayam ke berbagi tempat
+      </p>
   </div>
   <div class="frame-9-1aG">
     <p class="login-Hng">Login </p>
@@ -51,7 +51,7 @@
     <input type="email" class="inputform-control-6k8" placeholder="">
     <p class="password--Z7v">Password *</p>
     <input type="password" class="inputform-control-DCU" placeholder="">
-    <button type="button" class="btn frame-3-ub6">Login</button>
+    <a href="/tampilan-setelah-login" class="btn frame-3-ub6"style="text-decoration: none;">Login</a>
     <a href="/lupa-passworduser" class="text-primary lupa-password-Jt8" style="text-decoration: none;">Lupa password?</a>
     <p class="belum-punya-akundaftar-1Gk">
       <span class="belum-punya-akundaftar-1Gk-sub-0">Belum punya Akun?</span>
@@ -66,7 +66,7 @@
     <img class="rectangle-56-XZr" src="./assets/rectangle-56-Noz.png"/>
     <div class="your-account-items-2mW">
       <div class="frame-6-Mon">No WA : 089999999999</div>
-      <button type="button" class="btn btn-primary">Login/Daftar</button>
+      <a href="/loginuser"<button type="button" class="btn frame-3-Roe" style="text-decoration: none;">Login/Daftar</button></a>
     </div>
   </div>
 </div>

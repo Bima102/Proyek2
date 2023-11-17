@@ -26,9 +26,6 @@
             <div class="text-JB2">  Dashboard</div>
           </div>
         </div>
-        <div class="content-mKW">
-          <div class="text-KM2">  Data Produk</div>
-        </div>
         <div class="content-oX6">
           <div class="text-MYc"> Riwayat Pesanan</div>
         </div>
@@ -123,19 +120,17 @@
     <div class="group-24-uZJ">
       <img class="group-Gek" src="./assets/group-XGL.png"/>
       <div class="group-23-pRN">
-        <p class="edit-harga-YsA">                      Edit Harga</p>
+        <p class="edit-harga-YsA"> Edit Harga</p>
         <div class="auto-group-issi-VGc">
-          <div class="stylelayer-Cgp">
-          </div>
-          <div class="frame-1321314410-ubE">Kg</div>
+            <input  class="stylelayer-Cgp" type="text" placeholder=""></input>
+          <p class="frame-1321314410-ubE">Kg</p>
         </div>
         <div class="frame-2609075-ckY">
           <div class="button-A1N">
-            <div class="stylelayer-i2t">kembali</div>
+            <a href="/dashboardadmin"<button class="stylelayer-i2t" style="text-decoration: none;">kembali</button></a>
           </div>
           <div class="button-BSG">
-            <div class="stylelayer-wAY">Simpan</div>
-          </div>
+            <a href="/dashboardadmin"<button class="stylelayer-wAY" style="text-decoration: none;">Simpan</button></a>
         </div>
       </div>
     </div>

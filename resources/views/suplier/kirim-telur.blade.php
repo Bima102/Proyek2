@@ -86,7 +86,7 @@
         </div>
       </div>
       <div class="auto-group-rq68-3fE">
-        <a href=""<button type="button" class="btn frame-116-NxQ">Batalkan</button></a>
+        <a href=""<button type="button" class="btn frame-116-NxQ" >Batalkan</button></a>
         <a href=""<button type="button"  class="btn frame-115-euv">Kirim</button></a>
       </div>
     </div>

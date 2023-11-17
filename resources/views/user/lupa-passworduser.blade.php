@@ -21,7 +21,7 @@
     <img class="rectangle-56-WaU" src="./assets/rectangle-56-W9W.png"/>
     <div class="your-account-items-q6x">
       <div class="frame-6-ji8">No WA : 089999999999</div>
-      <button type="button" class="frame-3-Lxp">Login/Daftar</button>
+      <a href="/loginuser" <button type="button" class="frame-3-Lxp" style="text-decoration: none;">Login/Daftar</button></a>
     </div>
   </div>
   <div class="auto-group-d3yu-Qxg">
