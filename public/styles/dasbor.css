@@ -81,10 +81,10 @@ body {
     padding: 0.4rem 0;
     width: 100%;
     height: 4rem;
-    border: solid 0.1rem #0e1011;
+    border: solid 0.1rem #15baec;
     border-radius: 1rem;
     flex-shrink: 0;
-    background-color: #ffffff;
+    background-color: #00ffff;
     font-weight: 500;
 }
 .dasbor-xPi
@@ -527,7 +527,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-.frame-696-Kkc {
+.nama {
   width: 25rem;
   height: 100%;
   overflow: hidden;
@@ -547,7 +547,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-.frame-697-bi8 {
+.tanggal {
   width: 20.9rem;
   height: 100%;
   overflow: hidden;
@@ -567,7 +567,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-.frame-698-HL4 {
+.harga {
   width: 15rem;
   height: 100%;
   overflow: hidden;
@@ -587,7 +587,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-.frame-699-yCt {
+.namabarang {
   width: 20.5rem;
   height: 100%;
   overflow: hidden;
@@ -649,12 +649,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-.dasbor-xPi
-    .auto-group-ycji-aFz
-    .frame-695-tLY
-    .frame-703-CR6
-    .frame-708-8zt
-    .frame-1321314409-tz4
     .frame-3-Skg {
     width: 100%;
     height: 100%;
@@ -799,32 +793,7 @@ body {
     overflow: hidden;
     position: relative;
 }
-.dasbor-xPi
-    .auto-group-ycji-aFz
-    .frame-695-tLY
-    .frame-704-X1S
-    .frame-707-qTN
-    .frame-1321314409-AVe
-    .frame-3-7Qt {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    font-size: 1.5422rem;
-    font-weight: 800;
-    line-height: 1.5625000773;
-    color: #ffffff;
-    font-family: Lato, "Source Sans Pro";
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 0.0964rem #333333;
-    box-sizing: border-box;
-    background-color: #0ba7ff;
-    border-radius: 0.4819rem;
-}
+
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-705-r16 {
   width: 100%;
   height: 5.6rem;
@@ -1149,3 +1118,68 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover  {
+  color: red;
+  border: none;
+  background-color: transparent;
+}
+.open-button {
+ color: black;
+  border: none;
+  background-color: transparent;
+}
+

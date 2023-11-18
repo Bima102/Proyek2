@@ -22,7 +22,6 @@ a:hover {
 </style>
 <body>
 <div class="pesan-ke-suplier-RZ2">
-<<<<<<< HEAD
 <div class="frame-1321314413-Hwn">
       <div class="frame-54-Cor">
         <div class="frame-9UC">
@@ -41,29 +40,6 @@ a:hover {
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
           </button>
-=======
-  <div class="frame-1321314413-8iL">
-    <div class="frame-54-eAt">
-      <div class="frame-n2C">
-        <div class="text-JWL">Menu</div>
-        <div class="content-ztx">
-          <div class="icon-text-k7S">
-            <a href="/dashboardadmin" class="text-gmn" style="text-decoration: none;">Dashboard</a>
-          </div>
-        </div>
-        <div class="content-oE8">
-            <a href="/riwayat-pesanan" class="text-k9N" style="text-decoration: none;"> Riwayat Pesanan</a>
-        </div>
-        <div class="content-qwW">
-          <div class="text-PTE">
-            <a href="/riwayat-barang-masuk" class="riwayat-barang-masuk-wDr" style="text-decoration: none;">Riwayat Barang Masuk</a>
-          </div>
-        </div>
-        <div class="content-2m6">
-            <div class="text-Pbe">
-                <a href="/pesan-ke-suplier" class="buat-pesanan-ke-suplier-9qi" style="text-decoration: none;"> Pesan Ke Suplier</a>
-            </div>
->>>>>>> 3556e8ad795398c6a32dcc9744f2f8235152716d
         </div>
       </div>
     </div>

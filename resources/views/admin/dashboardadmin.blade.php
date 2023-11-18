@@ -13,13 +13,19 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400" />
   <link rel="stylesheet" href="{{ asset('styles/dasbor.css') }}" />
   <link rel="stylesheet" href="{{ asset('styles/scss/dasbor.scss') }}" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<<<<<<< HEAD
 <style>
-a:hover {
-  background-color: yellow;
-}
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
 </style>
 
 <body>
@@ -28,8 +34,6 @@ a:hover {
       <div class="frame-54-Cor">
         <div class="frame-9UC">
           <div class="text-UWU">Menu</div>
-
-
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/dashboardadmin"> Dashboard</a>
           </button>
@@ -38,116 +42,154 @@ a:hover {
           </button>
 
           <button class="content-kyn">
-          <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
+            <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
           </button>
-=======
-<body>
-    <div class="dasbor-xPi">
-      <div class="frame-1321314413-Hwn">
-        <div class="frame-54-Cor">
-          <div class="frame-9UC">
-            <div class="text-UWU">Menu</div>
-            <div class="content-kyn">
-              <div class="icon-text-Wi4">
-                <a href="/dashboardadmin" class="text-fax" style="text-decoration: none;">Dashboard</a>
-              </div>
-            </div>
-            <div class="content-zWk">
-                <a href="/riwayat-pesanan" class="text-YYG" style="text-decoration: none;"> Riwayat Pesanan</a>
-            </div>
-            <div class="content-eLQ">
-              <div class="text-bFe">
-                <a href="/riwayat-barang-masuk" class="riwayat-barang-masuk-MEp" style="text-decoration: none;">Riwayat Barang Masuk </a>
-                </p>
-              </div>
-            </div>
-            <div class="content-eji">
-              <div class="text-1KN">
-                <a href="/pesan-ke-suplier" class="buat-pesanan-ke-suplier-Mu2" style="text-decoration: none;">Pesan Ke Suplier</a>
-              </div>
-            </div>
-          </div>
->>>>>>> 3556e8ad795398c6a32dcc9744f2f8235152716d
         </div>
       </div>
-      <div class="auto-group-ycji-aFz">
-        <div class="auto-group-kke8-vak">
-          <div class="frame-1321314404-qxc">
-            <p class="telur-tersisa-NSk">Telur Tersisa</p>
-            <p class="kg-67r">100.000 KG</p>
-            <a href="/edit-stok" class="tekan-untuk-menambah-stok-telur-q5S" style="text-decoration: none;">Tekan untuk menambah stok telur</a>
-          </div>
-          <div class="frame-1321314414-iQ8">
-            <p class="harga-telur-perkg-dmz">Harga Telur Per,Kg</p>
-            <p class="rp31000-LgQ">Rp.31,000</p>
-            <a href="/edit-harga" class="tekan-untuk-mengganti-harga-swE" style="text-decoration: none;">Tekan untuk mengganti harga</a>
+    </div>
+    <div class="auto-group-ycji-aFz">
+      <div class="auto-group-kke8-vak">
+        <div class="frame-1321314404-qxc">
+          <p class="telur-tersisa-NSk">Telur Tersisa</p>
+          <p class="kg-67r">100.000 KG</p>
+          <p class="tekan-untuk-menambah-stok-telur-q5S"><button class="open-button" onclick="openForm()">Tekan untuk menambah stok telur</button></p>
+          <div class="form-popup" id="1">
+            <form action="/action_page.php" class="form-container">
+              <h1>Tambah Stock Telur</h1>
+              <input type="text" placeholder="isi dengan angka">
+              <button type="submit" class="btn">Tambahkan</button>
+              <button type="button" class="btn cancel" onclick="closeForm(1)">Batal</button>
+            </form>
+            <script>
+              function openForm() {
+                document.getElementById("1").style.display = "block";
+              }
+
+              function closeForm() {
+                document.getElementById("1").style.display = "none";
+              }
+            </script>
           </div>
         </div>
-        <div class="pesanan-xhn">Pesanan</div>
-        <div class="frame-695-tLY">
-          <div class="frame-702-Po6">
-            <div class="frame-696-91a">Nama Pemesan</div>
-            <div class="frame-697-Dn8">Tanggal</div>
-            <div class="frame-698-K4U">Harga</div>
-            <div class="frame-699-Ce4">Nama Barang</div>
-            <div class="auto-group-dztg-hKv">
-              <div class="frame-708-Rmi">Status</div>
-              <div class="frame-709-K6Q">Edit Status</div>
-            </div>
-          </div>
-          <div class="frame-703-CR6">
-            <div class="frame-696-Kkc">Susanto</div>
-            <div class="frame-697-bi8">21 Maret 2023</div>
-            <div class="frame-698-HL4">Rp.323.323</div>
-            <div class="frame-699-yCt">Telur 12 Kg</div>
-            <div class="frame-707-4EL">DiProses</div>
-            <div class="frame-708-8zt">
-              <div class="frame-1321314409-tz4">
-                <a href="edit-status"<button type="button" class="frame-3-Skg" style="text-decoration: none;">Edit</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="frame-704-X1S">
-            <div class="frame-696-SeC">Ujang</div>
-            <div class="frame-697-vpG">23 November 2023</div>
-            <div class="frame-698-cSC">Rp.13.313</div>
-            <div class="frame-699-VVz">Telur 43 Kg</div>
-            <div class="frame-708-AME">Terkirim</div>
-            <div class="frame-707-qTN">
-              <div class="frame-1321314409-AVe">
-                <a href="edit-status"<button type="button" class="frame-3-7Qt" style="text-decoration: none;">Edit</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="frame-705-r16">
-            <div class="frame-696-9Vz">Messi</div>
-            <div class="frame-697-pc8">22 Desember 2033</div>
-            <div class="frame-698-6Ze">Rp.321,00</div>
-            <div class="frame-699-aji">Telur 2 Kg</div>
-            <div class="frame-708-5Ag">DiBatalkan</div>
-            <div class="frame-707-m3W">
-              <div class="frame-1321314409-ufW">
-                <a href="edit-status"<button type="button" class="frame-3-Twv" style="text-decoration: none;">Edit</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="frame-706-vKi">
-            <div class="frame-696-FMz">Toko Jaya Abadi</div>
-            <div class="frame-697-vj2">22 Desember 2033</div>
-            <div class="frame-698-oH2">Rp.321,00</div>
-            <div class="frame-699-gLp">Telur 200 Kg</div>
-            <div class="frame-708-y52">BarangMasuk</div>
-            <div class="frame-707-SjJ">
-              <div class="frame-1321314409-Bwn">
-                <a href="edit-status"<button type="button" class="frame-3-MLU" style="text-decoration: none;">Edit</button></a>
-              </div>
-            </div>
+        <div class="frame-1321314414-iQ8">
+          <p class="harga-telur-perkg-dmz">Harga Telur Per,Kg</p>
+          <p class="rp31000-LgQ">Rp.31,000</p>
+          <p class="tekan-untuk-mengganti-harga-swE"><button class="open-button" onclick="openForm(2)">Tekan untuk mengganti harga telur per KG</button></p>
+          <div class="form-popup" id="2">
+            <form action="/action_page.php" class="form-container">
+              <h1>Ganti Harga Telur per KG</h1>
+              <input type="text" placeholder="isi dengan angka">
+              <button type="submit" class="btn">Ganti</button>
+              <button type="button" class="btn cancel" onclick="closeForm(2)">Batal</button>
+            </form>
+            <script>
+              function openForm() {
+                document.getElementById("2").style.display = "block";
+              }
+
+              function closeForm() {
+                document.getElementById("2").style.display = "none";
+              }
+            </script>
           </div>
         </div>
       </div>
-<<<<<<< HEAD
+      <div class="pesanan-xhn">Pesanan</div>
+      <div class="frame-695-tLY">
+        <div class="frame-702-Po6">
+          <div class="frame-696-91a">Nama Pemesan</div>
+          <div class="frame-697-Dn8">Tanggal</div>
+          <div class="frame-698-K4U">Harga</div>
+          <div class="frame-699-Ce4">Nama Barang</div>
+          <div class="frame-708-Rmi">Status</div>
+          <div class="frame-709-K6Q">Edit Status</div>
+        </div>
+        <div class="frame-703-CR6">
+          <div class="nama">Susanto</div>
+          <div class="tanggal">21 Maret 2023</div>
+          <div class="harga">Rp.323.323</div>
+          <div class="namabarang">Telur 12 Kg</div>
+          <div class="frame-707-4EL">DiProses</div>
+          <div class="frame-708-8zt">
+            <div class="frame-1321314409-tz4">
+              <button class="frame-3-Skg" class="dropbtn" onclick="openForm()">Edit</button>
+              <div class="form-popup" id="3">
+                <form action="/action_page.php" class="form-container">
+                  <button type="submit" class="btn">Proses</button>
+                  <button type="submit" class="btn">Terkirim</button>
+                  <button type="submit" class="btn">Batal</button>
+                  <button type="submit" class="btn">BarangMasuk</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
+                </form>
+                <script>
+                  function openForm() {
+                    document.getElementById("3").style.display = "block";
+                  }
+
+                  function closeForm() {
+                    document.getElementById("3").style.display = "none";
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-704-X1S">
+          <div class="nama">Ujang</div>
+          <div class="tanggal">23 November 2023</div>
+          <div class="harga">Rp.13.313</div>
+          <div class="namabarang">Telur 43 Kg</div>
+          <div class="frame-708-AME">Terkirim</div>
+          <div class="frame-707-qTN">
+            <div class="frame-1321314409-AVe">
+              <button class="frame-3-Skg" onclick="openForm(4)">Edit</button>
+              <div class="form-popup" id="4">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Ganti Harga Telur KG</h1>
+                  <input type="text" placeholder="isi dengan angka">
+                  <button type="submit" class="btn">Ganti</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
+                </form>
+                <script>
+                  function openForm() {
+                    document.getElementById("4").style.display = "block";
+                  }
+
+                  function closeForm() {
+                    document.getElementById("4").style.display = "none";
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-705-r16">
+          <div class="nama">Ronaldo</div>
+          <div class="tanggal">22 Desember 2033</div>
+          <div class="harga">Rp.321,00</div>
+          <div class="namabarang">Telur 2 Kg</div>
+          <div class="frame-708-5Ag">DiBatalkan</div>
+          <div class="frame-707-m3W">
+            <div class="frame-1321314409-ufW">
+              <div class="frame-3-Twv">Edit</div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-706-vKi">
+          <div class="nama">Toko Jaya Abadi</div>
+          <div class="tanggal">22 September 2033</div>
+          <div class="harga">Rp.321,00</div>
+          <div class="namabarang">Telur 200 Kg</div>
+          <div class="frame-708-y52">BarangMasuk</div>
+          <div class="frame-707-SjJ">
+            <div class="frame-1321314409-Bwn">
+              <div class="frame-3-MLU">Edit</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="pagination-75i">
         <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
         <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
@@ -155,7 +197,3 @@ a:hover {
     </div>
   </div>
 </body>
-=======
-    </div>
-    </body>
->>>>>>> 3556e8ad795398c6a32dcc9744f2f8235152716d
