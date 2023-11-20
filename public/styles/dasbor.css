@@ -1118,9 +1118,184 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+.modal {
+        display: none;
+        position: fixed;
+        z-index: 8;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+      .modal-content {
+        margin: 50px auto;
+        border: 1px solid #999;
+        width: 60%;
+      }
+      h2,
+      p {
+        margin: 0 0 20px;
+        font-weight: 400;
+        color: #999;
+      }
+      span {
+        color: #666;
+        display: block;
+        padding: 0 0 5px;
+      }
+      form {
+        padding: 25px;
+        margin: 25px;
+        box-shadow: 0 2px 5px #f5f5f5;
+        background: #eee;
+      }
+      input,
+      textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #1c87c9;
+        outline: none;
+      }
+      .contact-form button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #1c87c9;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+      }
+      button:hover {
+        background: #2371a0;
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      button.button {
+        background: none;
+        border-top: none;
+        outline: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: #02274a 1px solid;
+        padding: 0 0 3px 0;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button.button:hover {
+        border-bottom: #a99567 1px solid;
+        color: #a99567;
+      }
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 8;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+      .modal-content {
+        margin: 50px auto;
+        border: 1px solid #999;
+        width: 60%;
+      }
+      h2,
+      p {
+        margin: 0 0 20px;
+        font-weight: 400;
+        color: #999;
+      }
+      span {
+        color: #666;
+        display: block;
+        padding: 0 0 5px;
+      }
+      form {
+        padding: 25px;
+        margin: 25px;
+        box-shadow: 0 2px 5px #f5f5f5;
+        background: #eee;
+      }
+      input,
+      textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #1c87c9;
+        outline: none;
+      }
+      .contact-form button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #1c87c9;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+      }
+      button:hover {
+        background: #2371a0;
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      button.button {
+        background: none;
+        border-top: none;
+        outline: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: #02274a 1px solid;
+        padding: 0 0 3px 0;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button.button:hover {
+        border-bottom: #a99567 1px solid;
+        color: #a99567;
+      }
+      body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
 
 /* The popup form - hidden by default */
 .form-popup {
@@ -1156,7 +1331,7 @@ body {
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #04AA6D;
+  background-color: rgb(0, 68, 255);
   color: white;
   padding: 16px 20px;
   border: none;
@@ -1172,14 +1347,36 @@ body {
 }
 
 /* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover  {
-  color: red;
-  border: none;
-  background-color: transparent;
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
-.open-button {
- color: black;
-  border: none;
-  background-color: transparent;
-}
-
+.btn2 {
+    background-color: #02ff17;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .btn3 {
+    background-color: #ff0202;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .btn4 {
+    background-color: #ffbc02;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }

@@ -28,6 +28,7 @@
   }
 </style>
 
+
 <body>
   <div class="dasbor-xPi">
     <div class="frame-1321314413-Hwn">
@@ -54,45 +55,41 @@
         <div class="frame-1321314404-qxc">
           <p class="telur-tersisa-NSk">Telur Tersisa</p>
           <p class="kg-67r">100.000 KG</p>
-          <p class="tekan-untuk-menambah-stok-telur-q5S"><button class="open-button" onclick="openForm()">Tekan untuk menambah stok telur</button></p>
-          <div class="form-popup" id="1">
-            <form action="/action_page.php" class="form-container">
-              <h1>Tambah Stock Telur</h1>
-              <input type="text" placeholder="isi dengan angka">
-              <button type="submit" class="btn">Tambahkan</button>
-              <button type="button" class="btn cancel" onclick="closeForm(1)">Batal</button>
-            </form>
-            <script>
-              function openForm() {
-                document.getElementById("1").style.display = "block";
-              }
-
-              function closeForm() {
-                document.getElementById("1").style.display = "none";
-              }
-            </script>
+          <p class="tekan-untuk-menambah-stok-telur-q5S"><button class="button" data-modal="modalOne">Tekan untuk menambah stok telur</button></p>
+          <div id="modalOne" class="modal">
+            <div class="modal-content">
+              <div class="contact-form">
+                <a class="close">&times;</a>
+                <form action="/">
+                  <h2>Berapa Telur Yang Ingin Ditambahkan?</h2>
+                  <div>
+                  
+                    <input type="number"  placeholder="contoh: 1 = 1KG" />
+                  
+                  </div>
+                  <button type="submit" href="/">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
         <div class="frame-1321314414-iQ8">
           <p class="harga-telur-perkg-dmz">Harga Telur Per,Kg</p>
           <p class="rp31000-LgQ">Rp.31,000</p>
-          <p class="tekan-untuk-mengganti-harga-swE"><button class="open-button" onclick="openForm(2)">Tekan untuk mengganti harga telur per KG</button></p>
-          <div class="form-popup" id="2">
-            <form action="/action_page.php" class="form-container">
-              <h1>Ganti Harga Telur per KG</h1>
-              <input type="text" placeholder="isi dengan angka">
-              <button type="submit" class="btn">Ganti</button>
-              <button type="button" class="btn cancel" onclick="closeForm(2)">Batal</button>
-            </form>
-            <script>
-              function openForm() {
-                document.getElementById("2").style.display = "block";
-              }
-
-              function closeForm() {
-                document.getElementById("2").style.display = "none";
-              }
-            </script>
+          <p class="tekan-untuk-mengganti-harga-swE"><button class="button" data-modal="modalTwo">Tekan untuk mengganti harga telur per KG</button></p>
+          <div id="modalTwo" class="modal">
+            <div class="modal-content">
+              <div class="contact-form">
+                <span class="close">&times;</span>
+                <form action="/">
+                  <h2>Mengganti Harga Per KG</h2>
+                  <div>
+                    <input type="number" placeholder="contoh: 2000" />
+                  </div>
+                  <button type="submit" href="/">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -115,23 +112,15 @@
           <div class="frame-708-8zt">
             <div class="frame-1321314409-tz4">
               <button class="frame-3-Skg" class="dropbtn" onclick="openForm()">Edit</button>
-              <div class="form-popup" id="3">
+              <div class="form-popup" id="myForm">
                 <form action="/action_page.php" class="form-container">
                   <button type="submit" class="btn">Proses</button>
-                  <button type="submit" class="btn">Terkirim</button>
-                  <button type="submit" class="btn">Batal</button>
-                  <button type="submit" class="btn">BarangMasuk</button>
+                  <button type="submit" class="btn2">Terkirim</button>
+                  <button type="submit" class="btn3">Batal</button>
+                  <button type="submit" class="btn4">BarangMasuk</button>
                   <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
                 </form>
-                <script>
-                  function openForm() {
-                    document.getElementById("3").style.display = "block";
-                  }
 
-                  function closeForm() {
-                    document.getElementById("3").style.display = "none";
-                  }
-                </script>
               </div>
             </div>
           </div>
@@ -144,23 +133,16 @@
           <div class="frame-708-AME">Terkirim</div>
           <div class="frame-707-qTN">
             <div class="frame-1321314409-AVe">
-              <button class="frame-3-Skg" onclick="openForm(4)">Edit</button>
-              <div class="form-popup" id="4">
+              <button class="frame-3-Skg"  class="dropbtn" onclick="openForm()">Edit</button>
+              <div class="form-popup" id="myForm">
                 <form action="/action_page.php" class="form-container">
-                  <h1>Ganti Harga Telur KG</h1>
-                  <input type="text" placeholder="isi dengan angka">
-                  <button type="submit" class="btn">Ganti</button>
+                  <button type="submit" class="btn">Proses</button>
+                  <button type="submit" class="btn2">Terkirim</button>
+                  <button type="submit" class="btn3">Batal</button>
+                  <button type="submit" class="btn4">BarangMasuk</button>
                   <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
                 </form>
-                <script>
-                  function openForm() {
-                    document.getElementById("4").style.display = "block";
-                  }
 
-                  function closeForm() {
-                    document.getElementById("4").style.display = "none";
-                  }
-                </script>
               </div>
             </div>
           </div>
@@ -173,7 +155,17 @@
           <div class="frame-708-5Ag">DiBatalkan</div>
           <div class="frame-707-m3W">
             <div class="frame-1321314409-ufW">
-              <div class="frame-3-Twv">Edit</div>
+              <button class="frame-3-Twv" class="dropbtn" onclick="openForm()">Edit</button>
+              <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <button type="submit" class="btn">Proses</button>
+                  <button type="submit" class="btn2">Terkirim</button>
+                  <button type="submit" class="btn3">Batal</button>
+                  <button type="submit" class="btn4">BarangMasuk</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
+                </form>
+
+              </div>
             </div>
           </div>
         </div>
@@ -185,7 +177,17 @@
           <div class="frame-708-y52">BarangMasuk</div>
           <div class="frame-707-SjJ">
             <div class="frame-1321314409-Bwn">
-              <div class="frame-3-MLU">Edit</div>
+              <button class="frame-3-MLU"class="dropbtn" onclick="openForm()">Edit</button>
+              <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <button type="submit" class="btn">Proses</button>
+                  <button type="submit" class="btn2">Terkirim</button>
+                  <button type="submit" class="btn3">Batal</button>
+                  <button type="submit" class="btn4">BarangMasuk</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
+                </form>
+
+              </div>
             </div>
           </div>
         </div>
@@ -196,4 +198,35 @@
       </div>
     </div>
   </div>
+  <script>
+    let modalBtns = [...document.querySelectorAll(".button")];
+    modalBtns.forEach(function(btn) {
+      btn.onclick = function() {
+        let modal = btn.getAttribute("data-modal");
+        document.getElementById(modal).style.display = "block";
+      };
+    });
+    let closeBtns = [...document.querySelectorAll(".close")];
+    closeBtns.forEach(function(btn) {
+      btn.onclick = function() {
+        let modal = btn.closest(".modal");
+        modal.style.display = "none";
+      };
+    });
+    window.onclick = function(event) {
+      if (event.target.className === "modal") {
+        event.target.style.display = "none";
+      }
+    };
+
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
 </body>
+
+</html>
