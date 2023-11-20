@@ -14,6 +14,19 @@
   <link rel="stylesheet" href="{{ asset('styles/bayar-request.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/bayar-request.scss') }}"/>
 </head>
+<style>
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+</style>
 <body>
 <div class="bayar-request-3Ap">
   <div class="header-top-B28">

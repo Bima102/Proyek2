@@ -14,6 +14,19 @@
   <link rel="stylesheet" href="{{ asset('styles/riwayat-pembelian.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-pembelian.scss') }}"/>
 </head>
+<style>
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+</style>
 <body>
 <div class="riwayat-JEt">
   <div class="header-top-RqJ">

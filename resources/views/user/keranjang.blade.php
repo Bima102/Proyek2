@@ -15,6 +15,19 @@
   <link rel="stylesheet" href="{{ asset('styles/keranjang.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/keranjang.scss') }}"/>
 </head>
+<style>
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+</style>
 <body>
 <div class="keranjang-EKS">
   <div class="header-top-NRe">

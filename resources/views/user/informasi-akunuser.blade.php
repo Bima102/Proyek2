@@ -12,13 +12,26 @@
   <link rel="stylesheet" href="{{ asset('styles/informasi-akunuser.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/informasi-akunuser.scss') }}"/>
 </head>
+<style>
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+</style>
 <body>
 <div class="informasi-akun-vsJ">
   <div class="header-top-rW4">
     <img class="rectangle-56-mN8" src="./assets/rectangle-56-3Te.png"/>
     <div class="your-account-items-5Np">
       <div class="frame-6-aqN">No WA : 089999999999</div>
-      <a href="/informasi-akunsuplier" class="frame-3-S6t" style="text-decoration: none;">Akun</a>
+      <a href="/informasi-akunuser" class="frame-3-S6t" style="text-decoration: none;">Akun</a>
       <a href="/loginuser" class="frame-3-iKJ" style="text-decoration: none;">Logout</a>
     </div>
   </div>

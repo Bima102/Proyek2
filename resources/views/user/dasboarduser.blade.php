@@ -14,6 +14,20 @@
   <link rel="stylesheet" href="{{ asset('styles/dasboarduser.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/dasboarduser.scss') }}"/>
 </head>
+<style>
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+</style>
+
 <body>
 <div class="daftar-telur-2v4">
   <div class="header-top-Nyv">
@@ -115,17 +129,17 @@
         <a href="/tampilan-sesudah-login" class="text-EQx" style="text-decoration: none;">Menu</a>
         <div class="content-kPJ">
           <div class="icon-text-uGC">
-            <a href="/dasboarduser" class="text-Fqr" style="text-decoration: none;">Dashbord</a>
+            <a href="/dasboarduser" class="text-Fqr" style="text-decoration: none; color:black">Dashboard</a>
           </div>
         </div>
         <div class="content-M8C">
-          <a href="/bayar-request" class="text-VEQ" style="text-decoration: none;">Pesan Telur</a>
+          <a href="/bayar-request" class="text-VEQ" style="text-decoration: none; color:black">Pesan Telur</a>
         </div>
         <div class="content-b2Y">
-          <a href="/keranjang" class="text-vac" style="text-decoration: none;">Keranjang</a>
+          <a href="/keranjang" class="text-vac" style="text-decoration: none; color:black">Keranjang</a>
         </div>
         <div class="content-Pj6">
-          <a href="/riwayat-pembelian"class="text-k3r" style="text-decoration: none;">  Riwayat PembeliaN</a>
+          <a href="/riwayat-pembelian"class="text-k3r" style="text-decoration: none; color:black">  Riwayat Pembelian</a>
         </div>
       </div>
     </div>
