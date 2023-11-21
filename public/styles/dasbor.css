@@ -22,7 +22,7 @@ body {
     overflow: hidden;
     position: relative;
     display: flex;
-    align-items: center;
+    
     background-color: #fafbff;
 }
 .dasbor-xPi .frame-1321314413-Hwn {
@@ -76,6 +76,9 @@ body {
     border-radius: 0.8rem;
     flex-shrink: 0;
 }
+.content-kyn:hover{
+  background-color: #40a3a3;
+}
 .dasbor-xPi .frame-1321314413-Hwn .frame-54-Cor .frame-9UC .content-kyn {
     box-sizing: border-box;
     padding: 0.4rem 0;
@@ -115,6 +118,7 @@ body {
     white-space: nowrap;
     border-radius: 0.8rem;
 }
+.content-kyn:hover
 .dasbor-xPi .frame-1321314413-Hwn .frame-54-Cor .frame-9UC .content-kcQ {
     box-sizing: border-box;
     padding: 0.4rem 0;
@@ -907,23 +911,17 @@ body {
     position: relative;
     flex-shrink: 0;
 }
-.dasbor-xPi
-    .auto-group-ycji-aFz
-    .frame-695-tLY
-    .frame-705-r16
-    .frame-707-m3W
+
+
     .frame-1321314409-ufW {
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
 }
-.dasbor-xPi
-    .auto-group-ycji-aFz
-    .frame-695-tLY
-    .frame-705-r16
-    .frame-707-m3W
-    .frame-1321314409-ufW
+.frame-3-Twv:hover{
+  background-color: #1c87c9;
+}
     .frame-3-Twv {
     width: 100%;
     height: 100%;
@@ -1068,13 +1066,7 @@ body {
     overflow: hidden;
     position: relative;
 }
-.dasbor-xPi
-    .auto-group-ycji-aFz
-    .frame-695-tLY
-    .frame-706-vKi
-    .frame-707-SjJ
-    .frame-1321314409-Bwn
-    .frame-3-MLU {
+  .frame-3-MLU {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -1093,6 +1085,7 @@ body {
     box-sizing: border-box;
     background-color: #0ba7ff;
     border-radius: 0.4819rem;
+    
 }
 .pagination-75i {
   margin-left: 4.5rem;
@@ -1118,87 +1111,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.modal {
-        display: none;
-        position: fixed;
-        z-index: 8;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.4);
-      }
-      .modal-content {
-        margin: 50px auto;
-        border: 1px solid #999;
-        width: 60%;
-      }
-      h2,
-      p {
-        margin: 0 0 20px;
-        font-weight: 400;
-        color: #999;
-      }
-      span {
-        color: #666;
-        display: block;
-        padding: 0 0 5px;
-      }
-      form {
-        padding: 25px;
-        margin: 25px;
-        box-shadow: 0 2px 5px #f5f5f5;
-        background: #eee;
-      }
-      input,
-      textarea {
-        width: 90%;
-        padding: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #1c87c9;
-        outline: none;
-      }
-      .contact-form button {
-        width: 100%;
-        padding: 10px;
-        border: none;
-        background: #1c87c9;
-        font-size: 16px;
-        font-weight: 400;
-        color: #fff;
-      }
-      button:hover {
-        background: #2371a0;
-      }
-      .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-      }
-      .close:hover,
-      .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
-      }
-      button.button {
-        background: none;
-        border-top: none;
-        outline: none;
-        border-right: none;
-        border-left: none;
-        border-bottom: #02274a 1px solid;
-        padding: 0 0 3px 0;
-        font-size: 16px;
-        cursor: pointer;
-      }
-      button.button:hover {
-        border-bottom: #a99567 1px solid;
-        color: #a99567;
-      }
+
       .modal {
         display: none;
         position: fixed;
@@ -1228,21 +1141,22 @@ body {
         padding: 0 0 5px;
       }
       form {
-        padding: 25px;
-        margin: 25px;
+        padding: 20px;
+        margin: 20px;
         box-shadow: 0 2px 5px #f5f5f5;
         background: #eee;
+        width: 400px;
       }
       input,
       textarea {
-        width: 90%;
+        width: 50%;
         padding: 10px;
         margin-bottom: 20px;
         border: 1px solid #1c87c9;
         outline: none;
       }
       .contact-form button {
-        width: 100%;
+        width: 50%;
         padding: 10px;
         border: none;
         background: #1c87c9;

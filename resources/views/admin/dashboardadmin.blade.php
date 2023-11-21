@@ -2,6 +2,12 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Table Example</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,10 +17,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit%3A400%2C500" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A800" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400" />
-  <link rel="stylesheet" href="{{ asset('styles/dasbor.css') }}" />
+  <link rel="stylesheet" href="{{ asset('styles/riwayat-pesanan.css') }}" />
   <link rel="stylesheet" href="{{ asset('styles/scss/dasbor.scss') }}" />
 </head>
 <style>
+  .lato-font th,
+  .lato-font td,
+  .lato-font .edit-button {
+    font-family: 'Lato', sans-serif;
+  }
+
   a:hover {
     background-color: yellow;
   }
@@ -25,6 +37,17 @@
 
   * {
     box-sizing: border-box;
+  }
+
+  /* Add your custom styles here if needed */
+  .edit-button {
+    cursor: pointer;
+  }
+
+  /* Set a custom width for the table */
+  .custom-table {
+    width: 100%;
+    border: 1px solid #000;
   }
 </style>
 
@@ -54,18 +77,18 @@
       <div class="auto-group-kke8-vak">
         <div class="frame-1321314404-qxc">
           <p class="telur-tersisa-NSk">Telur Tersisa</p>
-          <p class="kg-67r">100.000 KG</p>
-          <p class="tekan-untuk-menambah-stok-telur-q5S"><button class="button" data-modal="modalOne">Tekan untuk menambah stok telur</button></p>
+          <p class="kg-67r">100000 </p>
+          <p class="tekan-untuk-mengganti-harga-swE"><button class="button" data-modal="modalOne">Tekan untuk menambah telur</button></p>
           <div id="modalOne" class="modal">
             <div class="modal-content">
               <div class="contact-form">
                 <a class="close">&times;</a>
                 <form action="/">
-                  <h2>Berapa Telur Yang Ingin Ditambahkan?</h2>
+                  <h2>Tambah telur</h2>
                   <div>
-                  
-                    <input type="number"  placeholder="contoh: 1 = 1KG" />
-                  
+
+                    <input type="number" placeholder="contoh: 1 = 1KG" />
+
                   </div>
                   <button type="submit" href="/">Submit</button>
                 </form>
@@ -74,15 +97,15 @@
           </div>
         </div>
         <div class="frame-1321314414-iQ8">
-          <p class="harga-telur-perkg-dmz">Harga Telur Per,Kg</p>
-          <p class="rp31000-LgQ">Rp.31,000</p>
-          <p class="tekan-untuk-mengganti-harga-swE"><button class="button" data-modal="modalTwo">Tekan untuk mengganti harga telur per KG</button></p>
+          <p class="harga-telur-perkg-dmz">Harga Telur Per KG</p>
+          <p class="rp31000-LgQ">31000</p>
+          <p class="tekan-untuk-mengganti-harga-swE"><button class="button" data-modal="modalTwo">Tekan untuk mengganti harga</button></p>
           <div id="modalTwo" class="modal">
             <div class="modal-content">
               <div class="contact-form">
                 <span class="close">&times;</span>
                 <form action="/">
-                  <h2>Mengganti Harga Per KG</h2>
+                  <h2>Ganti harga</h2>
                   <div>
                     <input type="number" placeholder="contoh: 2000" />
                   </div>
@@ -94,108 +117,117 @@
         </div>
       </div>
       <div class="pesanan-xhn">Pesanan</div>
-      <div class="frame-695-tLY">
-        <div class="frame-702-Po6">
-          <div class="frame-696-91a">Nama Pemesan</div>
-          <div class="frame-697-Dn8">Tanggal</div>
-          <div class="frame-698-K4U">Harga</div>
-          <div class="frame-699-Ce4">Nama Barang</div>
-          <div class="frame-708-Rmi">Status</div>
-          <div class="frame-709-K6Q">Edit Status</div>
-        </div>
-        <div class="frame-703-CR6">
-          <div class="nama">Susanto</div>
-          <div class="tanggal">21 Maret 2023</div>
-          <div class="harga">Rp.323.323</div>
-          <div class="namabarang">Telur 12 Kg</div>
-          <div class="frame-707-4EL">DiProses</div>
-          <div class="frame-708-8zt">
-            <div class="frame-1321314409-tz4">
-              <button class="frame-3-Skg" class="dropbtn" onclick="openForm()">Edit</button>
-              <div class="form-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                  <button type="submit" class="btn">Proses</button>
-                  <button type="submit" class="btn2">Terkirim</button>
-                  <button type="submit" class="btn3">Batal</button>
-                  <button type="submit" class="btn4">BarangMasuk</button>
-                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
-                </form>
-
-              </div>
-            </div>
+      
+        <div class="frame-695-tLY">
+          <div class="container mt-5">
+            <table class="table custom-table">
+              <thead class="bg-info text-dark">
+                <tr>
+                  <th class="fs-1" scope="col">Nama Pemesan</th>
+                  <th scope="col">Tanggal</th>
+                  <th scope="col">Harga</th>
+                  <th scope="col">Nama Barang</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Edit Status</th>
+                  <th scope="col">Alamat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border: 1px  #000;">Susanto</td>
+                  <td>21 Maret 2023</td>
+                  <td>Rp.323.323</td>
+                  <td>Telur 12 Kg</td>
+                  <td>DiProses</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Edit
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Proses</a></li>
+                        <li><a class="dropdown-item" href="#">Batal</a></li>
+                        <li><a class="dropdown-item" href="#">Terkirim</a></li>
+                        <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+                </tr>
+                <tr>
+                  <td>Ujang</td>
+                  <td>23 November 2023</td>
+                  <td>Rp.13.313</td>
+                  <td>Telur 43 Kg</td>
+                  <td>Terkirim</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Edit
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Proses</a></li>
+                        <li><a class="dropdown-item" href="#">Batal</a></li>
+                        <li><a class="dropdown-item" href="#">Terkirim</a></li>
+                        <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>Your address here</td>
+                </tr>
+                <tr>
+                  <td>Ronaldo</td>
+                  <td>22 Desember 2033</td>
+                  <td>Rp.321,00</td>
+                  <td>Telur 2 Kg</td>
+                  <td>DiBatalkan</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Edit
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Proses</a></li>
+                        <li><a class="dropdown-item" href="#">Batal</a></li>
+                        <li><a class="dropdown-item" href="#">Terkirim</a></li>
+                        <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>Your address here</td>
+                </tr>
+              </tbody>
+            </table>
+            
           </div>
-        </div>
-        <div class="frame-704-X1S">
-          <div class="nama">Ujang</div>
-          <div class="tanggal">23 November 2023</div>
-          <div class="harga">Rp.13.313</div>
-          <div class="namabarang">Telur 43 Kg</div>
-          <div class="frame-708-AME">Terkirim</div>
-          <div class="frame-707-qTN">
-            <div class="frame-1321314409-AVe">
-              <button class="frame-3-Skg"  class="dropbtn" onclick="openForm()">Edit</button>
-              <div class="form-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                  <button type="submit" class="btn">Proses</button>
-                  <button type="submit" class="btn2">Terkirim</button>
-                  <button type="submit" class="btn3">Batal</button>
-                  <button type="submit" class="btn4">BarangMasuk</button>
-                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
-                </form>
 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="frame-705-r16">
-          <div class="nama">Ronaldo</div>
-          <div class="tanggal">22 Desember 2033</div>
-          <div class="harga">Rp.321,00</div>
-          <div class="namabarang">Telur 2 Kg</div>
-          <div class="frame-708-5Ag">DiBatalkan</div>
-          <div class="frame-707-m3W">
-            <div class="frame-1321314409-ufW">
-              <button class="frame-3-Twv" class="dropbtn" onclick="openForm()">Edit</button>
-              <div class="form-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                  <button type="submit" class="btn">Proses</button>
-                  <button type="submit" class="btn2">Terkirim</button>
-                  <button type="submit" class="btn3">Batal</button>
-                  <button type="submit" class="btn4">BarangMasuk</button>
-                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
-                </form>
+          <!-- Bootstrap JS and Popper.js scripts are required for Bootstrap functionality -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="frame-706-vKi">
-          <div class="nama">Toko Jaya Abadi</div>
-          <div class="tanggal">22 September 2033</div>
-          <div class="harga">Rp.321,00</div>
-          <div class="namabarang">Telur 200 Kg</div>
-          <div class="frame-708-y52">BarangMasuk</div>
-          <div class="frame-707-SjJ">
-            <div class="frame-1321314409-Bwn">
-              <button class="frame-3-MLU"class="dropbtn" onclick="openForm()">Edit</button>
-              <div class="form-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                  <button type="submit" class="btn">Proses</button>
-                  <button type="submit" class="btn2">Terkirim</button>
-                  <button type="submit" class="btn3">Batal</button>
-                  <button type="submit" class="btn4">BarangMasuk</button>
-                  <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
-                </form>
+          <!-- Your JavaScript code -->
+          <script>
+            function openForm(id) {
+              // Your logic to open the form based on the clicked row
+              console.log("Edit clicked for row with ID: " + id);
+            }
+          </script>
 
-              </div>
-            </div>
-          </div>
+
+
+
+
+
+
         </div>
-      </div>
-      <div class="pagination-75i">
-        <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
-        <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
-      </div>
+        <div class="pagination-75i">
+          <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
+          <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
+        </div>
     </div>
   </div>
   <script>
@@ -226,7 +258,9 @@
     function closeForm() {
       document.getElementById("myForm").style.display = "none";
     }
+    
   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
