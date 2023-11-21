@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A800"/>
   <link rel="stylesheet" href="{{ asset('styles/dasboardsuplier.css') }}"/>
   <link rel="stylesheet" href="{{ asset('styles/scss/dasboardsuplier.scss') }}"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 <div class="dasbrod-qHz">
@@ -56,35 +56,93 @@
         </div>
 
         <div class="riwayat-pesanan-3da ">Riwayat Pesanan</div>
-<table class="frame-2609092-ATJ h-auto">
-  <thead class="frame-695-WXA h-auto block p-0">
-    <tr class="frame-702-FUk">
-      <th class="frame-696-B7W">Nama Pesanan</th>
-      <th class="frame-697-f2g">Tanggal</th>
-      <th class="frame-698-jHS">Harga</th>
-      <th class="frame-708-d7v">Status</th>
-    </tr>
-  </thead>
-  <tbody >
-    <tr class="frame-703-gM6">
-      <td class="frame-696-1PN">Telur 120 Kg</td>
-      <td class="frame-697-iHn">01 Mei 2023</td>
-      <td class="frame-698-23a">Rp.1,000,000</td>
-      <td class="frame-707-vek w-auto">Terkirim</td>
-    </tr>
-    <tr class="frame-703-gM6">
-        <td class="frame-696-1PN">Telur 20 Kg</td>
-        <td class="frame-697-iHn w-auto">02 Maret 2033</td>
-        <td class="frame-698-23a">Rp.110,000</td>
-        <td class="frame-708-c3i w-auto">Dibatalkan</td>
-      </tr>
-    <!-- Add more rows as needed -->
-  </tbody>
-</table>
+        <div class="pesanan-xhn">Pesanan</div>
 
-<div class="m-0 mt-5 auto-group-rjpe-odz">
-    <a href="/riwayat-pengirimansuplier" class=" btn pay-button-vic" style="text-decoration: none;">Kirim Barang </a>
-    <div class="pagination-bZr">
+        <div class="frame-695-tLY">
+          <div class="container mt-5">
+            <table class="table custom-table">
+              <thead class="bg-info text-dark">
+                <tr>
+                  <th class="fs-1" scope="col">Nama Pemesan</th>
+                  <th scope="col">Tanggal</th>
+                  <th scope="col">Harga</th>
+                  <th scope="col">Nama Barang</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Edit Status</th>
+                  <th scope="col">Alamat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border: 1px  #000;">Susanto</td>
+                  <td>21 Maret 2023</td>
+                  <td>Rp.323.323</td>
+                  <td>Telur 12 Kg</td>
+                  <td>DiProses</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Edit
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Proses</a></li>
+                        <li><a class="dropdown-item" href="#">Batal</a></li>
+                        <li><a class="dropdown-item" href="#">Terkirim</a></li>
+                        <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+                </tr>
+                <tr>
+                  <td>Ujang</td>
+                  <td>23 November 2023</td>
+                  <td>Rp.13.313</td>
+                  <td>Telur 43 Kg</td>
+                  <td>Terkirim</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Edit
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Proses</a></li>
+                        <li><a class="dropdown-item" href="#">Batal</a></li>
+                        <li><a class="dropdown-item" href="#">Terkirim</a></li>
+                        <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>Your address here</td>
+                </tr>
+                <tr>
+                  <td>Ronaldo</td>
+                  <td>22 Desember 2033</td>
+                  <td>Rp.321,00</td>
+                  <td>Telur 2 Kg</td>
+                  <td>DiBatalkan</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Edit
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Proses</a></li>
+                        <li><a class="dropdown-item" href="#">Batal</a></li>
+                        <li><a class="dropdown-item" href="#">Terkirim</a></li>
+                        <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>Your address here</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
 
     </div>
   </div>

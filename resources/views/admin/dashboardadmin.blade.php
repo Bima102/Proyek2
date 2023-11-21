@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Table Example</title>
   <!-- Add Bootstrap CSS link -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
@@ -17,6 +16,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit%3A400%2C500" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A800" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ asset('styles/riwayat-pesanan.css') }}" />
   <link rel="stylesheet" href="{{ asset('styles/scss/dasbor.scss') }}" />
 </head>
@@ -117,7 +117,7 @@
         </div>
       </div>
       <div class="pesanan-xhn">Pesanan</div>
-      
+
         <div class="frame-695-tLY">
           <div class="container mt-5">
             <table class="table custom-table">
@@ -201,7 +201,7 @@
                 </tr>
               </tbody>
             </table>
-            
+
           </div>
 
           <!-- Bootstrap JS and Popper.js scripts are required for Bootstrap functionality -->
@@ -258,7 +258,7 @@
     function closeForm() {
       document.getElementById("myForm").style.display = "none";
     }
-    
+
   </script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
