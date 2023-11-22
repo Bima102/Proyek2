@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Table Example</title>
+  <!-- Add Bootstrap CSS link -->
+
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>Riwayat Barang masuk</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit%3A400%2C500"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500"/>
-  <link rel="stylesheet" href="{{ asset('styles/riwayat-barang-masuk.css') }}"/>
-  <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-barang-masuk.scss') }}"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>dasbor</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C800" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit%3A400%2C500" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A800" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ asset('styles/riwayat-barang-masuk.css') }}" />
+
 </head>
 <style>
-a:hover {
-  background-color: yellow;
-}
+  .lato-font th,
+  .lato-font td,
+  .lato-font .edit-button {
+    font-family: 'Lato', sans-serif;
+  }
+
+  a:hover {
+    background-color: yellow;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Add your custom styles here if needed */
+  .edit-button {
+    cursor: pointer;
+  }
+
+  /* Set a custom width for the table */
+  .custom-table {
+    width: 100%;
+    border: 1px solid #000;
+  }
 </style>
+
+
 <body>
-<div class="riwayat-barang-masuk-dAQ">
-<div class="frame-1321314413-Hwn">
+  <div class="dasbor-xPi">
+    <div class="frame-1321314413-Hwn">
       <div class="frame-54-Cor">
         <div class="frame-9UC">
           <div class="text-UWU">Menu</div>
-
-
-   
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/dashboardadmin"> Dashboard</a>
           </button>
@@ -35,79 +66,193 @@ a:hover {
           </button>
 
           <button class="content-kyn">
-          <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
+            <a style="text-decoration: none; color:black;" href="/riwayat-barang-masuk"> Riwayat Barang Masuk</a></button>
           <button class="content-kyn">
             <a style="text-decoration: none; color:black;" href="/pesan-ke-suplier">Pesan Ke Supplier</a>
           </button>
         </div>
       </div>
     </div>
-  <div class="auto-group-ly2k-BS8">
-    <div class="auto-group-6ozg-L48">
-      <div class="frame-58-f6Q">
-        <p class="total-telur-masuk-yMz">Total Telur Masuk</p>
-        <p class="rp100000000-HtU">Rp.100.000.000</p>
-      </div>
-      <div class="frame-1321314409-zXz">
-        <p class="total-telur-masuk-bulan-ini-5ZS">Total Telur Masuk Bulan Ini</p>
-        <p class="rp100000000-Pa8">Rp.100.000.000</p>
-      </div>
-      <div class="frame-1321314410-6UY">
-        <p class="total-telur-masuk-hari-ini-o84">Total Telur Masuk Hari Ini</p>
-        <p class="rp100000000-JqW">Rp.100.000.000</p>
-      </div>
-    </div>
-    <div class="auto-group-zsnl-1V2">
-      <div class="frame-1321314412-mDJ">
-        <p class="total-uang-keluar-V9J">Total Uang Keluar  </p>
-        <p class="rp100000000-1dS">Rp.100.000.000</p>
-      </div>
-      <div class="frame-1321314413-vkQ">
-        <p class="total-uang-keluar-bulan-ini-45v">Total Uang Keluar Bulan Ini</p>
-        <p class="rp100000000-n1v">Rp.100.000.000</p>
-      </div>
-      <div class="frame-1321314414-gd6">
-        <p class="total-uang-keluar-hari-ini-DN8">Total Uang Keluar Hari Ini </p>
-        <p class="rp100000000-Kvx">Rp.100.000.000</p>
-      </div>
-    </div>
-    <div class="auto-group-qvkc-2aU">
-      <div class="frame-1321314411-ARn">
-        <div class="frame-695-HWQ">
-          <div class="frame-702-2yn">
-            <div class="frame-696-BLt">Supplier</div>
-            <div class="frame-697-FrY">Tanggal</div>
-            <div class="frame-698-Lsz">Harga</div>
-            <div class="frame-699-ReY">Nama Barang</div>
-            <div class="frame-708-Wfz">Status</div>
+    <div class="auto-group-ycji-aFz">
+      <div class="auto-group-ycji-aFz">
+
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Uang Keluar/Bulan</h5>
+                  <p class="kg-67r">100000</p>
+                  <p class="tekan-untuk-mengganti-harga-swE">
+                     
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title harga-telur-perkg-dmz">Uang Keluar/Hari</h5>
+                  <p class="kg-67r">31000</p>
+                  <p class="tekan-untuk-mengganti-harga-swE">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#modalTwo">Tambah Uang Keluar</button>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="auto-group-nnup-avk">
-            <div class="frame-706-uTE">
-              <div class="frame-696-RwN">Toko Jaya Abadi</div>
-              <div class="frame-697-856">22 Desember 2033</div>
-              <div class="frame-698-cFA">Rp.322,00</div>
-              <div class="frame-699-uEG">Telur 200 Kg</div>
-              <div class="frame-708-1HJ">BarangMasuk</div>
+
+          <!-- Modal One -->
+          <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="modalOneLabel" aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalOneLabel">Tambah Telur</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form action="/">
+                    <div class="form-group">
+                      <label for="telurAmount">Jumlah Telur (KG)</label>
+                      <input type="number" class="form-control" id="telurAmount" placeholder="Contoh: 1 = 1KG">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div class="frame-707-J1W">
-              <div class="frame-696-cH6">Toko Jaya Abadi</div>
-              <div class="frame-697-KBW">22 Desember 2033</div>
-              <div class="frame-698-RVS">Rp.321,00</div>
-              <div class="frame-699-Kqi">Telur 200 Kg</div>
-              <div class="frame-708-Rdr">BarangMasuk</div>
+          </div>
+
+          <!-- Modal Two -->
+          <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="modalTwoLabel" aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalTwoLabel">Ganti Harga</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form action="/">
+                    <div class="form-group">
+                      <label for="hargaTelur">Tambah Uang Masuk/Hari</label>
+                      <input type="number" class="form-control" id="hargaTelur" placeholder="Contoh: 2000">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div class="frame-708-eWc">
-              <div class="frame-696-NhW">Toko Jaya Abadi</div>
-              <div class="frame-697-gCQ">22 Desember 2033</div>
-              <div class="frame-698-ySQ">Rp.321,00</div>
-              <div class="frame-699-HCC">Telur 200 Kg</div>
-              <div class="frame-708-PFE">BarangMasuk</div>
+          </div>
+          <div class="pesanan-xhn">Riwayat Pesanan</div>
+
+          <div class="frame-695-tLY">
+            <div class="container mt-5">
+              <table class="table custom-table">
+                <thead class="bg-info text-dark">
+                  <tr>
+                    <th class="fs-1" scope="col">Nama Pemesan</th>
+                    <th scope="col">Tanggal</th>
+                    <th scope="col">Harga</th>
+                    <th scope="col">Nama Barang</th>
+                    
+                    <th scope="col">Alamat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="border: 1px  #000;">Susanto</td>
+                    <td>21 Maret 2023</td>
+                    <td>Rp.323.323</td>
+                    <td>Telur 12 Kg</td>
+                    
+                    
+                    <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+                  </tr>
+                  <tr>
+                    <td>Ujang</td>
+                    <td>23 November 2023</td>
+                    <td>Rp.13.313</td>
+                    <td>Telur 43 Kg</td>
+                    
+                    
+                    <td>Your address here</td>
+                  </tr>
+                  <tr>
+                    <td>Ronaldo</td>
+                    <td>22 Desember 2033</td>
+                    <td>Rp.321,00</td>
+                    <td>Telur 2 Kg</td>
+                    
+                    <td>Your address here</td>
+                  </tr>
+                </tbody>
+              </table>
+
             </div>
+
+            <!-- Bootstrap JS and Popper.js scripts are required for Bootstrap functionality -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+            <!-- Your JavaScript code -->
+            <script>
+              function openForm(id) {
+                // Your logic to open the form based on the clicked row
+                console.log("Edit clicked for row with ID: " + id);
+              }
+            </script>
+
+
+
+
+
+
+
+          </div>
+          <div class="pagination-75i">
+            <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
+            <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
           </div>
         </div>
       </div>
-      <div class="riwayat-barang-masuk-F2Y">Riwayat Barang  masuk</div>
-    </div>
-  </div>
-</div>
+      <script>
+        let modalBtns = [...document.querySelectorAll(".button")];
+        modalBtns.forEach(function(btn) {
+          btn.onclick = function() {
+            let modal = btn.getAttribute("data-modal");
+            document.getElementById(modal).style.display = "block";
+          };
+        });
+        let closeBtns = [...document.querySelectorAll(".close")];
+        closeBtns.forEach(function(btn) {
+          btn.onclick = function() {
+            let modal = btn.closest(".modal");
+            modal.style.display = "none";
+          };
+        });
+        window.onclick = function(event) {
+          if (event.target.className === "modal") {
+            event.target.style.display = "none";
+          }
+        };
+
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
+</html>

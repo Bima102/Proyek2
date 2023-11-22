@@ -17,8 +17,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A800" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ asset('styles/riwayat-pesanan.css') }}" />
-  <link rel="stylesheet" href="{{ asset('styles/scss/dasbor.scss') }}" />
+  <link rel="stylesheet" href="{{ asset('styles/dasbor.css') }}" />
+  
 </head>
 <style>
   .lato-font th,
@@ -74,48 +74,82 @@
       </div>
     </div>
     <div class="auto-group-ycji-aFz">
-      <div class="auto-group-kke8-vak">
-        <div class="frame-1321314404-qxc">
-          <p class="telur-tersisa-NSk">Telur Tersisa</p>
-          <p class="kg-67r">100000 </p>
-          <p class="tekan-untuk-mengganti-harga-swE"><button class="button" data-modal="modalOne">Tekan untuk menambah telur</button></p>
-          <div id="modalOne" class="modal">
-            <div class="modal-content">
-              <div class="contact-form">
-                <a class="close">&times;</a>
-                <form action="/">
-                  <h2>Tambah telur</h2>
-                  <div>
+      <<div class="auto-group-ycji-aFz">
 
-                    <input type="number" placeholder="contoh: 1 = 1KG" />
-
-                  </div>
-                  <button type="submit" href="/">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="frame-1321314414-iQ8">
-          <p class="harga-telur-perkg-dmz">Harga Telur Per KG</p>
-          <p class="rp31000-LgQ">31000</p>
-          <p class="tekan-untuk-mengganti-harga-swE"><button class="button" data-modal="modalTwo">Tekan untuk mengganti harga</button></p>
-          <div id="modalTwo" class="modal">
-            <div class="modal-content">
-              <div class="contact-form">
-                <span class="close">&times;</span>
-                <form action="/">
-                  <h2>Ganti harga</h2>
-                  <div>
-                    <input type="number" placeholder="contoh: 2000" />
-                  </div>
-                  <button type="submit" href="/">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Telur Tersisa</h5>
+          <p class="kg-67r">100000</p>
+          <p class="tekan-untuk-mengganti-harga-swE">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalOne">Tambah Telur</button>
+          </p>
         </div>
       </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title harga-telur-perkg-dmz">Harga Telur Per KG</h5>
+          <p class="kg-67r">31000</p>
+          <p class="tekan-untuk-mengganti-harga-swE">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalTwo">Ganti Harga</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal One -->
+<div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="modalOneLabel" aria-hidden="true" data-backdrop="false">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="modalOneLabel">Tambah Telur</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form action="/">
+    <div class="form-group">
+      <label for="telurAmount">Jumlah Telur (KG)</label>
+      <input type="number" class="form-control" id="telurAmount" placeholder="Contoh: 1 = 1KG">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  </form>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal Two -->
+<div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="modalTwoLabel" aria-hidden="true" data-backdrop="false">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="modalTwoLabel">Ganti Harga</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form action="/">
+    <div class="form-group">
+      <label for="hargaTelur">Harga Telur (per KG)</label>
+      <input type="number" class="form-control" id="hargaTelur" placeholder="Contoh: 2000">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  </form>
+</div>
+</div>
+</div>
+</div>
       <div class="pesanan-xhn">Pesanan</div>
 
         <div class="frame-695-tLY">

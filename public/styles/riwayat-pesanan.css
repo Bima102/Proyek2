@@ -76,6 +76,9 @@ body {
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
+.content-kyn:hover{
+background-color: #40a3a3;
+}
 .dasbor-xPi .frame-1321314413-Hwn .frame-54-Cor .frame-9UC .content-kyn {
   box-sizing: border-box;
   padding: 0.4rem 0;
@@ -115,6 +118,7 @@ body {
   white-space: nowrap;
   border-radius: 0.8rem;
 }
+.content-kyn:hover
 .dasbor-xPi .frame-1321314413-Hwn .frame-54-Cor .frame-9UC .content-kcQ {
   box-sizing: border-box;
   padding: 0.4rem 0;
@@ -242,12 +246,13 @@ body {
   flex-shrink: 0;
 }
 .dasbor-xPi .auto-group-ycji-aFz .auto-group-kke8-vak {
-  margin: 0rem 47.7rem 7.6rem 0rem;
+  
   margin-left: 4.5rem;
   width: calc(100% - 47.7rem);
   height: 10.3rem;
   display: flex;
   align-items: center;
+  
 }
 .dasbor-xPi .auto-group-ycji-aFz .auto-group-kke8-vak .frame-1321314404-qxc {
   margin-right: 4.2rem;
@@ -276,13 +281,9 @@ body {
   font-family: Outfit, "Source Sans Pro";
   white-space: nowrap;
 }
-.dasbor-xPi
-  .auto-group-ycji-aFz
-  .auto-group-kke8-vak
-  .frame-1321314404-qxc
-  .kg-67r {
-  margin-bottom: 0.5rem;
-  font-size: 2.2rem;
+.kg-67r {
+  
+  
   font-weight: 500;
   line-height: 1.26;
   font-family: Outfit, "Source Sans Pro";
@@ -327,24 +328,7 @@ body {
   font-family: Outfit, "Source Sans Pro";
   white-space: nowrap;
 }
-.dasbor-xPi
-  .auto-group-ycji-aFz
-  .auto-group-kke8-vak
-  .frame-1321314414-iQ8
-  .rp31000-LgQ {
-  margin-bottom: 0.6rem;
-  font-size: 2.2rem;
-  font-weight: 500;
-  line-height: 1.26;
-  color: #0ead69;
-  font-family: Outfit, "Source Sans Pro";
-  white-space: nowrap;
-}
-.dasbor-xPi
-  .auto-group-ycji-aFz
-  .auto-group-kke8-vak
-  .frame-1321314414-iQ8
-  .tekan-untuk-mengganti-harga-swE {
+.tekan-untuk-mengganti-harga-swE {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.26;
@@ -364,10 +348,10 @@ body {
   white-space: nowrap;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY {
-  margin-left: 4.5rem;
+  
   box-sizing: border-box;
   padding-bottom: 21.3rem;
-  width: 113rem;
+  width: auto;
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -387,7 +371,7 @@ body {
   flex-shrink: 0;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-702-Po6 .frame-696-91a {
-  width: 16rem;
+  width: 25rem;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -405,10 +389,9 @@ body {
   border: solid 0.1rem #cecece;
   box-sizing: border-box;
   flex-shrink: 0;
-  background-color: cadetblue;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-702-Po6 .frame-697-Dn8 {
-  width: 17rem;
+  width: 20.9rem;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -428,7 +411,7 @@ body {
   flex-shrink: 0;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-702-Po6 .frame-698-K4U {
-  width: 13rem;
+  width: 15rem;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -448,7 +431,7 @@ body {
   flex-shrink: 0;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-702-Po6 .frame-699-Ce4 {
-  width: 16rem;
+  width: 20.5rem;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -480,7 +463,7 @@ body {
   flex-shrink: 0;
 }
 .frame-708-Rmi {
-  width: 11rem;
+  width: 14.5rem;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -500,7 +483,7 @@ body {
   flex-shrink: 0;
 }
 .frame-709-K6Q {
-  width: 11rem;
+  width: 16.5rem;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -529,7 +512,7 @@ box-sizing: border-box;
 flex-shrink: 0;
 }
 .nama {
-width: 16rem;
+width: 25rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -549,7 +532,7 @@ box-sizing: border-box;
 flex-shrink: 0;
 }
 .tanggal {
-width: 17rem;
+width: 20.9rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -569,7 +552,7 @@ box-sizing: border-box;
 flex-shrink: 0;
 }
 .harga {
-width: 13rem;
+width: 15rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -589,7 +572,7 @@ box-sizing: border-box;
 flex-shrink: 0;
 }
 .namabarang {
-width: 16rem;
+width: 20.5rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -608,28 +591,8 @@ border: solid 0.1rem #cecece;
 box-sizing: border-box;
 flex-shrink: 0;
 }
-.alamat{
-width: 27rem;
-height: 100%;
-overflow-wrap: break-word;
-max-width: 100%;
-word-wrap: break-word;
-
-font-weight: 400;
-line-height: 1.26;
-letter-spacing: 0.016rem;
-color: rgb(0, 0, 0);
-font-family: Outfit, "Source Sans Pro";
-white-space: nowrap;
-display: flex;
-
-
-border: solid 0.1rem #cecece;
-box-sizing: border-box;
-flex-shrink: 0;
-}
 .frame-707-4EL {
-width: 11rem;
+width: 14.5rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -775,7 +738,7 @@ flex-shrink: 0;
   flex-shrink: 0;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-704-X1S .frame-708-AME {
-width: 11rem;
+width: 14.5rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -900,7 +863,7 @@ flex-shrink: 0;
   flex-shrink: 0;
 }
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-705-r16 .frame-708-5Ag {
-width: 11rem;
+width: 14.5rem;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -919,23 +882,6 @@ border: solid 0.1rem #cecece;
 box-sizing: border-box;
 flex-shrink: 0;
 }
-.edit{
-  width: 11rem;
-height: 100%;
-overflow: hidden;
-position: relative;
-text-align: center;
-
-letter-spacing: 0.016rem;
-
-
-display: flex;
-align-items: center;
-
-border: solid 0.1rem #cecece;
-box-sizing: border-box;
-
-}
 .dasbor-xPi .auto-group-ycji-aFz .frame-695-tLY .frame-705-r16 .frame-707-m3W {
   box-sizing: border-box;
   padding: 0.2rem 1rem;
@@ -945,23 +891,17 @@ box-sizing: border-box;
   position: relative;
   flex-shrink: 0;
 }
-.dasbor-xPi
-  .auto-group-ycji-aFz
-  .frame-695-tLY
-  .frame-705-r16
-  .frame-707-m3W
+
+
   .frame-1321314409-ufW {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-.dasbor-xPi
-  .auto-group-ycji-aFz
-  .frame-695-tLY
-  .frame-705-r16
-  .frame-707-m3W
-  .frame-1321314409-ufW
+.frame-3-Twv:hover{
+background-color: #1c87c9;
+}
   .frame-3-Twv {
   width: 100%;
   height: 100%;
@@ -1106,13 +1046,7 @@ flex-shrink: 0;
   overflow: hidden;
   position: relative;
 }
-.dasbor-xPi
-  .auto-group-ycji-aFz
-  .frame-695-tLY
-  .frame-706-vKi
-  .frame-707-SjJ
-  .frame-1321314409-Bwn
-  .frame-3-MLU {
+.frame-3-MLU {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1131,6 +1065,7 @@ flex-shrink: 0;
   box-sizing: border-box;
   background-color: #0ba7ff;
   border-radius: 0.4819rem;
+  
 }
 .pagination-75i {
 margin-left: 4.5rem;
@@ -1176,9 +1111,9 @@ flex-shrink: 0;
     }
     h2,
     p {
-      margin: 0 0 20px;
-      font-weight: 400;
-      color: #999;
+      
+      font-size: xx-large;
+      color: #000000;
     }
     span {
       color: #666;
@@ -1189,8 +1124,8 @@ flex-shrink: 0;
       padding: 20px;
       margin: 20px;
       box-shadow: 0 2px 5px #f5f5f5;
-      background: #eee;
-      width: 400px;
+      
+      
     }
     input,
     textarea {
