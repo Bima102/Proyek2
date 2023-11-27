@@ -84,7 +84,7 @@
                   <h5 class="card-title">Uang Masuk/Bulan</h5>
                   <p class="kg-67r">100000</p>
                   <p class="tekan-untuk-mengganti-harga-swE">
-                    Pendapatan Bulan Ini
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#modalTwo">Tambah Uang Masuk</button>
                   </p>
                 </div>
               </div>

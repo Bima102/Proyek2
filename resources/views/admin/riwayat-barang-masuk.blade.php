@@ -76,8 +76,8 @@
     <div class="auto-group-ycji-aFz">
       <div class="auto-group-ycji-aFz">
 
-        
-          <div class="pesanan-xhn">Riwayat Pesanan</div>
+
+          <div class="pesanan-xhn">Riwayat Barang Masuk</div>
 
           <div class="frame-695-tLY">
             <div class="container mt-5">
@@ -88,7 +88,7 @@
                     <th scope="col">Tanggal</th>
                     <th scope="col">Harga</th>
                     <th scope="col">Nama Barang</th>
-                    
+
                     <th scope="col">Alamat</th>
                   </tr>
                 </thead>
@@ -98,8 +98,8 @@
                     <td>21 Maret 2023</td>
                     <td>Rp.323.323</td>
                     <td>Telur 12 Kg</td>
-                    
-                    
+
+
                     <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
                   </tr>
                   <tr>
@@ -107,8 +107,8 @@
                     <td>23 November 2023</td>
                     <td>Rp.13.313</td>
                     <td>Telur 43 Kg</td>
-                    
-                    
+
+
                     <td>Your address here</td>
                   </tr>
                   <tr>
@@ -116,7 +116,7 @@
                     <td>22 Desember 2033</td>
                     <td>Rp.321,00</td>
                     <td>Telur 2 Kg</td>
-                    
+
                     <td>Your address here</td>
                   </tr>
                 </tbody>
