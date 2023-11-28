@@ -43,70 +43,58 @@ a:hover {
         </div>
       </div>
     </div>
-  <div class="auto-group-a6gg-Mgt">
+  <div class="container mt-4">
     <div class="payment-6eU">
-      <img class="rectangle-3-2o2" src="./assets/rectangle-3.png"/>
-      <p class="metode-pembayaran-kj2">Metode Pembayaran</p>
-      <div class="payment-methods-Eu6">
-        <div class="payment-1-AXr">
-          <img class="credit-card-V4L" src="./assets/credit-card.png"/>
-        </div>
-        <div class="payment-2-P9i">
-          <img class="paypal-uNx" src="./assets/paypal-FjE.png"/>
-        </div>
-        <div class="payment-3-coA">
-          <img class="dan-mAG" src="./assets/dan-sj6.png"/>
-        </div>
-      </div>
-      <p class="nomor-rekening-nomor-dana-syz">Rekening/Nomor DANA</p>
-      <div class="rectangle-24-BDz"></div>
-        <input class="rectangle-24-BDz" type="text" placeholder=""></input>
-      <div class="card-number-6br">
-        <p class="nama-pemesan-supplier-ETA">Nama Pemesan/Supplier</p>
-        <div class="rectangle-24-YTr">
-            <input class="rectangle-24-YTr" type="text" placeholder=""></input>
-        </div>
-      </div>
-      <div class="expiry-date-HgL">
-        <p class="nomor-telp-wa-cic">Nomor Telp/WA</p>
-        <div class="rectangle-25-YMN">
-            <input class="rectangle-25-YMN" type="text" placeholder=""></input>
-        </div>
-      </div>
-      <div class="cvv-UVv">
-        <p class="alamat-pJt">Alamat</p>
-        <div class="rectangle-26-AGG">
-            <input class="rectangle-26-AGG" type="text" placeholder=""></input>
-        </div>
-      </div>
-      <div class="product-card-6vc">
-        <div class="frame-7-zm6">
-          <img class="image-2-kkG" src="./assets/image-2-XbN.png"/>
-        </div>
-        <div class="frame-15-tLg">
-          <div class="pesan-telur-dengan-jumlah-diinginkan-DNx">Pesan Telur Dengan Jumlah Diinginkan</div>
-          <div class="auto-group-t6ti-iqW">
-            <div class="frame-2609047-UJt">
-              <p class="harga-yang-harus-dibayar-1pc">Harga Yang Harus Dibayar</p>
-              <div class="frame-1429-Lbz">
-                <input class="input-initial-HXE" type="text" placeholder=""></input>
-              </div>
+        <img class="rectangle-3-2o2" src="./assets/rectangle-3.png" />
+        <p class="metode-pembayaran-kj2">Metode Pembayaran</p>
+        
+        <p class="nomor-rekening-nomor-dana-syz">Rekening/Nomor DANA</p>
+        <div class="rectangle-24-BDz"></div>
+        <input class="form-control" type="text" placeholder="" />
+        <div class="card-number-6br">
+            <p class="nama-pemesan-supplier-ETA">Nama Pemesan/Supplier</p>
+            <div class="rectangle-24-YTr">
+                <input class="form-control" type="text" placeholder="" />
             </div>
-            <p class="kg-Yi4">KG</p>
-            <div class="frame-1429-Ta8">
-
-                {{--<p class="placeholder-KMS">masukkan disini</p>--}}
-                <input class="input-initial-PTn" type="text" placeholder=""></input>
-              </div>
-              <div class="input-initial-PTn">
-            </div>
-          </div>
         </div>
-      </div>
-      <a href=""<button type="button" class="frame-115-XiQ" style="text-decoration: none;">Buat</button></a>
-      <a href=""<button type="button"class="frame-116-7gc" style="text-decoration: none;">Batalkan</button></a>
+        <div class="expiry-date-HgL">
+            <p class="nomor-telp-wa-cic">Nomor Telp/WA</p>
+            <div class="rectangle-25-YMN">
+                <input class="form-control" type="text" placeholder="" />
+            </div>
+        </div>
+        <div class="cvv-UVv">
+            <p class="alamat-pJt">Alamat</p>
+            <div class="rectangle-26-AGG">
+                <input class="form-control" type="text" placeholder="" />
+            </div>
+        </div>
+        <div class="product-card-6vc">
+            <div class="frame-7-zm6">
+                <img class="image-2-kkG" src="./assets/image-2-XbN.png" />
+            </div>
+            <div class="frame-15-tLg">
+                <div class="pesan-telur-dengan-jumlah-diinginkan-DNx">Pesan Telur Dengan Jumlah Diinginkan</div>
+                <div class="auto-group-t6ti-iqW">
+                    <div class="frame-2609047-UJt">
+                        <p class="harga-yang-harus-dibayar-1pc">Harga Yang Harus Dibayar</p>
+                        <div class="frame-1429-Lbz">
+                            <input class="form-control input-initial-HXE" type="text" placeholder="" />
+                        </div>
+                    </div>
+                    <p class="kg-Yi4">KG</p>
+                    <div class="frame-1429-Ta8">
+                        <input class="form-control input-initial-PTn" type="text" placeholder="" />
+                    </div>
+                    <div class="input-initial-PTn"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#"><button type="button" class="btn btn-primary">Buat</button></a>
+        <a href="#"><button type="button" class="btn btn-secondary">Batalkan</button></a>
     </div>
     <div class="title-page-xSL">Memesan Kepada Suplier</div>
-  </div>
+</div>
+
 </div>
 </body>
