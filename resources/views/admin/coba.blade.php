@@ -21,407 +21,123 @@
 
 
   <!-- Custom styles for this template -->
-  <link href="{{ asset('styles/dashboard.css') }}" rel="stylesheet">
+  <link href="{{ asset('styles/blog.css') }}" rel="stylesheet">
 
 </head>
 
-<body>
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 ">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Company name</a>
-    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-    <div class="navbar-nav">
-      <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Sign out</a>
-      </div>
-    </div>
-  </header>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-  <div class="container-fluid">
-
-    <div class="row">
-      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-        <div class="position-sticky pt-3">
-          <ul class="nav flex-column">
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/static_files/images/logos/logo_2.png" height="60" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/dashboardadmin">
-                <span data-feather="home"></span>
-                Dashboard
-              </a>
+              <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/riwayat-pesanan">
-                <span data-feather="file"></span>
-                Riwayat Pesanan
-              </a>
+              <a class="nav-link mx-2" href="#">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/riwayat-barang-masuk">
-                <span data-feather="shopping-cart"></span>
-                Riwayat Barang Masuk
-              </a>
+              <a class="nav-link mx-2" href="#">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pesan-ke-suplier">
-                <span data-feather="users"></span>
-                Pesan Ke Supplier
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
             </li>
-            
           </ul>
-
-
-
         </div>
-      </nav>
+      </div>
+    </nav>
 
-
-      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div class="container mt-4">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Telur Tersisa</h5>
-                  <p class="kg-67r">100000</p>
-                  <p class="tekan-untuk-mengganti-harga-swE">
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOne">Ganti Harga Telur</button>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title harga-telur-perkg-dmz">Harga Telur Per KG</h5>
-                  <p class="kg-67r">31000</p>
-                  <p class="tekan-untuk-mengganti-harga-swE">
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">Ganti Harga Lainnya</button>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal One -->
-        <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modalOneLabel">Ganti Harga Telur</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form action="/">
-                  <div class="form-group">
-                    <label for="hargaTelur">Harga Telur (per KG)</label>
-                    <input type="number" class="form-control" id="hargaTelur" placeholder="Contoh: 2000">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal Two -->
-        <div class="modal fade" data-bs-backdrop="static" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modalTwoLabel">Ganti Harga Lainnya</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form action="/">
-                  <div class="form-group">
-                    <label for="hargaLainnya">Harga Lainnya</label>
-                    <input type="number" class="form-control" id="hargaLainnya" placeholder="Contoh: 50000">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-        <h2>Section title</h2>
-        <div class="table-responsive ">
-          <table class="table table-striped table-sm">
-            <thead>
-              <tr>
-                <th scope="col">Nama</th>
-                <th scope="col">Tanggal</th>
-                <th scope="col">Harga</th>
-                <th scope="col">Status</th>
-                <th scope="col">Edit Status</th>
-                <th scope="col">Alamat</th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-
-            </tbody>
-          </table>
-          <div class="pagination-75i">
-            <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
-            <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
-          </div>
-        </div>
-      </main>
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
     </div>
   </div>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Design</strong>
+          <h3 class="mb-0">Post title</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+</main>
+
+<footer class="blog-footer">
+  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+
+
+    
+
 
 
 

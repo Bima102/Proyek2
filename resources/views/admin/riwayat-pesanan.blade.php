@@ -28,7 +28,7 @@
 <body>
 
   <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 ">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Company name</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/dashboardadmin">Jayalaksana</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -80,81 +80,13 @@
 
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div class="container mt-4">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Telur Tersisa</h5>
-                  <p class="kg-67r">100000</p>
-                  <p class="tekan-untuk-mengganti-harga-swE">
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOne">Ganti Harga Telur</button>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title harga-telur-perkg-dmz">Harga Telur Per KG</h5>
-                  <p class="kg-67r">31000</p>
-                  <p class="tekan-untuk-mengganti-harga-swE">
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">Ganti Harga Lainnya</button>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal One -->
-        <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modalOneLabel">Ganti Harga Telur</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form action="/">
-                  <div class="form-group">
-                    <label for="hargaTelur">Harga Telur (per KG)</label>
-                    <input type="number" class="form-control" id="hargaTelur" placeholder="Contoh: 2000">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal Two -->
-        <div class="modal fade" data-bs-backdrop="static" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modalTwoLabel">Ganti Harga Lainnya</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form action="/">
-                  <div class="form-group">
-                    <label for="hargaLainnya">Harga Lainnya</label>
-                    <input type="number" class="form-control" id="hargaLainnya" placeholder="Contoh: 50000">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
 
 
 
 
-        <h2>Section title</h2>
+        <h2>Riwayat Pesanan</h2>
         <div class="table-responsive ">
           <table class="table table-striped table-sm">
             <thead>
@@ -183,7 +115,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -205,7 +137,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -227,7 +159,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -249,7 +181,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -271,7 +203,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -293,7 +225,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -315,7 +247,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -337,7 +269,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -359,7 +291,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -381,7 +313,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
@@ -403,7 +335,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
+                      
                     </ul>
                     </ul>
                   </div>
