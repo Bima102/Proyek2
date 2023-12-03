@@ -13,6 +13,9 @@ use App\Models\artikel;
 |
 */
 
+//route resource
+Route::resource('/posts', \App\Http\Controllers\PostController::class);
+
 Route::get('/', function () {
     return view('admin.dashboardadmin');
 });

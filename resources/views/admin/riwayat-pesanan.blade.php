@@ -35,7 +35,7 @@
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <button type="button" class="btn btn-primary">sign out</button>
+      <a class="nav-link px-3 btn-primary" href="#">Sign out</a>
       </div>
     </div>
   </header>

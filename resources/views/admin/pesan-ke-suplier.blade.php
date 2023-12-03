@@ -35,7 +35,7 @@
     <div class="bg-dark w-100"> </div>
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <button type="button" class="btn btn-primary">sign out</button>
+      <a class="nav-link px-3 btn-primary" href="#">Sign out</a>
       </div>
     </div>
   </header>

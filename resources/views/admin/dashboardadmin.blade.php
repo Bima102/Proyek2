@@ -35,7 +35,7 @@
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <button type="button" class="btn btn-primary">sign out</button> 
+      <a class="nav-link px-3 btn-primary" href="#">Sign out</a>
       </div>
     </div>
   </header>
@@ -134,14 +134,14 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="modalTwoLabel">Ganti Harga Lainnya</h5>
+                <h5 class="modal-title" id="modalTwoLabel">Ganti Harga Telur Per KG</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <form action="/">
                   <div class="form-group">
-                    <label for="hargaLainnya">Harga </label>
-                    <input type="number" class="form-control" id="hargaLainnya" placeholder="Contoh: 50000">
+                    <label for="harga">Harga </label>
+                    <input type="number" class="form-control" id="harga" placeholder="Contoh: 50000">
                   </div>
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -169,6 +169,7 @@
               </tr>
             </thead>
             <tbody>
+            @forelse ($posts as $admin)
               <tr>
                 <td>Messi</td>
                 <td>01-01-2023</td>

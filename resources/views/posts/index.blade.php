@@ -31,7 +31,7 @@
                               </tr>
                             </thead>
                             <tbody>
-                              @forelse ($posts as $)
+                              @forelse ($posts as $post)
                                 <tr>
                                     <td class="text-center">
                                         <img src="{{ asset('/storage/posts/'.$post->image) }}" class="rounded" style="width: 150px">
