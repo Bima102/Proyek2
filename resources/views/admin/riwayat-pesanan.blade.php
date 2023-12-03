@@ -35,7 +35,7 @@
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Sign out</a>
+        <button type="button" class="btn btn-primary">sign out</button>
       </div>
     </div>
   </header>
@@ -70,7 +70,7 @@
                 Pesan Ke Supplier
               </a>
             </li>
-            
+
           </ul>
 
 
@@ -80,7 +80,7 @@
 
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        
+
 
 
 
@@ -115,7 +115,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -137,7 +137,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -159,7 +159,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -181,7 +181,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -203,7 +203,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -225,7 +225,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -247,7 +247,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -269,7 +269,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -291,7 +291,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -313,7 +313,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>
@@ -335,7 +335,7 @@
                       <li><a class="dropdown-item" href="#">Proses</a></li>
                       <li><a class="dropdown-item" href="#">Batal</a></li>
                       <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      
+
                     </ul>
                     </ul>
                   </div>

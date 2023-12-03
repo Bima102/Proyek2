@@ -35,7 +35,7 @@
     <div class="bg-dark w-100"> </div>
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Sign out</a>
+        <button type="button" class="btn btn-primary">sign out</button>
       </div>
     </div>
   </header>
@@ -113,7 +113,7 @@
                 <div class="invalid-feedback">
                   Isi Berat Telur
                 </div>
-              </div>  
+              </div>
 
 
 
