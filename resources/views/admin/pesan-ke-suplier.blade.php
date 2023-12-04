@@ -106,13 +106,17 @@
                 </div>
               </div>
 
+              <div class="col-12">
+                <label for="no.telp" class="form-label">No.telp</label>
+                <input type="text" class="form-control" id="alamat" required>
+                <div class="invalid-feedback">
+                  Isi Alamat Anda
+                </div>
+              </div>
+
               <div class="col-4">
                 <label for="telur" class="form-label">Berat Telur Yang Di Pesan</label>
-                <input type="number" class="form-control" id="telur" placeholder="Kg"  required>
-
-                <div class="invalid-feedback">
-                  Isi Berat Telur
-                </div>
+                <input type="number" class="form-control" id="telur" placeholder="Kg" onchange="calculatePrice()" required>
               </div>
 
 
@@ -125,28 +129,36 @@
 
                 <div class="my-3">
                   <div class="form-check">
-                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="2132131" checked required>
                     <label class="form-check-label" for="credit">Dana</label>
                   </div>
                   <div class="form-check">
-                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="817281782" checked required>
                     <label class="form-check-label" for="debit">Bri</label>
                   </div>
                   <div class="form-check">
-                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="435435435" required>
                     <label class="form-check-label" for="paypal">Bni</label>
                   </div>
                 </div>
 
 
                 <div class="col-12">
-                  <label for="namabayar" class="form-label">Nama Pembayar</label>
+                  <label for="namabayar" class="form-label">No. Rekening/Dana</label>
                   <input type="text" class="form-control" id="namabayar" required>
 
                   <div class="invalid-feedback">
                     Isi Nama Yang Membayar
                   </div>
                 </div>
+
+                <script>
+                    function setFieldValue() {
+                        var creditRadio = document.querySelector('input[name="paymentMethod"]:checked');
+                        var inputValue = creditRadio.value;
+                        document.getElementById('namabayar').value = inputValue;
+                      }
+                </script>
 
 
 
@@ -156,10 +168,10 @@
 
 
                 <div class="col-4">
-                  <label for="harga" class="form-label">Harga </label>
-                  <input type="number" class="form-control" id="harga" placeholder="Rp"  disabled>
+                    <label for="harga" class="form-label">Harga </label>
+                    <input type="number" class="form-control" id="harga" placeholder="Rp" disabled>
+                  </div>
 
-                </div>
 
                 <hr class="my-4">
 
@@ -171,7 +183,21 @@
     </div>
   </div>
 
+  <script>
+    function calculatePrice() {
+      // Mendapatkan nilai dari input berat telur
+      var beratTelur = document.getElementById('telur').value;
 
+      // Harga per kilogram telur (contoh: Rp 15.000)
+      var hargaPerKg = 15000;
+
+      // Menghitung harga total
+      var hargaTotal = beratTelur * hargaPerKg;
+
+      // Menyimpan nilai harga total ke dalam input dengan id 'harga'
+      document.getElementById('harga').value = hargaTotal;
+    }
+  </script>
 
 
 
