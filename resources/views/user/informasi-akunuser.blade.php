@@ -75,6 +75,7 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
+
 <<<<<<< HEAD
               
 =======
@@ -105,7 +106,7 @@
 
   </main>
 
-  <footer class="blog-footer">
+  <footer class="blog-footer" style="position: fixed;bottom:0;width:100%">
     <p>
       Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
       </p>
@@ -113,11 +114,11 @@
       COPYRIGHT © 2023 Jayalaksana
     </p>
   </footer>
-<<<<<<< HEAD
-  
-=======
+<<<<<<<<< Temporary merge branch 1
 
->>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
+=========
+  
+>>>>>>>>> Temporary merge branch 2
 
 
 
@@ -146,8 +147,8 @@
 
 
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 </html>
-=======
+=========
 </html>
->>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
+>>>>>>>>> Temporary merge branch 2

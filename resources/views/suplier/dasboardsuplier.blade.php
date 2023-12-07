@@ -59,7 +59,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Riwayat-pengirimansuplier">
+              <a class="nav-link" href="/riwayat-pengirimansuplier">
                 <span data-feather="shopping-cart"></span>
                 Riwayat Pengiriman
               </a>

@@ -75,11 +75,11 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-<<<<<<< HEAD
-              
-=======
+<<<<<<<<< Temporary merge branch 1
 
->>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
+=========
+              
+>>>>>>>>> Temporary merge branch 2
           </li>
         </ul>
       </div>
@@ -113,11 +113,11 @@
             <td>01-01-2023</td>
             <td>12.222.122</td>
             <td>Proses</td>
-<<<<<<< HEAD
-            <td> 
-=======
+<<<<<<<<< Temporary merge branch 1
             <td>
->>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
+=========
+            <td> 
+>>>>>>>>> Temporary merge branch 2
                 <button class="btn btn-danger" type="button"  aria-expanded="false">
                   batal
                 </button>
@@ -284,11 +284,11 @@
       COPYRIGHT © 2023 Jayalaksana
     </p>
   </footer>
-<<<<<<< HEAD
-  
-=======
+<<<<<<<<< Temporary merge branch 1
 
->>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
+=========
+  
+>>>>>>>>> Temporary merge branch 2
 
 
 
@@ -317,8 +317,8 @@
 
 
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 </html>
-=======
+=========
 </html>
->>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
+>>>>>>>>> Temporary merge branch 2
