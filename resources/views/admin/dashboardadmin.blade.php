@@ -164,6 +164,7 @@
                 <th scope="col">Harga</th>
                 <th scope="col">Status</th>
                 <th scope="col">Edit Status</th>
+                <th scope="col">No.tlp</th>
                 <th scope="col">Alamat</th>
 
               </tr>
@@ -188,6 +189,7 @@
                     </ul>
                   </div>
                 </td>
+                <td>0818229933</td>
                 <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
 
               </tr>
@@ -210,207 +212,11 @@
                     </ul>
                   </div>
                 </td>
+                <td>0818229933</td>
                 <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
 
               </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
 
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
 
             </tbody>
           </table>
