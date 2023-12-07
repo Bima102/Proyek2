@@ -93,7 +93,7 @@
           <div class="card-body">
             <h5 class="card-title">10kg</h5>
             <p class="card-text"> </p>
-            <a class="nav-link mx-2" href="/bayar-request">pesan sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>

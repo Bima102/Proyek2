@@ -75,119 +75,128 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-              
+
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <main class="container">
-    <hr class="my-4">
+  <div class="container-fluid">
+
+    <div class="row">
 
 
-    <div class="container mt-5">
-      <div class="payment-NQg">
-          <div class="title-page-ggG">Pembayaran</div>
-          <div class="auto-group-9ohr-y9a">
-              <div class="auto-group-fcqq-hbN">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="rectangle-3-2tY"></div>
-                          <p class="metode-pembayaran-Ajr">Metode Pembayaran</p>
-                          <div class="payment-methods-rcg">
-                              <div class="payment-1-aoa">
-                                  <img class="credit-card-uqr img-fluid" src="./assets/credit-card-9gC.png" alt="Credit Card">
-                              </div>
-                              <div class="payment-2-ogL">
-                                  <img class="paypal-wXe img-fluid" src="./assets/paypal.png" alt="PayPal">
-                              </div>
-                              <div class="payment-3-46U">
-                                  <img class="dan-QAL img-fluid" src="./assets/dan.png" alt="DAN">
-                              </div>
-                          </div>
-                          <p class="nomor-rekening-nomor-dana-iwi">Rekening/Nomor DANA</p>
-                          <div class="input-group mb-3">
-                              <div class="rectangle-24-dYt"></div>
-                              <input class="form-control rectangle-24-dYt" type="text" placeholder="" aria-label="Rekening/Nomor DANA" aria-describedby="basic-addon2">
-                          </div>
-                          <div class="card-number-Mjn">
-                              <p class="nama-Vb6">Nama</p>
-                              <div class="input-group mb-3">
-                                  <div class="rectangle-24-2L8"></div>
-                                  <input class="form-control rectangle-24-2L8" type="text" placeholder="" aria-label="Nama" aria-describedby="basic-addon3">
-                              </div>
-                          </div>
-                          <div class="expiry-date-a6k">
-                              <p class="nomor-telp-wa-hhA">Nomor Telp/WA</p>
-                              <div class="input-group mb-3">
-                                  <div class="rectangle-25-3FE"></div>
-                                  <input class="form-control rectangle-25-3FE" type="text" placeholder="" aria-label="Nomor Telp/WA" aria-describedby="basic-addon4">
-                              </div>
-                          </div>
-                          <div class="cvv-zAU">
-                              <p class="alamat-Xw6">Alamat</p>
-                              <div class="input-group mb-3">
-                                  <div class="rectangle-26-rTa"></div>
-                                  <input class="form-control rectangle-26-rTa" type="text" placeholder="" aria-label="Alamat" aria-describedby="basic-addon5">
-                              </div>
-                          </div>
-                          <div class="product-card-ns2">
-                              <div class="frame-7-gxQ">
-                                  <img class="image-2-Sgg img-fluid" src="./assets/image-2-pcx.png" alt="Product Image">
-                              </div>
-                              <div class="frame-15-NqE">
-                                  <div class="pesan-telur-dengan-jumlah-diinginkan-WgY">Pesan Telur Dengan Jumlah Diinginkan</div>
-                                  <div class="auto-group-bcsl-Dqr">
-                                      <div class="frame-2609047-NTr">
-                                          <p class="harga-yang-harus-dibayar-Wpx">Harga Yang Harus Dibayar</p>
-                                          <div class="input-group mb-3">
-                                              <div class="frame-1429-3K6"></div>
-                                              <input class="form-control input-initial-CSt" type="text" placeholder="" aria-label="Harga Yang Harus Dibayar" aria-describedby="basic-addon6">
-                                          </div>
-                                      </div>
-                                      <p class="kg-3yJ">KG</p>
-                                      <div class="input-group mb-3">
-                                          <div class="frame-1429-mPW"></div>
-                                          <input class="form-control input-initial-7iG" type="text" placeholder="" aria-label="Jumlah Diinginkan" aria-describedby="basic-addon7">
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 bg-white w-100" >
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-3">Pesan telur </h4>
+          <form class="needs-validation" novalidate>
+                <div class="col-12">
+                    <label for="alamat" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="alamat" required>
+                    <div class="invalid-feedback">
+              </div>
+
+              <div class="col-12">
+                <label for="alamat" class="form-label">Alamat</label>
+                <input type="text" class="form-control" id="alamat" required>
+                <div class="invalid-feedback">
+                  Isi Alamat Anda
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="no.telp" class="form-label">No.telp</label>
+                <input type="text" class="form-control" id="alamat" required>
+                <div class="invalid-feedback">
+                  Isi Alamat Anda
+                </div>
+              </div>
+
+              <div class="col-4">
+                <label for="telur" class="form-label">Berat Telur Yang Di Pesan</label>
+                <input type="number" class="form-control" id="telur" placeholder="Kg" onchange="calculatePrice()" required>
+              </div>
+
+
+
+
+
+                <hr class="my-4">
+
+                <h4 class="mb-3">Pembayaran</h4>
+
+                <div class="my-3">
+                  <div class="form-check">
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="2132131" checked required>
+                    <label class="form-check-label" for="credit">Dana</label>
                   </div>
-              </div>
-              <div class="auto-group-rixj-75z">
-                  <a href="#" class="btn btn-secondary frame-116-EAc" role="button" style="text-decoration: none;">Batalkan</a>
-                  <a href="#" class="btn btn-primary frame-115-H8t" style="text-decoration: none;">Bayar Sekarang</a>                  
-              </div>
-          </div>
-      </div>
+                  <div class="form-check">
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="817281782" checked required>
+                    <label class="form-check-label" for="debit">Bri</label>
+                  </div>
+                  <div class="form-check">
+                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="435435435" required>
+                    <label class="form-check-label" for="paypal">Bni</label>
+                  </div>
+                </div>
+
+
+                <div class="col-12">
+                  <label for="namabayar" class="form-label">No. Rekening/Dana</label>
+                  <input type="text" class="form-control" id="namabayar" required>
+
+                  <div class="invalid-feedback">
+                    Isi Nama Yang Membayar
+                  </div>
+                </div>
+
+                <script>
+                    function setFieldValue() {
+                        var creditRadio = document.querySelector('input[name="paymentMethod"]:checked');
+                        var inputValue = creditRadio.value;
+                        document.getElementById('namabayar').value = inputValue;
+                      }
+                </script>
+
+
+
+
+
+
+
+
+                <div class="col-4">
+                    <label for="harga" class="form-label">Harga </label>
+                    <input type="number" class="form-control" id="harga" placeholder="Rp" disabled>
+                  </div>
+
+
+                <hr class="my-4">
+
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Pesan</button>
+                <hr class="my-4">
+          </form>
+        </div>
+      </main>
+    </div>
   </div>
-  
 
+  <script>
+    function calculatePrice() {
+      // Mendapatkan nilai dari input berat telur
+      var beratTelur = document.getElementById('telur').value;
 
+      // Harga per kilogram telur (contoh: Rp 15.000)
+      var hargaPerKg = 15000;
 
+      // Menghitung harga total
+      var hargaTotal = beratTelur * hargaPerKg;
 
-
-  </main>
-
-  <footer class="blog-footer">
-    <p>
-      Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
-      </p>
-    <p>
-      COPYRIGHT © 2023 Jayalaksana
-    </p>
-  </footer>
-  
-
-
-
-
-
-
-
+      // Menyimpan nilai harga total ke dalam input dengan id 'harga'
+      document.getElementById('harga').value = hargaTotal;
+    }
+  </script>
 
 
 

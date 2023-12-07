@@ -76,22 +76,17 @@
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div class="col-md-7 col-lg-8">
-          <h4 class="mb-3">Pesan Ke Supplier</h4>
+          <h4 class="mb-3">Kirim Telur</h4>
           <form class="needs-validation" novalidate>
             <div class="row g-3">
               <div class="col-12">
                 <label for="nama" class="form-label">Nama Supplier</label>
-                <select class="form-select" id="nama" required>
-                  <option value="">Pilih Nama Supplier Yang Terdaftar</option>
-                  <option>Ujang</option>
-                  <option>Ujang</option>
-                  <option>Ujang</option>
-                  <option>Ujang</option>
-                </select>
-                <div class="invalid-feedback">
-                  Tolong Pilih Nama Supplier
-                </div>
-              </div>
+                    <label for="alamat" class="form-label"></label>
+                    <input type="text" class="form-control" id="alamat" required>
+                    <div class="invalid-feedback">
+                      Isi Alamat Anda
+                    </div>
+                  </div>
 
               <div class="col-12">
                 <label for="alamat" class="form-label">Alamat</label>
