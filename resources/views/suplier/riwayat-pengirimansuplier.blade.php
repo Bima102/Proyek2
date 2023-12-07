@@ -1,102 +1,374 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <title>rIWAYAT</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700%2C800"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A800"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A700"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit%3A400"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
-  <link rel="stylesheet" href="{{ asset('styles/riwayat-pengirimansuplier.css') }}"/>
-  <link rel="stylesheet" href="{{ asset('styles/scss/riwayat-pengirimansuplier.scss') }}"/>
-  <style>
-    /* Menghapus garis bawah pada tautan/link */
-    a {
-      text-decoration: none;
-    }
+<!doctype html>
+<html lang="en">
 
-    /* Menambahkan warna teks pada tautan/link yang diklik */
-    a:hover {
-      text-decoration: none;
-    }
-  </style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dashboard Template · Bootstrap v5.0</title>
+
+
+
+
+
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ asset('styles/bootstrap.min.css') }}" rel="stylesheet">
+
+
+
+
+  <!-- Custom styles for this template -->
+  <link href="{{ asset('styles/dashboard.css') }}" rel="stylesheet">
+
 </head>
+
 <body>
-<div class="riwayat-EhE">
-  <div class="header-top-zRW">
-    <img class="rectangle-56-icQ" src="./assets/rectangle-56-hcC.png"/>
-    <div class="your-account-items-qh2">
-      <div class="frame-6-MfN">No WA : 089999999999</div>
-      <a href="/informasi-akunsuplier" class=" frame-3-SB2">Akun</a>
-      <a href="/loginsuplier" class="frame-3-hse">Logout</a>
+
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 ">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/dashboardadmin">Jayalaksana</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <div class="navbar-nav">
+      <div class="nav-item text-nowrap">
+        <a class="nav-link px-3" href="#">Sign out</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/dasboardsuplier">
+                <span data-feather="home"></span>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/kirim-telur">
+                <span data-feather="file"></span>
+                Kirim telur
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Riwayat-pengirimansuplier">
+                <span data-feather="shopping-cart"></span>
+                Riwayat Pengiriman
+              </a>
+            </li>
+
+          </ul>
+
+
+
+        </div>
+      </nav>
+
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+
+
+
+
+
+
+        <h2>Riwayat Pesanan</h2>
+        <div class="table-responsive ">
+          <table class="table table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">Nama</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Harga</th>
+                <th scope="col">Status</th>
+                <th scope="col">Edit Status</th>
+                <th scope="col">Alamat</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+              <tr>
+                <td>Messi</td>
+                <td>01-01-2023</td>
+                <td>12.222.122</td>
+                <td>Proses</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Edit
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Proses</a></li>
+                      <li><a class="dropdown-item" href="#">Batal</a></li>
+                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
+
+                    </ul>
+                    </ul>
+                  </div>
+                </td>
+                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+
+              </tr>
+
+            </tbody>
+          </table>
+          <div class="pagination-75i">
+            <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
+            <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
+          </div>
+        </div>
+      </main>
     </div>
   </div>
-  <div class="auto-group-kcmv-Nyn">
-    <div class="frame-2609093-uip">
-      <div class="frame-3KE">
-        <div class="text-kDe">Menu</div>
-        <div class="content-FRJ">
-          <div class="icon-text-QJC">
-            <div class="text-x4p">  Home</div>
-          </div>
-        </div>
-        <div class="content-rR6">
-          <div class="text-or8">  Pesan Telur</div>
-        </div>
-        <div class="content-iiC">
-          <div class="text-t6t">  Keranjang</div>
-        </div>
-      </div>
-      <div class="frame-54-NGx">
-        <div class="frame-tm6">
-          <div class="text-dig">Menu</div>
-          <div class="content-9h2">
-            <div class="icon-text-hTe">
-                <a href="dasboardsuplier" class="text-eNt">Dashboard</a>
-            </div>
-          </div>
-          <div class="content-wct">
-            <a href="kirim-telur" class="text-JCY">Kirim Telur</a>
-          </div>
-          <div class="content-zLG">
-            <a href="riwayat-pengirimansuplier" class="text-YMn">Riwayat Pengiriman</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="frame-2609092-YWC">
-      <p class="riwayat-pengiriman-eJL">Riwayat Pengiriman</p>
-      <div class="frame-695-MCk">
-        <div class="frame-702-6g8">
-          <div class="frame-696-q7v">Nama Pesanan</div>
-          <div class="frame-697-hfv">Tanggal</div>
-          <div class="frame-698-bFW">Harga</div>
-          <div class="frame-708-5Ra">Status</div>
-        </div>
-        <div class="frame-703-LsJ">
-          <div class="frame-696-UCp">Telur 120 Kg</div>
-          <div class="frame-697-Zk4">01 Mei  2023</div>
-          <div class="frame-698-TaY">Rp.1,000,000</div>
-          <div class="frame-707-Zda">Terkirim</div>
-        </div>
-        <div class="frame-707-4KS">
-          <div class="frame-696-BQ4">Telur 20 Kg</div>
-          <div class="frame-697-VQk">02 Maret 2033</div>
-          <div class="frame-698-zsJ">Rp.110,000</div>
-          <div class="frame-708-7S8">Dibatalkan</div>
-        </div>
-        <div class="pagination-opk">
-          <img class="bold-arrows-alt-arrow-left-86L" src="./assets/bold-arrows-alt-arrow-left-848.png"/>
-          <img class="bold-arrows-alt-arrow-right-eKa" src="./assets/bold-arrows-alt-arrow-right-PV2.png"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+
+
+  <script src="{{ asset('js/dashboard.js') }}">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+  <!-- Bootstrap JS (Popper.js and Bootstrap JS) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+  <script src="dashboard.js"></script>
+
 </body>
+
+
+
 </html>
-    
