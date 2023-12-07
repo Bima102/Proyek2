@@ -91,7 +91,7 @@
         <div class="card" style="width: 18rem;">
           <img src="./assets/image-2-r9N.png" class="card-img-top" alt="./assets/image-2-r9N.png">
           <div class="card-body">
-            <h5 class="card-title">Pesan Dengan Jumlah Tertentu</h5>
+            <h5 class="card-title">10kg</h5>
             <p class="card-text"> </p>
             <a href="#" class="btn btn-primary">Pesan Sekarang</a>
           </div>
