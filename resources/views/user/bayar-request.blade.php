@@ -75,11 +75,7 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-<<<<<<<<< Temporary merge branch 1
-
-=========
               
->>>>>>>>> Temporary merge branch 2
           </li>
         </ul>
       </div>
@@ -163,20 +159,12 @@
               </div>
               <div class="auto-group-rixj-75z">
                   <a href="#" class="btn btn-secondary frame-116-EAc" role="button" style="text-decoration: none;">Batalkan</a>
-<<<<<<<<< Temporary merge branch 1
-                  <a href="#" class="btn btn-primary frame-115-H8t" style="text-decoration: none;">Bayar Sekarang</a>
-=========
                   <a href="#" class="btn btn-primary frame-115-H8t" style="text-decoration: none;">Bayar Sekarang</a>                  
->>>>>>>>> Temporary merge branch 2
               </div>
           </div>
       </div>
   </div>
-<<<<<<<<< Temporary merge branch 1
-
-=========
   
->>>>>>>>> Temporary merge branch 2
 
 
 
@@ -192,11 +180,7 @@
       COPYRIGHT © 2023 Jayalaksana
     </p>
   </footer>
-<<<<<<<<< Temporary merge branch 1
-
-=========
   
->>>>>>>>> Temporary merge branch 2
 
 
 
@@ -225,8 +209,4 @@
 
 
 
-<<<<<<<<< Temporary merge branch 1
 </html>
-=========
-</html>
->>>>>>>>> Temporary merge branch 2
