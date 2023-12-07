@@ -75,7 +75,11 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
+<<<<<<< HEAD
               
+=======
+
+>>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
           </li>
         </ul>
       </div>
@@ -109,7 +113,11 @@
       COPYRIGHT © 2023 Jayalaksana
     </p>
   </footer>
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
 
 
 
@@ -138,4 +146,8 @@
 
 
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> bb4acb1df22b6f73f59b338d3fbe64b870c0bc41
