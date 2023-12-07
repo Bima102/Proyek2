@@ -75,11 +75,7 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-<<<<<<<<< Temporary merge branch 1
 
-=========
-              
->>>>>>>>> Temporary merge branch 2
           </li>
         </ul>
       </div>
