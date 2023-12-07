@@ -101,7 +101,7 @@
 
   </main>
 
-  <footer class="blog-footer">
+  <footer class="blog-footer" style="position: fixed;bottom:0;width:100%">
     <p>
       Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
       </p>
