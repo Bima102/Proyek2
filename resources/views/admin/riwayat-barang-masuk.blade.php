@@ -70,6 +70,13 @@
                 Pesan Ke Supplier
               </a>
             </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/update-penggantian-harga">
+            <span data-feather="users"></span>
+            Update Pergantian Harga
+          </a>
+        </li>
 
           </ul>
 

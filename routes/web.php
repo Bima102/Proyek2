@@ -88,6 +88,10 @@ Route::get('/pesan-ke-suplier', function () {
     return view('admin/pesan-ke-suplier');
 });
 
+Route::get('/update-penggantian-harga', function () {
+    return view('admin/update-penggantian-harga');
+});
+
 Route::get('/tampilan-sebelumlogin', function () {
     return view('user/tampilan-sebelumlogin');
 });
