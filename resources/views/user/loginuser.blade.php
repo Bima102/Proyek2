@@ -51,7 +51,7 @@
     <input type="email" class="inputform-control-6k8" placeholder="">
     <p class="password--Z7v">Password *</p>
     <input type="password" class="inputform-control-DCU" placeholder="">
-    <a href="/tampilan-setelah-login" class="btn frame-3-ub6"style="text-decoration: none;">Login</a>
+    <a href="/dasboarduser" class="btn frame-3-ub6"style="text-decoration: none;">Login</a>
     <a href="/lupa-passworduser" class="text-primary lupa-password-Jt8" style="text-decoration: none;">Lupa password?</a>
     <p class="belum-punya-akundaftar-1Gk">
       <span class="belum-punya-akundaftar-1Gk-sub-0">Belum punya Akun?</span>

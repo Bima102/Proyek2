@@ -89,7 +89,7 @@
 
 
 
-    <h2>Riwayat Pesanan</h2>
+    <h2>Riwayat pembelian</h2>
     <div class="table-responsive ">
       <table class="table table-striped table-sm">
         <thead>

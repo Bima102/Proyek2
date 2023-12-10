@@ -103,7 +103,7 @@
           <div class="card-body">
             <h5 class="card-title">10 Kg Telur</h5>
             <p class="card-text">       </p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@
           <div class="card-body">
             <h5 class="card-title">30 Kg Telur</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
           <div class="card-body">
             <h5 class="card-title">50 Kg</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@
           <div class="card-body">
             <h5 class="card-title">1 Ton</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@
           <div class="card-body">
             <h5 class="card-title">1,5 Ton</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@
           <div class="card-body">
             <h5 class="card-title">2 Ton</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@
           <div class="card-body">
             <h5 class="card-title">3 Ton</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            <a class="btn btn-primary" href="/bayar-request">pesan sekarang</a>
           </div>
         </div>
       </div>
