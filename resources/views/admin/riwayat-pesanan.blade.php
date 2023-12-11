@@ -72,7 +72,7 @@
             </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/update-penggantian-harga">
+          <a class="nav-link" href="/coba">
             <span data-feather="users"></span>
             Update Pergantian Harga
           </a>
