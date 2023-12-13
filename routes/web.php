@@ -100,12 +100,12 @@ Route::get('/informasi-akunuser', function () {
     return view('user/informasi-akunuser');
 });
 
-Route::get('/loginuser', function () {
-    return view('user/loginuser');
+Route::get('/regis', function () {
+    return view('user/regis');
 });
 
-Route::get('/registeruser', function () {
-    return view('user/registeruser');
+Route::get('/login', function () {
+    return view('user/login');
 });
 
 Route::get('/tampilan-setelah-login', function () {
@@ -147,7 +147,7 @@ Route::get('/artikel', function () {
 Route::get('/pesan-ke-suplier', function () {
     return view('admin/pesan-ke-suplier');
 });
-Route::get('/coba', function () {
-    return view('admin/coba');
+Route::get('/riwayharga', function () {
+    return view('admin/riwayharga');
 });
 

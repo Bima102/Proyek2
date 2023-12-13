@@ -17,7 +17,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="{{ asset('styles/bootstrap.min.css') }}" rel="stylesheet">
-
+ 
 
 
 
@@ -25,7 +25,7 @@
   <link href="{{ asset('styles/blog.css') }}" rel="stylesheet">
 
 </head>
-
+<link href="signin.css" rel="stylesheet">
 <style>
   .card-title {
       font-family: 'Lato', sans-serif;
@@ -44,6 +44,22 @@
       font-size: 3.5rem;
     }
   }
+
+  
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 </style>
 
 
@@ -67,41 +83,52 @@
           <li class="nav-item">
             <a class="nav-link fw-bold mx-2 acti" href="#">WA:082222222112</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page"href="/dasboarduser">Produk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" href="/riwayat-pembelian">Riwayat Pembelian</a>
-          </li>
-          <li class="nav-item ">
-          <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
 
-          </li>
         </ul>
       </div>
     </div>
   </nav>
+  
+  <main class="form-signin">
+  
+  <div class="container">
+   
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="signup-form">
+                <form action="" class="mt-5 border p-4 bg-light shadow">
+                    <h4 class="mb-5 text-secondary">Login</h4>
+                    <div class="row">
+                        <div class="mb-3 col-md-12">
+                            <label>Nama<span class="text-danger">*</span></label>
+                            <input type="text" name="fname" class="form-control" placeholder="Masukkan Nama">
+                        </div>
 
-  <main class="container">
-    <hr class="my-20">
+                       
 
+                        <div class="mb-3 col-md-12">
+                            <label>Password<span class="text-danger">*</span></label>
+                            <input type="password" name="password" class="form-control" placeholder="Masukkan Password">
+                        </div>
+                       
+                        
+                        <div class="mb-3 col-md-12">
+                           <button class="btn btn-primary float-end" href="/dasboaruser">Login</button>
+                       
+                        </div>
+                        <div class="mb-3 col-md-12">
+                           <button class="btn btn-primary float-end" href="/regis">Daftar</button>
+                       
+                        </div>
+                      
+            </div>
+                    </div>
+                </form>
+                
+                <hr class="my-4">
+</main>
 
-    <div class="container mt-5">
-      <div class="card">
-          <div class="card-body">
-              <h5 class="card-title">Informasi Akun</h5>
-              <p class="card-text"><strong>Nama:</strong> Rambo Dermayu</p>
-              <p class="card-text"><strong>No Telpon:</strong> 088888888</p>
-              <button type="button" class="btn btn-primary">Ganti Password</button>
-          </div>
-      </div>
-  </div>
-  <hr class="my-20">
-
-
-  </main>
-
-  <footer class="blog-footer" style="position: fixed;bottom:0;width:100%">
+  <footer class="blog-footer" >
     <p>
       Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
       </p>
@@ -142,7 +169,7 @@
 
 
 
-</html>
-=========
+
+
 </html>
 

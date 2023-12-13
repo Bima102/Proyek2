@@ -26,6 +26,7 @@
 
 </head>
 
+
 <style>
   .card-title {
       font-family: 'Lato', sans-serif;

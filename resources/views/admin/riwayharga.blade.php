@@ -32,12 +32,8 @@
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="bg-dark w-100"> </div>
-    <div class="navbar-nav">
-      <div class="nav-item text-nowrap">
-      <a class="nav-link px-3 btn-primary" href="#">Sign out</a>
-      </div>
-    </div>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+
   </header>
 
   <div class="container-fluid">
@@ -72,11 +68,24 @@
             </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/coba">
+          <a class="nav-link active" aria-current="page" href="/riwayharga">
             <span data-feather="users"></span>
             Update Pergantian Harga
           </a>
         </li>
+        
+            <li class="nav-item dropdown no-arrow">
+              <button class="nav-link dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+
+              </button>
+              <!-- Dropdown - User Information -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Informasi Akun</a></li>
+                <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
+
+              </ul>
+            </li>
 
           </ul>
 

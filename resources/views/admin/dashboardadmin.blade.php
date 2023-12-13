@@ -33,11 +33,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-    <div class="navbar-nav">
-      <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Sign out</a>
-      </div>
-    </div>
+
   </header>
 
   <div class="container-fluid">
@@ -70,15 +66,28 @@
                 Pesan Ke Supplier
               </a>
             </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/coba">
-            <span data-feather="users"></span>
-            Update Pergantian Harga
-          </a>
-        </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/riwayharga">
+                <span data-feather="users"></span>
+                Update Pergantian Harga
+              </a>
+            </li>
+            <li class="nav-item dropdown no-arrow">
+              <button class="nav-link dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+
+              </button>
+              <!-- Dropdown - User Information -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Informasi Akun</a></li>
+                <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
+
+              </ul>
+            </li>
 
           </ul>
+          
 
 
 
@@ -137,61 +146,62 @@
         </div>
 
         <!-- Modal Two -->
-<div class="modal fade" data-bs-backdrop="static" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modalTwoLabel">Ganti Harga Lainnya</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form action="#" onsubmit="submitForm(event)">
-          <div class="form-group">
-            <label for="hargaLainnya">Harga </label>
-            <input type="number" class="form-control" id="hargaLainnya" placeholder="Contoh: 50000">
+        <div class="modal fade" data-bs-backdrop="static" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTwoLabel">Ganti Harga Lainnya</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="#" onsubmit="submitForm(event)">
+                  <div class="form-group">
+                    <label for="hargaLainnya">Harga </label>
+                    <input type="number" class="form-control" id="hargaLainnya" placeholder="Contoh: 50000">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+        </div>
 
 
 
-<!-- Bootstrap JS and Popper.js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS and Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script>
-  function submitForm1(event) {
-    // Prevent the default form submission
-    event.preventDefault();
+        <script>
+          function submitForm1(event) {
+            // Prevent the default form submission
+            event.preventDefault();
 
-    // Get the value from the input
-    var hargaLainnyaValue = document.getElementById('hargaTelur').value;
+            // Get the value from the input
+            var hargaLainnyaValue = document.getElementById('hargaTelur').value;
 
-    // Set the value to the 'namabayar' input
-    document.getElementById('harga').value = hargaLainnyaValue;
+            // Set the value to the 'namabayar' input
+            document.getElementById('harga').value = hargaLainnyaValue;
 
-    // Close the modal
-    $('#modalOne').modal('hide');
-  }
-  function submitForm(event) {
-    // Prevent the default form submission
-    event.preventDefault();
+            // Close the modal
+            $('#modalOne').modal('hide');
+          }
 
-    // Get the value from the input
-    var hargaLainnyaValue = document.getElementById('hargaLainnya').value;
+          function submitForm(event) {
+            // Prevent the default form submission
+            event.preventDefault();
 
-    // Set the value to the 'namabayar' input
-    document.getElementById('namabayar').value = hargaLainnyaValue;
+            // Get the value from the input
+            var hargaLainnyaValue = document.getElementById('hargaLainnya').value;
 
-    // Close the modal
-    $('#modalTwo').modal('hide');
-  }
-</script>
+            // Set the value to the 'namabayar' input
+            document.getElementById('namabayar').value = hargaLainnyaValue;
+
+            // Close the modal
+            $('#modalTwo').modal('hide');
+          }
+        </script>
 
 
 
