@@ -47,22 +47,29 @@
         <div class="position-sticky pt-3">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/dasboardsuplier">
+              <a class="nav-link" href="/dasboardsuplier">
                 <span data-feather="home"></span>
                 Dashboard
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/kirim-telur">
-                <span data-feather="file"></span>
-                Kirim telur
-              </a>
-            </li>
+           
             <li class="nav-item">
               <a class="nav-link" href="/riwayat-pengirimansuplier">
                 <span data-feather="shopping-cart"></span>
                 Riwayat Pengiriman
               </a>
+            </li>
+            <li class="nav-item dropdown no-arrow">
+              <button class="nav-link dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+
+              </button>
+              <!-- Dropdown - User Information -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Informasi Akun</a></li>
+                <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
+
+              </ul>
             </li>
 
 
@@ -79,14 +86,10 @@
           <h4 class="mb-3">Kirim Telur</h4>
           <form class="needs-validation" novalidate>
             <div class="row g-3">
-              <div class="col-12">
-                <label for="nama" class="form-label">Nama Supplier</label>
-                    <label for="alamat" class="form-label"></label>
-                    <input type="text" class="form-control" id="alamat" required>
-                    <div class="invalid-feedback">
-                      Isi Alamat Anda
-                    </div>
-                  </div>
+            <div class="col-12">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" disabled>
+                
 
               <div class="col-12">
                 <label for="alamat" class="form-label">Alamat</label>
