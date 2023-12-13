@@ -68,13 +68,13 @@
             <a class="nav-link fw-bold mx-2 acti" href="#">WA:082222222112</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page"href="/dasboarduser">Produk</a>
+            <a class="nav-link mx-2"href="/dasboarduser">Produk</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="/riwayat-pembelian">Riwayat Pembelian</a>
           </li>
           <li class="nav-item ">
-          <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
+          <a class="nav-link mx-2 active" aria-current="page" href="/informasi-akunuser">Akun</a>
 
           </li>
         </ul>

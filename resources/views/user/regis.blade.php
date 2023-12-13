@@ -120,7 +120,7 @@
                         </div>
                         
                         <div class="mb-3 col-md-12">
-                           <button class="btn btn-primary float-end" href="/login">Daftar</button>
+                           <a class="btn btn-primary float-end" href="/login">Daftar</a>
                         </div>
                         <div class="mb-3 col-md-12">
                            <button class="btn btn-primary float-end">Daftar Sebagai Supplier</button>

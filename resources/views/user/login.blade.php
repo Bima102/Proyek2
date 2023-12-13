@@ -113,11 +113,11 @@
                        
                         
                         <div class="mb-3 col-md-12">
-                           <button class="btn btn-primary float-end" href="/dasboaruser">Login</button>
+                           <a class="btn btn-primary float-end" href="/dasboarduser">Login</a>
                        
                         </div>
                         <div class="mb-3 col-md-12">
-                           <button class="btn btn-primary float-end" href="/regis">Daftar</button>
+                           <a class="btn btn-primary float-end" href="/regis">Daftar</a>
                        
                         </div>
                       
