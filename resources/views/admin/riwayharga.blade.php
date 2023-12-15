@@ -111,17 +111,9 @@
                 <th scope="col">Tanggal</th>
                 <th scope="col">Harga</th>
 
-
               </tr>
             </thead>
             <tbody>
-              <tr>
-
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-
-
-              </tr>
               <tr>
 
                 <td>01-01-2023</td>
@@ -133,10 +125,7 @@
 
             </tbody>
           </table>
-          <div class="pagination-75i">
-            <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
-            <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
-          </div>
+
         </div>
       </main>
     </div>

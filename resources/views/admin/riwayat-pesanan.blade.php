@@ -113,6 +113,7 @@
                 <th scope="col">Status</th>
                 <th scope="col">Edit Status</th>
                 <th scope="col">Alamat</th>
+                <th scope="col">Aksi</th>
 
               </tr>
             </thead>
@@ -137,28 +138,7 @@
                   </div>
                 </td>
                 <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
+                <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
             </tbody>
           </table>
         </div>
