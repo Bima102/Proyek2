@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
 
-  <title>Produk</title>
+  <title>SI TELUR</title>
 
 
 
@@ -75,7 +75,7 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-              
+
           </li>
         </ul>
       </div>
@@ -100,6 +100,7 @@
             <th scope="col">Status</th>
             <th scope="col">Edit Status</th>
             <th scope="col">Alamat</th>
+            <th scope="col">Aksi</th>
 
           </tr>
         </thead>
@@ -109,7 +110,7 @@
             <td>01-01-2023</td>
             <td>12.222.122</td>
             <td>Proses</td>
-            <td> 
+            <td>
                 <button class="btn btn-danger" type="button"  aria-expanded="false">
                   batal
                 </button>
@@ -117,166 +118,24 @@
             </td>
             <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
 
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
 
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-              <button class="btn btn-danger" type="button"  aria-expanded="false">
-                batal
-              </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
-          </tr>
 
         </tbody>
       </table>
       <div class="pagination-75i">
-        <img class="bold-arrows-alt-arrow-left-R6Q" src="./assets/bold-arrows-alt-arrow-left-zyW.png" />
-        <img class="bold-arrows-alt-arrow-right-YB2" src="./assets/bold-arrows-alt-arrow-right.png" />
       </div>
     </div>
   </main>
 
-  <footer class="blog-footer">
+ <footer class="blog-footer">
     <p>
-      Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
-      </p>
+      Jl.KI SURO RT 02/RW 01, KECAMATAN PASEKAN, KABUPATEN INDRAMAYU, JAWA BARAT
+    </p>
     <p>
       COPYRIGHT © 2023 Jayalaksana
     </p>
   </footer>
-  
+
 
 
 

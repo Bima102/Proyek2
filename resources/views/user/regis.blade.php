@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
 
-  <title>Produk</title>
+  <title>SI TELUR</title>
 
 
 
@@ -17,7 +17,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="{{ asset('styles/bootstrap.min.css') }}" rel="stylesheet">
- 
+
 
 
 
@@ -45,7 +45,7 @@
     }
   }
 
-  
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -88,11 +88,11 @@
       </div>
     </div>
   </nav>
-  
+
   <main class="form-signin">
-  
+
   <div class="container">
-   
+
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <div class="signup-form">
@@ -104,7 +104,7 @@
                             <input type="text" name="fname" class="form-control" placeholder="Masukkan Nama">
                         </div>
 
-                       
+
 
                         <div class="mb-3 col-md-12">
                             <label>Password<span class="text-danger">*</span></label>
@@ -118,7 +118,7 @@
                             <label>No Telpon<span class="text-danger">*</span></label>
                             <input type="text" name="fname" class="form-control" placeholder="masukkan no tlp/WA">
                         </div>
-                        
+
                         <div class="mb-3 col-md-12">
                            <a class="btn btn-primary float-end" href="/login">Daftar</a>
                         </div>
