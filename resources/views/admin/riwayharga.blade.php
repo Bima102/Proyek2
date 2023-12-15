@@ -28,7 +28,7 @@
 <body>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 ">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/dashboardadmin">Jayalaksana</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/dashboardadmin">SI TELUR</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -73,7 +73,7 @@
             Update Pergantian Harga
           </a>
         </li>
-        
+
             <li class="nav-item dropdown no-arrow">
               <button class="nav-link dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
@@ -95,7 +95,7 @@
       </nav>
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        
+
 
 
 
@@ -107,26 +107,26 @@
           <table class="table table-striped table-sm">
             <thead>
               <tr>
-                
+
                 <th scope="col">Tanggal</th>
                 <th scope="col">Harga</th>
-                
+
 
               </tr>
             </thead>
             <tbody>
               <tr>
-                
+
                 <td>01-01-2023</td>
                 <td>12.222.122</td>
 
 
               </tr>
               <tr>
-               
+
                 <td>01-01-2023</td>
                 <td>12.222.122</td>
-                
+
 
               </tr>
 
