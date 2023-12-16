@@ -68,8 +68,8 @@ Route::get('/edit-harga', function () {
     return view('admin/edit-harga');
 });
 
-Route::get('/edit-stok', function () {
-    return view('admin/edit-stok');
+Route::get('/akun', function () {
+    return view('admin/akun');
 });
 
 Route::get('/edit-status', function () {

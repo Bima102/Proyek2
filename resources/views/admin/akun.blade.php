@@ -32,7 +32,7 @@
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <div class=bg-dark> </div>
 
   </header>
 
@@ -55,7 +55,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/riwayat-barang-masuk">
+              <a class="nav-link" href="/riwayat-barang-masuk">
                 <span data-feather="shopping-cart"></span>
                 Riwayat Barang Masuk
               </a>
@@ -81,7 +81,7 @@
               </button>
               <!-- Dropdown - User Information -->
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/akun">Informasi Akun</a></li>
+                <li><a class="dropdown-item" href="#">Informasi Akun</a></li>
                 <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
 
               </ul>
@@ -96,52 +96,42 @@
 
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+     
+    <hr class="my-20">
 
 
+    <div class="container mt-5">
+      <div class="card">
+          <div class="card-body">
+              <h5 class="card-title">Informasi Akun</h5>
+              <p class="card-text"><strong>Nama:</strong> Rambo Dermayu</p>
+              <p class="card-text"><strong>No Telpon:</strong> 088888888</p>
+              <button type="button" class="btn btn-primary">Ganti Password</button>
+          </div>
+      </div>
+  </div>
+  <hr class="my-20">
 
 
+  </main>
+    </div>
+  </div>
 
+  <script>
+    function calculatePrice() {
+      // Mendapatkan nilai dari input berat telur
+      var beratTelur = document.getElementById('telur').value;
 
-        <h2>Riwayat Barang Masuk</h2>
-        <div class="table-responsive ">
-          <table class="table table-striped table-sm">
-            <thead>
-              <tr>
-                <th scope="col">Nama</th>
-                <th scope="col">Tanggal</th>
-                <th scope="col">Harga</th>
-                <th scope="col">Status</th>
-                <th scope="col">Edit Status</th>
-                <th scope="col">Alamat</th>
+      // Harga per kilogram telur (contoh: Rp 15.000)
+      var hargaPerKg = 15000;
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
-                <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
+      // Menghitung harga total
+      var hargaTotal = beratTelur * hargaPerKg;
 
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
-                </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-                <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
-
-
-
-
+      // Menyimpan nilai harga total ke dalam input dengan id 'harga'
+      document.getElementById('harga').value = hargaTotal;
+    }
+  </script>
 
 
 

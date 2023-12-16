@@ -81,7 +81,7 @@
               </button>
               <!-- Dropdown - User Information -->
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Informasi Akun</a></li>
+                <li><a class="dropdown-item" href="/akun">Informasi Akun</a></li>
                 <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
 
               </ul>
