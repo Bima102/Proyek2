@@ -110,6 +110,9 @@
                             <label>Password<span class="text-danger">*</span></label>
                             <input type="password" name="password" class="form-control" placeholder="Masukkan Password">
                         </div>
+                        <div class="mb-3 col-md-12">
+                          <a class="btn btn-primary float-end" href="/lupa-passworduser">lupa password</a>
+                        </div>
 
 
                         <div class="mb-3 col-md-12">
@@ -128,14 +131,7 @@
                 <hr class="my-4">
 </main>
 
-  <footer class="blog-footer" >
-    <p>
-      Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
-      </p>
-    <p>
-      COPYRIGHT © 2023 Jayalaksana
-    </p>
-  </footer>
+  
 
 
 

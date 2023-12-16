@@ -99,6 +99,11 @@
                 <form action="" class="mt-5 border p-4 bg-light shadow">
                     <h4 class="mb-5 text-secondary">Daftar</h4>
                     <div class="row">
+                      <div class="mb-3 col-md-12">
+                        <label>Email<span class="text-danger">*</span></label>
+                        <input type="text" name="fname" class="form-control" placeholder="Masukkan Email">
+                    </div>
+                      
                         <div class="mb-3 col-md-12">
                             <label>Nama<span class="text-danger">*</span></label>
                             <input type="text" name="fname" class="form-control" placeholder="Masukkan Nama">

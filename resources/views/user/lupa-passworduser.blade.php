@@ -1,75 +1,157 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <title>lupa password</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montagu+Slab%3A700"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut+Antiqua%3A400"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700%2C800"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%2C800"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A700"/>
-  <link rel="stylesheet" href="{{ asset('styles/lupa-passworduser.css') }}"/>
-  <link rel="stylesheet" href="{{ asset('styles/scss/lupa-passworduser.scss') }}"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+
+  <title>SI TELUR</title></title>
+
+
+
+
+
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ asset('styles/bootstrap.min.css') }}" rel="stylesheet">
+
+
+
+
+  <!-- Custom styles for this template -->
+  <link href="{{ asset('styles/blog.css') }}" rel="stylesheet">
+
 </head>
-<body>
-<div class="lupa-password-F8k">
-  <div class="header-top-zME">
-    <img class="rectangle-56-WaU" src="./assets/rectangle-56-W9W.png"/>
-    <div class="your-account-items-q6x">
-      <div class="frame-6-ji8">No WA : 089999999999</div>
-      <a href="/loginuser" <button type="button" class="frame-3-Lxp" style="text-decoration: none;">Login/Daftar</button></a>
-    </div>
-  </div>
-  <div class="auto-group-d3yu-Qxg">
-    <div class="frame-8-whi">
-      <p class="lupa-password-zR6">Lupa Password</p>
-      <p class="email--szg">Email *</p>
-      <input class="inputform-control-Y5E">
-      </input>
-      <p class="password--dsN">Password *</p>
-      <input type="password" class="inputform-control-Hma">
-      </input>
-      <p class="sudah-punya-akunlogin-8ZE">
-        <span class="sudah-punya-akunlogin-8ZE-sub-0">Sudah punya Akun?</span>
-        <a href="/loginuser" class="sudah-punya-akunlogin-8ZE-sub-1" style="text-decoration: none;">Login</a>
-      </p>
-      <button type="button" class="btn btn-Bvp">Simpan</button>
-      <div class="auto-group-evsa-2Ak">
-        <a href=""><img class="group-120-ksS" src="./assets/group-120-6WL.png"/></a>
-        <a href="" class="kembali-hng" style="text-decoration: none">Kembali</a>
+<link href="signin.css" rel="stylesheet">
+<style>
+  .card-title {
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+    }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</style>
+
+
+<!-- Custom styles for this template -->
+<link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="blog.css" rel="stylesheet">
+</head>
+
+<body class="body">
+
+  <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/assets/rectangle-56.png" height="60" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link fw-bold mx-2 acti" href="#">WA:082222222112</a>
+          </li>
+
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="frame-5-Zpt">
-    <img class="ggggggggg-removebg-preview-1-sqa" src="./assets/ggggggggg-removebg-preview-1-fjv.png"/>
-    <div class="auto-group-zb2q-nhe">
-      <p class="alamat-jlki-suro-rt-02-rw-01-kecamatan-pasekankabupaten-indramayujawa-barat-kode-pos-45227-6yE">
-      ALAMAT:
-      <br/>
+  </nav>
 
-      <br/>
-      Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
-      <br/>
-      KODE POS 45227
-      <br/>
+  <main class="form-signin">
 
-      </p>
-      <div class="frame-10-YKS">
-      </div>
-      <div class="frame-11-5aG">
-      </div>
-    </div>
-    <p class="tentang-kami-kami-menyediakan-telur-ayam-yang-bermutu-dan-segar-serta-kami-telah-mendistribusikan-telur-ayam-ke-berbagi-tempat-d5z">
-    Tentang Kami:
-    <br/>
+  <div class="container">
 
-    <br/>
-    Kami menyediakan telur ayam yang bermutu dan segar, serta kami telah mendistribusikan telur ayam ke berbagi tempat
-    </p>
-  </div>
-</div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="signup-form">
+                <form action="" class="mt-5 border p-4 bg-light shadow">
+                    <h4 class="mb-5 text-secondary">Lupa password?</h4>
+                    <div class="row">
+                      <div class="mb-3 col-md-12">
+                        <label>alamat email<span class="text-danger">*</span></label>
+                        <input type="text" name="fname" class="form-control" placeholder="Masukkan email">
+                        </div>
+
+                        </div>
+                        <div class="mb-3 col-md-12">
+                           <a class="btn btn-primary float-end" href="/login">submit</a>
+
+                        </div>
+
+            </div>
+                    </div>
+                </form>
+
+                <hr class="my-4">
+</main>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="{{ asset('js/dashboard.js') }}">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+  <!-- Bootstrap JS (Popper.js and Bootstrap JS) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+  <script src="dashboard.js"></script>
+
 </body>
+
+
+
+
+
+
+</html>
+
