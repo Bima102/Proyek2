@@ -65,7 +65,7 @@
       <div class=" collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link fw-bold mx-2 acti" href="#">WA:082222222112</a>
+            <a class="nav-link fw-bold mx-2 acti" href="#">WA:089788432878</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2"href="/dasboarduser">Produk</a>
@@ -91,7 +91,7 @@
           <div class="card-body">
               <h5 class="card-title">Informasi Akun</h5>
               <p class="card-text"><strong>Nama:</strong> Rambo Dermayu</p>
-              <p class="card-text"><strong>No Telpon:</strong> 088888888</p>
+              <p class="card-text"><strong>No Telpon:</strong> 086457323499</p>
               <button type="button" class="btn btn-primary">Ganti Password</button>
           </div>
       </div>
@@ -103,7 +103,7 @@
 
   <footer class="blog-footer" style="position: fixed;bottom:0;width:100%">
     <p>
-      
+
       </p>
     <p>
       COPYRIGHT © 2023 Jayalaksana

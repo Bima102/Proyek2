@@ -65,7 +65,7 @@
       <div class=" collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link fw-bold mx-2 acti" href="#">WA:082222222112</a>
+            <a class="nav-link fw-bold mx-2 acti" href="#">WA:086457323499</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2"href="/dasboarduser">Produk</a>
@@ -129,7 +129,7 @@
 
  <footer class="blog-footer">
     <p>
-      
+
     </p>
     <p>
       COPYRIGHT © 2023 Jayalaksana
