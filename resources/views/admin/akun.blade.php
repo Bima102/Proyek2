@@ -28,7 +28,7 @@
 <body>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 ">
-    <a class="navbar-brand" href="#"><img src="/assets/telur.png" height="60" /></a>
+    <a class="navbar-brand" href="#"><img src="/assets/telur.png" height="40" /></a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -76,13 +76,13 @@
 
             <li class="nav-item dropdown no-arrow">
               <button class="nav-link dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Akun</span>
 
               </button>
               <!-- Dropdown - User Information -->
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Informasi Akun</a></li>
-                <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
+                <li><a class="dropdown-item" href="Akun">Informasi Akun</a></li>
+                <li><a class="dropdown-item" href="login">Keluar Akun</a></li>
 
               </ul>
             </li>
