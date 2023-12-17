@@ -28,7 +28,7 @@
 <body>
 
   <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 ">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/dashboardadmin">Jayalaksana</a>
+    <a class="navbar-brand" href="#"><img src="/assets/telur.png" height="40" /></a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,7 +52,7 @@
                 Dashboard
               </a>
             </li>
-           
+
             <li class="nav-item">
               <a class="nav-link" href="/riwayat-pengirimansuplier">
                 <span data-feather="shopping-cart"></span>
@@ -88,8 +88,8 @@
             <div class="row g-3">
             <div class="col-12">
                 <label for="nama" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="nama" disabled>
-                
+                <input type="text" class="form-control" id="nama" required>
+
 
               <div class="col-12">
                 <label for="alamat" class="form-label">Alamat</label>

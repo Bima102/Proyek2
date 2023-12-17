@@ -91,49 +91,53 @@
             </div>
             <div class="col-4">
                 <label for="telur" class="form-label">Berat Telur Yang Di Pesan</label>
-                <select class="form-control" id="telur" onchange="calculatePrice()" required>
-                  <option value="1">1 Kg</option>
-                  <option value="10">10 Kg</option>
-                  <option value="50">50 Kg</option>
-                  <option value="1000">1 Ton</option>
-                  <option value="custom">Berat Lainnya</option>
+                <select class="form-control" id="telur" onchange="handleWeightSelection()" required>
+                    <option value="1">1 Kg</option>
+                    <option value="10">10 Kg</option>
+                    <option value="50">50 Kg</option>
+                    <option value="1000">1 Ton</option>
+                    <option value="custom">Berat Lainnya</option>
                 </select>
-              </div>
+            </div>
 
-              <!-- Menampilkan input berat kustom saat opsi "Berat Lainnya" dipilih -->
-              <div class="col-4" id="customBeratTelur" style="display: none;">
+            <!-- Menampilkan input berat kustom saat opsi "Berat Lainnya" dipilih -->
+            <div class="col-4" id="customBeratTelur" style="display: none;">
                 <label for="customTelur" class="form-label">Berat Telur Kustom</label>
                 <input type="number" class="form-control" id="customTelur" placeholder="Kg" oninput="calculateCustomPrice()">
-              </div>
+            </div>
 
-              <script>
+            <script>
+                function handleWeightSelection() {
+                    var selectElement = document.getElementById('telur');
+                    var customBeratTelurElement = document.getElementById('customBeratTelur');
+                    var customTelurElement = document.getElementById('customTelur');
+
+                    if (selectElement.value === 'custom') {
+                        customBeratTelurElement.style.display = 'block';
+                        customTelurElement.setAttribute('required', 'required');
+                        calculateCustomPrice();
+                    } else {
+                        customBeratTelurElement.style.display = 'none';
+                        customTelurElement.removeAttribute('required');
+                        calculatePrice(); // Call calculatePrice for non-custom options
+                    }
+                }
+
                 function calculatePrice() {
-                  var selectElement = document.getElementById('telur');
-                  var customBeratTelurElement = document.getElementById('customBeratTelur');
-                  var customTelurElement = document.getElementById('customTelur');
-
-                  if (selectElement.value === 'custom') {
-                    customBeratTelurElement.style.display = 'block';
-                    customTelurElement.setAttribute('required', 'required');
-                    calculateCustomPrice();
-                  } else {
-                    customBeratTelurElement.style.display = 'none';
-                    customTelurElement.removeAttribute('required');
-                    var beratTelur = selectElement.value;
+                    var beratTelur = document.getElementById('telur').value;
                     var hargaPerKg = 15000;
                     var hargaTotal = beratTelur * hargaPerKg;
                     document.getElementById('harga').value = hargaTotal;
-                  }
                 }
 
                 function calculateCustomPrice() {
-                  var customTelurElement = document.getElementById('customTelur');
-                  var hargaPerKg = 15000;
-                  var beratTelur = customTelurElement.value;
-                  var hargaTotal = beratTelur * hargaPerKg;
-                  document.getElementById('harga').value = hargaTotal;
+                    var customTelurElement = document.getElementById('customTelur');
+                    var hargaPerKg = 15000;
+                    var beratTelur = customTelurElement.value;
+                    var hargaTotal = beratTelur * hargaPerKg;
+                    document.getElementById('harga').value = hargaTotal;
                 }
-              </script>
+            </script>
 
 
             </div>

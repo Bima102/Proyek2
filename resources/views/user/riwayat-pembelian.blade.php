@@ -57,7 +57,7 @@
 
   <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="/assets/rectangle-56.png" height="60" /></a>
+      <a class="navbar-brand" href="#"><img src="/assets/.png" height="60" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -117,7 +117,7 @@
               </div>
             </td>
             <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-
+            <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
 
 
         </tbody>
@@ -129,7 +129,7 @@
 
  <footer class="blog-footer">
     <p>
-      Jl.KI SURO RT 02/RW 01, KECAMATAN PASEKAN, KABUPATEN INDRAMAYU, JAWA BARAT
+      
     </p>
     <p>
       COPYRIGHT © 2023 Jayalaksana
