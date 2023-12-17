@@ -76,13 +76,13 @@
 
             <li class="nav-item dropdown no-arrow">
               <button class="nav-link dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Akun</span>
 
               </button>
               <!-- Dropdown - User Information -->
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/akun">Informasi Akun</a></li>
-                <li><a class="dropdown-item" href="#">Keluar Akun</a></li>
+                <li><a class="dropdown-item" href="login">Keluar Akun</a></li>
 
               </ul>
             </li>
