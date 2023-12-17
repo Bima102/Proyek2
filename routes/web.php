@@ -17,11 +17,11 @@ use App\Models\artikel;
 Route::resource('/posts', \App\Http\Controllers\PostController::class);
 
 Route::get('/', function () {
-    return view('admin.dashboardadmin');
+    return view('user.login');
 });
 
-Route::get('/Coding', function () {
-    return view('Coding');
+Route::get('/akunsuplier', function () {
+    return view('suplier/akunsuplier');
 });
 
 
