@@ -105,7 +105,7 @@
           <div class="card-body">
               <h5 class="card-title">Informasi Akun</h5>
               <p class="card-text"><strong>Nama:</strong> Rambo Dermayu</p>
-              <p class="card-text"><strong>No Telpon:</strong> 088888888</p>
+              <p class="card-text"><strong>No Telpon:</strong> 086457323499</p>
               <button type="button" class="btn btn-primary">Ganti Password</button>
           </div>
       </div>
