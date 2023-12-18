@@ -39,7 +39,7 @@
 <body class="body">
   <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="/assets/rectangle-56.png" height="60" /></a>
+      <a class="navbar-brand" href="#"><img src="/assets/telur.png" height="60" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -67,152 +67,132 @@
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 bg-white w-100">
         <div class="col-md-7 col-lg-8">
           <h4 class="mb-3">Pesan telur </h4>
-          <form class="needs-validation" novalidate>
+          <form method="post" action="{{ route('create-payment') }}">
+            @csrf
             <div class="col-12">
-              <label for="alamat" class="form-label">Nama</label>
-              <input type="text" class="form-control" id="alamat" required>
-              <div class="invalid-feedback">
-                Isi Nama Anda
-              </div>
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" name="nama" required>
+                <div class="invalid-feedback">
+                    Isi Nama Anda
+                </div>
             </div>
             <div class="col-12">
-              <label for="alamat" class="form-label">Alamat</label>
-              <input type="text" class="form-control" id="alamat" required>
-              <div class="invalid-feedback">
-                Isi Alamat Anda
-              </div>
+                <label for="alamat" class="form-label">Alamat</label>
+                <input type="text" class="form-control" id="alamat" name="alamat" required>
+                <div class="invalid-feedback">
+                    Isi Alamat Anda
+                </div>
             </div>
             <div class="col-12">
-              <label for="no.telp" class="form-label">No.telp</label>
-              <input type="text" class="form-control" id="alamat" required>
-              <div class="invalid-feedback">
-                Isi Nomor Telepon Anda
-              </div>
+                <label for="no_telp" class="form-label">No. Telepon</label>
+                <input type="text" class="form-control" id="no_telp" name="no_telp" required>
+                <div class="invalid-feedback">
+                    Isi Nomor Telepon Anda
+                </div>
             </div>
             <div class="col-4">
-                <label for="telur" class="form-label">Berat Telur Yang Di Pesan</label>
-                <select class="form-control" id="telur" onchange="handleWeightSelection()" required>
+                <label for="telur" class="form-label">Berat Telur Yang Dipesan</label>
+                <select class="form-control" id="telur" onchange="handleWeightSelection()" name="telur" required>
                     <option value="1">1 Kg</option>
                     <option value="10">10 Kg</option>
                     <option value="50">50 Kg</option>
                     <option value="1000">1 Ton</option>
-                    <option value="custom">Berat Lainnya</option>
+                    <option id="customB" value="custom">Berat Lainnya</option>
                 </select>
             </div>
 
             <!-- Menampilkan input berat kustom saat opsi "Berat Lainnya" dipilih -->
             <div class="col-4" id="customBeratTelur" style="display: none;">
                 <label for="customTelur" class="form-label">Berat Telur Kustom</label>
-                <input type="number" class="form-control" id="customTelur" placeholder="Kg" oninput="calculateCustomPrice()">
+                <input type="number" class="form-control" id="customTelur" name="customTelur" placeholder="Kg" oninput="calculateCustomPrice()">
             </div>
 
-            <script>
-                function handleWeightSelection() {
-                    var selectElement = document.getElementById('telur');
-                    var customBeratTelurElement = document.getElementById('customBeratTelur');
-                    var customTelurElement = document.getElementById('customTelur');
-
-                    if (selectElement.value === 'custom') {
-                        customBeratTelurElement.style.display = 'block';
-                        customTelurElement.setAttribute('required', 'required');
-                        calculateCustomPrice();
-                    } else {
-                        customBeratTelurElement.style.display = 'none';
-                        customTelurElement.removeAttribute('required');
-                        calculatePrice(); // Call calculatePrice for non-custom options
-                    }
-                }
-
-                function calculatePrice() {
-                    var beratTelur = document.getElementById('telur').value;
-                    var hargaPerKg = 15000;
-                    var hargaTotal = beratTelur * hargaPerKg;
-                    document.getElementById('harga').value = hargaTotal;
-                }
-
-                function calculateCustomPrice() {
-                    var customTelurElement = document.getElementById('customTelur');
-                    var hargaPerKg = 15000;
-                    var beratTelur = customTelurElement.value;
-                    var hargaTotal = beratTelur * hargaPerKg;
-                    document.getElementById('harga').value = hargaTotal;
-                }
-            </script>
-
-
-            </div>
-            <hr class="my-4">
-            <h4 class="mb-3">Pembayaran</h4>
-            <div class="my-3">
-              <div class="form-check">
-                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="2132131" checked required>
-                <label class="form-check-label" for="credit">Dana</label>
-              </div>
-              <div class="form-check">
-                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="817281782" required>
-                <label class="form-check-label" for="debit">Bri</label>
-              </div>
-              <div class="form-check">
-                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" onclick="setFieldValue()" value="435435435" required>
-                <label class="form-check-label" for="paypal">Bni</label>
-              </div>
+            <div class="col-12">
+                <h4 class="mb-3">Pembayaran</h4>
+                <div class="my-3">
+                    <div class="form-check">
+                        <input id="credit" name="payment_method" type="radio" class="form-check-input" onclick="setFieldValue()" value="2132131" checked required>
+                        <label class="form-check-label" for="credit">Dana</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="debit" name="payment_method" type="radio" class="form-check-input" onclick="setFieldValue()" value="817281782" required>
+                        <label class="form-check-label" for="debit">Bri</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="paypal" name="payment_method" type="radio" class="form-check-input" onclick="setFieldValue()" value="435435435" required>
+                        <label class="form-check-label" for="paypal">Bni</label>
+                    </div>
+                </div>
             </div>
             <div class="col-12">
-              <label for="namabayar" class="form-label">No. Rekening/Dana</label>
-              <input type="text" class="form-control" id="namabayar" required>
-              <div class="invalid-feedback">
-                Isi Nama Yang Membayar
-              </div>
+                <label for="namabayar" class="form-label">No. Rekening/Dana</label>
+                <input type="text" class="form-control" id="namabayar" name="namabayar" required>
+                <div class="invalid-feedback">
+                    Isi Nama Yang Membayar
+                </div>
             </div>
-            <script>
-              function setFieldValue() {
-                var paymentMethodRadio = document.querySelector('input[name="paymentMethod"]:checked');
-                var inputValue = paymentMethodRadio.value;
-                document.getElementById('namabayar').value = inputValue;
-              }
-            </script>
             <div class="col-4">
-              <label for="harga" class="form-label">Harga</label>
-              <input type="number" class="form-control" id="harga" placeholder="Rp" disabled>
+                <label for="harga" class="form-label">Harga</label>
+                <input type="number" class="form-control" id="harga" placeholder="Rp" name="harga" readonly>
             </div>
             <hr class="my-4">
             <button class="w-100 btn btn-primary btn-lg" type="submit">Pesan</button>
             <hr class="my-4">
-          </form>
+        </form>
+
+        <script>
+            function handleWeightSelection() {
+                var selectElement = document.getElementById('telur');
+                var customBeratTelurElement = document.getElementById('customBeratTelur');
+                var customTelurElement = document.getElementById('customTelur');
+
+                if (selectElement.value === 'custom') {
+                    customBeratTelurElement.style.display = 'block';
+                    customTelurElement.setAttribute('required', 'required');
+                    calculateCustomPrice();
+                } else {
+                    customBeratTelurElement.style.display = 'none';
+                    customTelurElement.removeAttribute('required');
+                    calculatePrice(); // Call calculatePrice for non-custom options
+                }
+            }
+
+            function calculatePrice() {
+                var beratTelur = document.getElementById('telur').value;
+                var hargaPerKg = 15000;
+                var hargaTotal = beratTelur * hargaPerKg;
+                document.getElementById('harga').value = hargaTotal;
+            }
+
+            function calculateCustomPrice() {
+                var customTelurElement = document.getElementById('customTelur');
+                var hargaPerKg = 15000;
+                var beratTelur = customTelurElement.value;
+                var hargaTotal = beratTelur * hargaPerKg;
+                document.getElementById('harga').value = hargaTotal;
+            }
+
+            function setFieldValue() {
+                var paymentMethodRadio = document.querySelector('input[name="payment_method"]:checked');
+                var inputValue = paymentMethodRadio.value;
+                document.getElementById('namabayar').value = inputValue;
+            }
+        </script>
+
         </div>
       </main>
     </div>
   </div>
 
-  <script>
-    function calculatePrice() {
-      var beratTelur = document.getElementById('telur').value;
-      var hargaPerKg = 15000;
-      var hargaTotal = beratTelur * hargaPerKg;
-      document.getElementById('harga').value = hargaTotal;
-    }
-  </script>
-
-  <script>
-    // Fungsi untuk mendapatkan nilai parameter dari URL
-    function getQueryParam(param) {
-      const urlSearchParams = new URLSearchParams(window.location.search);
-      return urlSearchParams.get(param);
-    }
-
-    // Fungsi untuk mengatur nilai pada elemen <select> berdasarkan parameter URL
-    function setWeightFromUrl() {
-      const selectElement = document.getElementById('telur');
-      const weightParam = getQueryParam('weight');
-
-      if (weightParam && selectElement) {
-        selectElement.value = weightParam;
-      }
-    }
-
-    // Panggil fungsi saat halaman dimuat
-    document.addEventListener('DOMContentLoaded', setWeightFromUrl);
-  </script>
+  @if ($errors->any())
+  <div class="alert alert-danger">
+      <ul>
+          @foreach ($errors->all() as $error)
+              <li>{{ $error }}</li>
+          @endforeach
+      </ul>
+  </div>
+@endif
 
 
   <script src="{{ asset('js/dashboard.js') }}"></script>

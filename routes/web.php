@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use \App\Http\Controllers\dashboardController;
 use App\Models\artikel;
 /*
 |--------------------------------------------------------------------------
@@ -60,9 +61,11 @@ Route::get('/loginadmin', function () {
     return view('admin/loginadmin');
 });
 
-Route::get('/dashboardadmin', function () {
-    return view('admin/dashboardadmin');
-});
+
+Route::get('/dashboardadmin', [dashboardController::class, 'index'])->name('dashboardadmin');
+Route::post('/dashboardadmin/update/{id}', [dashboardController::class, 'updateStatus'])->name('update-status');
+Route::post('/delete-payment/{id}', [dashboardController::class, 'deletePayment'])->name('delete-payment');
+Route::post('/create-payment', [dashboardController::class, 'createPayment'])->name('create-payment');
 
 Route::get('/edit-harga', function () {
     return view('admin/edit-harga');

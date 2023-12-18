@@ -103,7 +103,7 @@
 
 
         <h2>Riwayat Pesanan</h2>
-        <div class="table-responsive ">
+        <div class="table-responsive" style="min-height: 200px">
           <table class="table table-striped table-sm">
             <thead>
               <tr>
