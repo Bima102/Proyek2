@@ -28,12 +28,7 @@
                 Dashboard
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/riwayat-pesanan">
-                <span data-feather="file"></span>
-                Riwayat Pesanan
-              </a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="/riwayat-barang-masuk">
                 <span data-feather="shopping-cart"></span>

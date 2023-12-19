@@ -96,11 +96,24 @@
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 
-
-
-
-
-
+        <div class="container my-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title harga-telur-perkg-dmz">Harga Telur Per KG</h5>
+                    <form id="delete-form" action="{{ route('riwayharga-create-payment') }}" method="post">
+                        @csrf
+                        <input type="text" class="form-control" id="namabayar" name="harga" required>
+                    <p class="tekan-untuk-mengganti-harga-swE">
+                      <button class="btn btn-primary" type="submit">Ganti Harga Per KG</button>
+                    </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <h2>Riwayat Pergantian Harga</h2>
         <div class="table-responsive ">
@@ -108,6 +121,7 @@
             <thead>
               <tr>
 
+                <th scope="col">ID</th>
                 <th scope="col">Tanggal</th>
                 <th scope="col">Harga</th>
                 <th scope="col">Aksi</th>
@@ -115,14 +129,19 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
-
-
-              </tr>
+                @foreach ($harga as $item)
+                <tr>
+                    <td>{{ $item->id }}</td>
+                    <td>{{ $item->created_at }}</td>
+                    <td>{{ $item->harga }}</td>
+                    <td>
+                        <form id="delete-form" action="{{ route('riwayharga-delete-payment', ['id' => $item->id]) }}" method="post">
+                            @csrf
+                            <button class="btn btn-danger btn-sm" type="submit">Delete</button>
+                        </form>
+                    </td>
+                    </tr>
+                @endforeach
 
 
             </tbody>

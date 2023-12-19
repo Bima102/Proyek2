@@ -95,31 +95,37 @@
         <thead>
           <tr>
             <th scope="col">Nama</th>
-            <th scope="col">Tanggal</th>
-            <th scope="col">Harga</th>
-            <th scope="col">Status</th>
-            <th scope="col">Edit Status</th>
-            <th scope="col">Alamat</th>
-            <th scope="col">Aksi</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Kg.Telur</th>
+                <th scope="col">Harga</th>
+                <th scope="col">Status</th>
+                <th scope="col">No.tlp</th>
+                <th scope="col">Alamat</th>
+                <th class="col-md-2">Aksi</th>
 
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Messi</td>
-            <td>01-01-2023</td>
-            <td>12.222.122</td>
-            <td>Proses</td>
-            <td>
-                <button class="btn btn-danger" type="button"  aria-expanded="false">
-                  batal
-                </button>
-              </div>
-            </td>
-            <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-            <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
-
-
+            @foreach ($pembayaran as $item)
+            <tr>
+                <td>{{ $item->nama }}</td>
+                <td>{{ $item->created_at }}</td>
+                <td>{{ $item->telur }}</td>
+                <td>{{ $item->harga }}</td>
+                <td id="status-" + {{ $item->id }}>{{ $item->status }}</td>
+                <td>{{ $item->no_telp}}</td>
+                <td>{{ $item->alamat }}</td>
+                <td>
+                    <form id="delete-form" action="{{ route('delete-payment', ['id' => $item->id]) }}" method="post" style="display: none;">
+                        @csrf
+                        <button type="submit">Delete</button>
+                    </form>
+                    <a href="#" class="btn btn-danger btn-sm" onclick="event.preventDefault(); document.getElementById('delete-form').submit();">
+                        Delete
+                    </a>
+                </td>
+                </tr>
+            @endforeach
         </tbody>
       </table>
       <div class="pagination-75i">

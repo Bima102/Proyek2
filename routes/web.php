@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\dashboardController;
+use \App\Http\Controllers\adminController;
+use \App\Http\Controllers\Controller;
+use \App\Http\Controllers\riwayatController;
 use App\Models\artikel;
 /*
 |--------------------------------------------------------------------------
@@ -35,9 +38,12 @@ Route::get('/registersuplier', function () {
     return view('suplier/registersuplier');
 });
 
-Route::get('/dasboardsuplier', function () {
-    return view('suplier/dasboardsuplier');
-});
+
+Route::get('/dasboardsuplier', [adminController::class, 'index'])->name('dasboardsuplier');
+Route::post('/dasboardsuplier/update/{id}', [adminController::class, 'updateStatus'])->name('dasboardsuplier-update-status');
+Route::post('/dasboardsuplier/delete-payment/{id}', [adminController::class, 'deletePayment'])->name('dasboardsuplier-delete-payment');
+Route::post('/dasboardsuplier/create-payment', [adminController::class, 'createPayment'])->name('dasboardsuplier-create-payment');
+
 
 Route::get('/lupa-passwordsuplier', function () {
     return view('suplier/lupa-passwordsuplier');
@@ -81,10 +87,6 @@ Route::get('/edit-status', function () {
 
 Route::get('/riwayat-pesanan', function () {
     return view('admin/riwayat-pesanan');
-});
-
-Route::get('/riwayat-barang-masuk', function () {
-    return view('admin/riwayat-barang-masuk');
 });
 
 Route::get('/pesan-ke-suplier', function () {
@@ -135,9 +137,10 @@ Route::get('/riwayat-pembelian', function () {
     return view('user/riwayat-pembelian');
 });
 
-Route::get('/riwayat-pembelian', function () {
-    return view('user/riwayat-pembelian');
-});
+
+
+Route::get('/riwayat-pembelian', [Controller::class, 'riwayat']);
+Route::get('/riwayat-barang-masuk', [Controller::class, 'barangmasuk']);
 
 Route::get('/artikel', function () {
 
@@ -154,3 +157,6 @@ Route::get('/riwayharga', function () {
     return view('admin/riwayharga');
 });
 
+Route::get('/riwayharga', [riwayatController::class, 'updateharga'])->name('riwayharga');
+Route::post('/riwayharga/delete-payment/{id}', [riwayatController::class, 'deletePayment'])->name('riwayharga-delete-payment');
+Route::post('/riwayharga/create-payment', [riwayatController::class, 'createPayment'])->name('riwayharga-create-payment');

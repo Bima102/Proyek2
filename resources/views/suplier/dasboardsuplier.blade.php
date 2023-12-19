@@ -14,14 +14,14 @@
 
 
 
-  <!-- Bootstrap core CSS -->
-  <link href="{{ asset('styles/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('styles/bootstrap.min.css') }}" rel="stylesheet">
 
 
 
 
-  <!-- Custom styles for this template -->
-  <link href="{{ asset('styles/dashboard.css') }}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('styles/dashboard.css') }}" rel="stylesheet">
 
 </head>
 
@@ -195,50 +195,110 @@
 
 
         <h2>Pesanan</h2>
-        <div class="table-responsive ">
+        <div class="table-responsive h-100">
           <table class="table table-striped table-sm">
             <thead>
               <tr>
-                <th scope="col">Kirim</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Tanggal</th>
+                <th scope="col">Kg.Telur</th>
                 <th scope="col">Harga</th>
                 <th scope="col">Status</th>
                 <th scope="col">Edit Status</th>
                 <th scope="col">No.tlp</th>
                 <th scope="col">Alamat</th>
-                <th scope="col">Aksi</th>
+                <th class="col-md-2">Aksi</th>
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a button class="btn btn-success " href="/kirim-telur" type="button">
-                    Kirim
-                  </a></td>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach ($supliers as $item)
+            <tr>
+                <td>{{ $item->nama }}</td>
+                <td>{{ $item->created_at }}</td>
+                <td>{{ $item->telur }}</td>
+                <td>{{ $item->harga }}</td>
+                <td id="status-" + {{ $item->id }}>{{ $item->status }}</td>
                 <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-                      <li><a class="dropdown-item" href="#">BarangMasuk</a></li>
-                    </ul>
-                    </ul>
-                  </div>
+                    <form method="post" action="{{ route('dasboardsuplier-update-status', ['id' => $item->id]) }}">
+                        @csrf
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Edit
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="submit" name="status" value="Proses">Proses</button></li>
+                            <li><button class="dropdown-item" type="submit" name="status" value="Batal">Batal</button></li>
+                            <li><button class="dropdown-item" type="submit" name="status" value="Terkirim">Terkirim</button></li>
+                            <li><button class="dropdown-item" type="submit" name="status" value="BarangMasuk">Barang Masuk</button></li>
+                        </ul>
+                        </ul>
+                      </div>
+                    </form>
                 </td>
-                <td>0818229933</td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-                <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
+                <td>{{ $item->no_telp}}</td>
+                <td>{{ $item->alamat }}</td>
+                <td>
+                    <form id="delete-form" action="{{ route('dasboardsuplier-delete-payment', ['id' => $item->id]) }}" method="post" style="display: none;">
+                        @csrf
+                        <button type="submit">Delete</button>
+                    </form>
+                    <a href="#" class="btn btn-danger btn-sm" onclick="event.preventDefault(); document.getElementById('delete-form').submit();">
+                        Delete
+                    </a>
+                </td>
+                </tr>
+            @endforeach
             </tbody>
           </table>
+          <script>
+            // Fungsi untuk mengubah status menggunakan Ajax
+            function ubahStatus(id, status) {
+                // Buat objek XMLHttpRequest
+                var xhr = new XMLHttpRequest();
+
+                // Tentukan URL dan metode HTTP
+                var url = '/dasboardsuplier/update/' + id;
+                var method = 'POST';
+
+                // Konfigurasi permintaan
+                xhr.open(method, url, true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+
+                // Tangani peristiwa ketika permintaan berhasil atau gagal
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        // Ubah isi kolom status pada baris dengan id tertentu
+                        document.getElementById('status-' + id).innerText = status;
+                        alert(JSON.parse(xhr.responseText).message); // Tampilkan pesan sukses
+                    } else {
+                        console.error('Gagal mengubah status');
+                    }
+                };
+
+                // Tangani kesalahan
+                xhr.onerror = function () {
+                    console.error('Gagal mengirim permintaan Ajax');
+                };
+
+                // Kirim permintaan dengan data payload
+                xhr.send('status=' + encodeURIComponent(status));
+            }
+
+            function deleteRecord(id) {
+                if (confirm('Are you sure you want to delete this record?')) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', '/delete-payment/' + id, true);
+                    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                    xhr.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+                    xhr.send('_method=DELETE&_token=' + '{{ csrf_token() }}');
+                }
+            }
+
+        </script>
+
+
         </div>
       </main>
     </div>
@@ -261,7 +321,6 @@
   <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
   <script src="dashboard.js"></script>
-
 </body>
 
 

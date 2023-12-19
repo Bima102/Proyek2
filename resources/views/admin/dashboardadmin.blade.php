@@ -128,6 +128,7 @@
               <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Tanggal</th>
+                <th scope="col">Kg.Telur</th>
                 <th scope="col">Harga</th>
                 <th scope="col">Status</th>
                 <th scope="col">Edit Status</th>
@@ -142,6 +143,7 @@
                 <tr>
                     <td>{{ $item->nama }}</td>
                     <td>{{ $item->created_at }}</td>
+                    <td>{{ $item->telur }}</td>
                     <td>{{ $item->harga }}</td>
                     <td id="status-" + {{ $item->id }}>{{ $item->status }}</td>
                     <td>
