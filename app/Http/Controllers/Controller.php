@@ -24,4 +24,11 @@ class Controller extends BaseController
 
         return view('admin/riwayat-barang-masuk', compact('suplier'));
     }
+
+    public function pengiriman()
+    {
+        $suplier = DB::table('suplier')->get();
+
+        return view('suplier/riwayat-pengirimansuplier', compact('suplier'));
+    }
 }

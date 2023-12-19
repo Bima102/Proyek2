@@ -75,8 +75,10 @@
                 <a class="nav-link mx-2" href="/riwayat-pembelian">Riwayat Pembelian</a>
             </li>
             <li class="nav-item ">
-            <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-
+                <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link mx-2" href="/login">Log out</a>
             </li>
             </ul>
         </div>

@@ -75,7 +75,10 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2" href="/informasi-akunuser">Akun</a>
-
+          <li class="nav-item ">
+            <a class="nav-link mx-2" href="/login">Log out</a>
+        </li>
+          </li>
           </li>
         </ul>
       </div>
@@ -89,19 +92,18 @@
 
 
 
-    <h2>Riwayat pembelian</h2>
+    <h2>Riwayat Barang Masuk</h2>
     <div class="table-responsive ">
       <table class="table table-striped table-sm">
         <thead>
           <tr>
             <th scope="col">Nama</th>
-                <th scope="col">Tanggal</th>
-                <th scope="col">Kg.Telur</th>
-                <th scope="col">Harga</th>
-                <th scope="col">Status</th>
-                <th scope="col">No.tlp</th>
-                <th scope="col">Alamat</th>
-                <th class="col-md-2">Aksi</th>
+            <th scope="col">Tanggal</th>
+            <th scope="col">Kg.Telur</th>
+            <th scope="col">Harga</th>
+            <th scope="col">Status</th>
+            <th scope="col">Alamat</th>
+            <th class="col-md-2">Aksi</th>
 
           </tr>
         </thead>

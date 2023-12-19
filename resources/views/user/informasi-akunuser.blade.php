@@ -75,8 +75,10 @@
           </li>
           <li class="nav-item ">
           <a class="nav-link mx-2 active" aria-current="page" href="/informasi-akunuser">Akun</a>
-
           </li>
+          <li class="nav-item ">
+            <a class="nav-link mx-2" href="/login">Log out</a>
+        </li>
         </ul>
       </div>
     </div>

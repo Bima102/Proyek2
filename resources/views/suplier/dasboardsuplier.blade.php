@@ -199,7 +199,6 @@
           <table class="table table-striped table-sm">
             <thead>
               <tr>
-                <th scope="col">Nama</th>
                 <th scope="col">Tanggal</th>
                 <th scope="col">Kg.Telur</th>
                 <th scope="col">Harga</th>
@@ -214,7 +213,6 @@
         <tbody>
             @foreach ($supliers as $item)
             <tr>
-                <td>{{ $item->nama }}</td>
                 <td>{{ $item->created_at }}</td>
                 <td>{{ $item->telur }}</td>
                 <td>{{ $item->harga }}</td>

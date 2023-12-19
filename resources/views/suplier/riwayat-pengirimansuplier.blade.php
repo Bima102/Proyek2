@@ -89,45 +89,42 @@
 
 
 
-        <h2>Riwayat Pesanan</h2>
+        <h2>Riwayat Pengiriman</h2>
         <div class="table-responsive ">
           <table class="table table-striped table-sm">
             <thead>
               <tr>
-                <th scope="col">Nama</th>
                 <th scope="col">Tanggal</th>
+                <th scope="col">Kg.Telur</th>
                 <th scope="col">Harga</th>
                 <th scope="col">Status</th>
-                <th scope="col">Edit Status</th>
                 <th scope="col">Alamat</th>
-                <th scope="col">Aksi</th>
+                <th class="col-md-2">Aksi</th>
 
-              </tr>
-              <tr>
-                <td>Messi</td>
-                <td>01-01-2023</td>
-                <td>12.222.122</td>
-                <td>Proses</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach ($suplier as $item)
+            <tr>
+                <td>{{ $item->created_at }}</td>
+                <td>{{ $item->telur }}</td>
+                <td>{{ $item->harga }}</td>
+                <td id="status-" + {{ $item->id }}>{{ $item->status }}</td>
+                <td>{{ $item->alamat }}</td>
                 <td>
-                  <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Edit
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Proses</a></li>
-                      <li><a class="dropdown-item" href="#">Batal</a></li>
-                      <li><a class="dropdown-item" href="#">Terkirim</a></li>
-
-                    </ul>
-                    </ul>
-                  </div>
+                    <form id="delete-form" action="{{ route('dasboardsuplier-delete-payment', ['id' => $item->id]) }}" method="post" style="display: none;">
+                        @csrf
+                        <button type="submit">Delete</button>
+                    </form>
+                    <a href="#" class="btn btn-danger btn-sm" onclick="event.preventDefault(); document.getElementById('delete-form').submit();">
+                        Delete
+                    </a>
                 </td>
-                <td>Jl.Indramayu Desa,krowok Rt2/Rw4 Petokan:dibelakang penjual baso</td>
-                <td><button type='submit' name='submit' class='btn btn-danger btn-sm'>Delete</button></td>
-        </div>
-      </main>
-    </div>
-  </div>
+                </tr>
+            @endforeach
+            </tbody>
+          </table>
   <script src="{{ asset('js/dashboard.js') }}">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

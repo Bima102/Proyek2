@@ -141,6 +141,8 @@ Route::get('/riwayat-pembelian', function () {
 
 Route::get('/riwayat-pembelian', [Controller::class, 'riwayat']);
 Route::get('/riwayat-barang-masuk', [Controller::class, 'barangmasuk']);
+Route::get('/riwayat-pengirimansuplier', [Controller::class, 'pengiriman']);
+
 
 Route::get('/artikel', function () {
 
