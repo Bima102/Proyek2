@@ -140,15 +140,7 @@
                 <hr class="my-4">
 </main>
 
-  <footer class="blog-footer" >
-    <p>
-      Jl.KI SURO RT 02/RW 01 ,KECAMATAN PASEKAN,KABUPATEN INDRAMAYU,JAWA BARAT
-      </p>
-    <p>
-      COPYRIGHT © 2023 Jayalaksana
-    </p>
-  </footer>
-
+  
 
 
 
