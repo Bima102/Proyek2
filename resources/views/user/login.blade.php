@@ -1,4 +1,4 @@
-    <!doctype html>
+<!doctype html>
     <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -67,37 +67,53 @@
         </nav>
 
         <main class="form-signin">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-3">
-                        <div class="signup-form">
-                            <form action="" class="mt-5 border p-4 bg-light shadow">
-                                <h4 class="mb-5 text-secondary">Login</h4>
-                                <div class="row">
-                                    <div class="mb-3 col-md-12">
-                                        <label>Nama<span class="text-danger">*</span></label>
-                                        <input type="text" name="fname" class="form-control"
-                                            placeholder="Masukkan Nama">
-                                    </div>
-                                    <div class="mb-3 col-md-12">
-                                        <label>Password<span class="text-danger">*</span></label>
-                                        <input type="password" name="password" class="form-control"
-                                            placeholder="Masukkan Password">
-                                    </div>
-                                    <div class="mb-3 col-md-12">
-                                        <a class="btn btn-primary float-end" href="/lupa-passworduser">lupa password</a>
-                                    </div>
-                                    <div class="mb-3 col-md-12">
-                                        <a class="btn btn-primary float-end" href="/dasboarduser">Login</a>
-                                    </div>
-                                    <div class="mb-3 col-md-12">
-                                        <a class="btn btn-primary float-end" href="/regis">Daftar</a>
-                                    </div>
-                                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form">
+                    <form method="POST" action="{{ route('login') }}" class="mt-5 border p-4 bg-light shadow">
+                        @csrf
+                        <h4 class="mb-5 text-secondary">Login</h4>
+
+                        <div class="mb-3 col-md-12">
+                            <label for="email">Email<span class="text-danger">*</span></label>
+                            <input id="email" type="email" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="Masukkan Email" required autocomplete="email" autofocus>
+                            @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
-                        </form>
-                        <hr class="my-4">
-        </main>
+
+                        <div class="mb-3 col-md-12">
+                            <label for="password">Password<span class="text-danger">*</span></label>
+                            <input id="password" type="password" name="password" class="form-control @error('password') is-invalid @enderror" placeholder="Masukkan Password" required autocomplete="current-password">
+                            @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+
+                        <div class="mb-3 col-md-12">
+                            <a class="btn btn-primary float-end" href="{{ route('password.request') }}">Lupa Password</a>
+                        </div>
+
+                        <div class="mb-3 col-md-12">
+                            <button type="submit" name="login_as" value="admin" class="btn btn-primary float-end">Login Sebagai Distributor</button>
+                            <button type="submit" name="login_as" value="user" class="btn btn-primary float-end">Login Sebagai Pembeli</button>
+                            <button type="submit" name="login_as" value="suplier" class="btn btn-primary float-end">Login Sebagai Supplier</button>
+                        </div> 
+
+                        <div class="mb-3 col-md-12">
+                            <a class="btn btn-primary float-end" href="/regis">Daftar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
         <script src="{{ asset('js/dashboard.js') }}">
         </script>

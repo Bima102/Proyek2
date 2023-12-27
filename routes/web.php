@@ -105,6 +105,9 @@ Route::get('/informasi-akunuser', function () {
     return view('user/informasi-akunuser');
 });
 
+Route::get('/register', function () {
+    return view('user/register');
+});
 Route::get('/regis', function () {
     return view('user/regis');
 });
@@ -162,3 +165,9 @@ Route::get('/riwayharga', function () {
 Route::get('/riwayharga', [riwayatController::class, 'updateharga'])->name('riwayharga');
 Route::post('/riwayharga/delete-payment/{id}', [riwayatController::class, 'deletePayment'])->name('riwayharga-delete-payment');
 Route::post('/riwayharga/create-payment', [riwayatController::class, 'createPayment'])->name('riwayharga-create-payment');
+
+Auth::routes();
+
+Route::get('/home', function () {
+    return redirect('/dasboarduser');})->name('home'); 
+

@@ -43,7 +43,7 @@
                                 </button>
                                 <!-- Dropdown - User Information -->
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/akunsuplier">Informasi Akun</a></li>
+                                    <li><a class="dropdown-item" href="/akunsuplier">Informasi Akun Supplier</a></li>
                                     <li><a class="dropdown-item" href="/login">Keluar Akun</a></li>
                                 </ul>
                             </li>
@@ -56,9 +56,9 @@
                     <div class="container mt-5">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Informasi Akun</h5>
-                                <p class="card-text"><strong>Nama:</strong> Ujang</p>
-                                <p class="card-text"><strong>No Telpon:</strong> 087234715247</p>
+                                <h5 class="card-title">Informasi Akun Supplier</h5>
+                                <p class="card-text"><strong>Nama:</strong>{{ Auth::user()->name }}</p>
+                        <p class="card-text"><strong>Email:</strong> {{ Auth::user()->email }}</p>
                                 <button type="button" class="btn btn-primary">Ganti Password</button>
                             </div>
                         </div>

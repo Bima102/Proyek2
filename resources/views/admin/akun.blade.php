@@ -103,9 +103,9 @@
         <div class="container mt-5">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Informasi Akun</h5>
-                <p class="card-text"><strong>Nama:</strong> Rambo Dermayu</p>
-                <p class="card-text"><strong>No Telpon:</strong> 086457323499</p>
+                <h5 class="card-title">Informasi Akun Distributor</h5>
+                <p class="card-text"><strong>Nama:</strong>{{ Auth::user()->name }}</p>
+                        <p class="card-text"><strong>Email:</strong> {{ Auth::user()->email }}</p>
                 <button type="button" class="btn btn-primary">Ganti Password</button>
             </div>
         </div>

@@ -5,8 +5,6 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\Models\User;
-use App\Models\UserdataUndangan;
-use App\Models\UserdataAcara;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -66,21 +64,10 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $user = User::create([
+        return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'image' => 'default.webp',
         ]);
-    
-        UserdataUndangan::create([
-            'users_id' => $user->id, // Menggunakan ID pengguna yang baru dibuat
-        ]);
-
-        UserdataAcara::create([
-            'users_id' => $user->id,
-        ]);
-    
-        return $user;
     }
 }
