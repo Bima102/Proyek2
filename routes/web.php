@@ -171,3 +171,7 @@ Auth::routes();
 Route::get('/home', function () {
     return redirect('/dasboarduser');})->name('home'); 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
