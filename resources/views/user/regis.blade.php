@@ -69,7 +69,7 @@
         <main class="form-signin">
             <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-6 ">
             <div class="signup-form card">
                 <div class="card-header">Daftar</div>
 

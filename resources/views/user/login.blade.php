@@ -95,19 +95,23 @@
                             @enderror
                         </div>
 
-                        <div class="mb-3 col-md-12">
-                            <a class="btn btn-primary float-end" href="{{ route('password.request') }}">Lupa Password</a>
-                        </div>
+                        <div class="mb-3">
+            <a class="btn btn-primary" href="{{ route('password.request') }}">Lupa Password</a>
+        </div>
 
-                        <div class="mb-3 col-md-12">
-                            <button type="submit" name="login_as" value="admin" class="btn btn-primary float-end">Login Sebagai Distributor</button>
-                            <button type="submit" name="login_as" value="user" class="btn btn-primary float-end">Login Sebagai Pembeli</button>
-                            <button type="submit" name="login_as" value="suplier" class="btn btn-primary float-end">Login Sebagai Supplier</button>
-                        </div> 
+        
 
-                        <div class="mb-3 col-md-12">
-                            <a class="btn btn-primary float-end" href="/regis">Daftar</a>
-                        </div>
+        <div class="mb-3">
+            <button type="submit" name="login_as" value="user" class="btn btn-primary">Login Sebagai Pembeli</button>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" name="login_as" value="supplier" class="btn btn-primary">Login Sebagai Supplier</button>
+        </div>
+
+        <div class="mb-3">
+            <a class="btn btn-primary" href="/regis">Daftar</a>
+        </div>
                     </form>
                 </div>
             </div>
